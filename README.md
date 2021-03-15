@@ -2,4 +2,6 @@ These codes have three purposes. Firstly, to download pdfs of publications relat
 
 To each purpose, there is a different code. The currently uploaded code are shown bellow.
 
-Rexex.mat - Searches for correlations between different models using the pdfs fetched from PubMed. It has come far in its developement and is ready to be used as long as the repository containing the pdfs is specified. One must additionally have a table with the meta data called 'Models.mat' in order to run the code. 
+Regex.m - Searches for correlations between different models using the pdfs fetched from PubMed. It has come far in its developement and is ready to be used as long as the repository containing the pdfs is specified. One must additionally have a table with the meta data called 'cura_biomodels_metadata.mat' in order to run the code.
+
+apifetcher.m - This program will 1. Query BioModels for metadata of curated models. 2.Download available fulltextXMLs of their respective articles from Europe PMC
