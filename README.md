@@ -1,5 +1,5 @@
-These codes have three purposes. To download pdfs of publications related to models (GEMs) along with their meta data. To search for correlations between models through said publications. To enable a smoothe and organized method to displaying the information gathered/acertained from the previous code.
+These codes have three purposes. Firstly, to download pdfs of publications related to models (GEMs) along with their meta data. Secondly, to search for correlations between models and their respective publications. Lastly, to enable a smoothe and organized method of displaying the information gathered/acertained from the previous code.
 
-To this purpose there are several different codes. So far the only ones upploaded are:
+To each purpose, there is a different code. The currently uploaded code are shown bellow.
 
-Rexex.mat - This is the code that searches for correlations between models using the pdfs fetched from PubMed. It has come far in its developement and is ready to be used as long as one can speicify a repository where one has the pdfs. ONe must additionally have a table with the meta data called 'Models.mat'.
+Rexex.mat - Searches for correlations between different models using the pdfs fetched from PubMed. It has come far in its developement and is ready to be used as long as the repository containing the pdfs is specified. One must additionally have a table with the meta data called 'Models.mat' in order to run the code. 
