@@ -68,7 +68,7 @@ save('file_names.mat','file_names')
 
 %%
 % clear,clc;
-% load('Models.mat')
+% load('cura_biomodels_metadata.mat')
 % 
 % field = 'PMID'; field2='Num'; field3='Found_in_file'; field4='Found_in_publication_title'; field5='String_publication_title';
 % value = {};
