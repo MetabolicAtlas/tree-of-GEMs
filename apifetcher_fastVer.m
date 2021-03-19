@@ -74,7 +74,7 @@ for i=1:length(PMID)
         temp=queryresult.resultList.result.fullTextIdList.fullTextId;
         options=weboptions('Timeout',1e5,'ContentType','xmldom');
         url=strjoin([api_EPMC_XML temp api_EPMCcap],'');
-        fname=strjoin(['EPMC' string(i) '.xml'],'');%Dubbelkolla det har, det blev fel nar PMCID/PMID var namn
+        fname=strjoin([PMID(i) 'EPMC' string(i) '.xml'],'');%Dubbelkolla det har, det blev fel nar PMCID/PMID var namn
         try
             queryresult=webread(url,options);
             xmlwrite(fname,queryresult);
