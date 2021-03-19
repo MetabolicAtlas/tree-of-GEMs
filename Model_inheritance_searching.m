@@ -5,14 +5,14 @@ load('Model_hits.mat', 'Model_hits');
 load('cura_biomodels_metadata.mat');
 
 % myFolder = 'D:\GEMS\Extracted_new_publications';
-% 
+%
 % filePattern = fullfile(myFolder, '*.pdf');
 % theFiles = dir(filePattern);
 % for k = 1 : length(theFiles)
 %     baseFileName = theFiles(k).name;
 %     fullFileName = fullfile(theFiles(k).folder, baseFileName);
 % end
-% 
+%
 % pdf=theFiles(i,1).name
 % open(pdf);
 
@@ -23,17 +23,17 @@ display=struct(string_nr,empty_num, string_of_text_found,empty_char, full_title,
 j=0;
 p=0;
 for j=1:24
-if Model_hits(j).Found_in_publication_title==i
-% hits=Model_hits(j);
-
-p=p+1;
-display(p).string_nr=p;
-display(p).file_nr=i;
-display(p).string_of_text_found=Model_hits(j).String;
-display(p).full_title=Model_hits(j).String_publication_title;
-
-end
-
+    if Model_hits(j).Found_in_publication_title==i
+        % hits=Model_hits(j);
+        
+        p=p+1;
+        display(p).string_nr=p;
+        display(p).file_nr=i;
+        display(p).string_of_text_found=Model_hits(j).String;
+        display(p).full_title=Model_hits(j).String_publication_title;
+        
+    end
+    
 end
 
 t=struct2table(display)
