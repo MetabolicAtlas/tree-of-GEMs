@@ -1,19 +1,20 @@
 function Model_inheritance_searching(i)
 clc
-addpath 'D:\GEMS\Function folder testing'
+% addpath 'D:\GEMS\Function folder testing'
 load('Model_hits.mat', 'Model_hits');
+load('cura_biomodels_metadata.mat');
 
-myFolder = 'D:\GEMS\Extracted_new_publications';
-
-filePattern = fullfile(myFolder, '*.pdf');
-theFiles = dir(filePattern);
-for k = 1 : length(theFiles)
-    baseFileName = theFiles(k).name;
-    fullFileName = fullfile(theFiles(k).folder, baseFileName);
-end
-
-pdf=theFiles(i,1).name
-open(pdf);
+% myFolder = 'D:\GEMS\Extracted_new_publications';
+% 
+% filePattern = fullfile(myFolder, '*.pdf');
+% theFiles = dir(filePattern);
+% for k = 1 : length(theFiles)
+%     baseFileName = theFiles(k).name;
+%     fullFileName = fullfile(theFiles(k).folder, baseFileName);
+% end
+% 
+% pdf=theFiles(i,1).name
+% open(pdf);
 
 string_nr='string_nr';  file_nr='File_nr';  string_of_text_found='string_of_text_found';    full_title='full_title';
 empty_num = {}; empty_char = {{}};
