@@ -1,6 +1,6 @@
 %% Fetches publication title   %*.* NOT type:"file folder"
 clear,clc;
-load('Models.mat', 'models')
+load('cura_biomodels_metadata.mat', 'models')
 nr_models=985;  %(986 does not have publication)
 
 %found here: https://matlab.fandom.com/wiki/FAQ#How_can_I_process_a_sequence_of_files.3F
