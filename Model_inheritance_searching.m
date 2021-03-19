@@ -38,6 +38,12 @@ end
 
 t=struct2table(display)
 
+j=find([Model_hits.Found_in_publication_title]==i);
+k=j(1);
+PMID=Model_hits(k).Found_in_file(1:8);
+webpage=['http://identifiers.org/pubmed/' PMID];
+web(webpage);
+
 m=0;
 while m==0
     prompt = 'Coppy string nr to clipboard ';
