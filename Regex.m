@@ -5,10 +5,10 @@ nr_models=985;  %(986 does not have publication)
 
 %found here: https://matlab.fandom.com/wiki/FAQ#How_can_I_process_a_sequence_of_files.3F
 % Specify the folder where the files live.
-myFolder = 'D:\GEMS\Extracted_new_publications';
+myFolder = 'D:\Github_secondary\PDF storage';
 
 % Get a list of all files in the folder with the desired file name pattern.
-filePattern = fullfile(myFolder, '*.pdf'); % Change to whatever pattern you need.
+filePattern = fullfile(myFolder, '*.xml'); % Change to whatever pattern you need.
 theFiles = dir(filePattern);
 for k = 1 : length(theFiles)
     baseFileName = theFiles(k).name;
@@ -17,7 +17,7 @@ end
 
 p=0;
 
-f=1;    %number of files to look at
+f=260;    %number of files to look at
 
 field = 'Hits'; field2='String'; field3='Found_in_file'; field4='Found_in_publication_title'; field5='String_publication_title';
 value = {};
@@ -25,10 +25,10 @@ value2 = {{}};
 Model_hits = struct(field,value,field2,value2,field3,value2,field4,value2);   
 
 for j=1:f                           % CHANGE MODEL SPAN
-    pdf=theFiles(j,1).name;
-    str=extractFileText(pdf);
-    
-    for i=1:nr_models
+    xml=theFiles(j,1).name;
+%     str=extractFileText(xml);
+    str=fileread(xml);
+    for i=2:nr_models
         pub_title=models(i).publication.title;
         
         string_length=strlength(pub_title);
@@ -57,7 +57,7 @@ for j=1:f                           % CHANGE MODEL SPAN
                 p=p+1;              
                 Model_hits(p).Hits=hit;
                 Model_hits(p).String=output_string_of_scentence;
-                Model_hits(p).Found_in_file=pdf;
+                Model_hits(p).Found_in_file=xml;
                 Model_hits(p).Found_in_publication_title=j;
                 Model_hits(p).String_publication_title=models(i).publication.title;
                 
@@ -69,7 +69,7 @@ for j=1:f                           % CHANGE MODEL SPAN
 end
 
 
-t=struct2table(Model_hits)
+% t=struct2table(Model_hits)
 
 % jsonStr = jsonencode(Model_hits);
 
