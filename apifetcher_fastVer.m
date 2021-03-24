@@ -43,11 +43,11 @@ end
 %Check models for PMIDs
 s=0;m=0;
 for i=2:length(models)
-    if 0==isfield(models(i).publication,'link')
+    if 0==isfield(models(i).publication,'link')%Does the metadata contain a link?
         continue
     end
     temp=models(i).publication.link;
-    if isempty(regexp(models(i).publication.link,'pubmed','once'))
+    if isempty(regexp(models(i).publication.link,'pubmed','once'))%Does the link refrence pubmed?
         m=m+1;
         nonPMID_Articles{m}=models(i).publication.link;
         continue%skip non-pubmed articles
@@ -58,34 +58,34 @@ for i=2:length(models)
     end
 end
 
+%API adresses of EPMC, PUBMED, PMC
 api_idconvEPMC=['https://www.ebi.ac.uk/europepmc/webservices/rest/search?'...
     'resultType=idlist&cursorMark=*&pageSize=25&format=json&query=ext_id:'];
 api_idconvPUBMED = 'https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?format=json&ids=';
 api_EPMC_XML='https://www.ebi.ac.uk/europepmc/webservices/rest/';
 api_EPMCcap='/fullTextXML';
-api_PMCpdf = 'https://www.ncbi.nlm.nih.gov/pmc/utils/oa/oa.fcgi?id=';
 
-s=0;m=0;k=0;
+s=0;m=0;%Where s are the number of EPMC downloads and m for neither(nonretrivals).
 for i=1:length(PMID)
     options=weboptions('Timeout',1e5);
-    url=strjoin([api_idconvEPMC PMID(i)],'');
+    url=strjoin([api_idconvEPMC PMID(i)],'');%Check EPMC for corresponding fulltextID
     queryresult=webread(url,options);
     if 1==isfield(queryresult.resultList.result,'fullTextIdList') 
         temp=queryresult.resultList.result.fullTextIdList.fullTextId;
-        options=weboptions('Timeout',1e5,'ContentType','xmldom');
+        options=weboptions('Timeout',1e5,'ContentType','xmldom');%Note that content type is specified
         url=strjoin([api_EPMC_XML temp api_EPMCcap],'');
-        fname=strjoin([PMID(i) 'EPMC' string(i) '.xml'],'');%Dubbelkolla det har, det blev fel nar PMCID/PMID var namn
-        try
+        fname=strjoin([PMID(i) 'EPMC' string(i) '.xml'],'');%Name of xml-file
+        try%downloading the article off EPMC if there is a fulltextID
             queryresult=webread(url,options);
             xmlwrite(fname,queryresult);
             s=s+1;
             EPMC{s,:}={['EPMC' string(i)] PMID(i)};
             continue
-        catch
+        catch%If EPMC download fails
             m=m+1;
-            nonPMCID(m)=PMID(i);
+            nonPMCID(m)=PMID(i);%List of PMIDs without PMCID
         end
-    else
+    else%Identical to "If epmc download fails"
         m=m+1;
         nonPMCID(m)=PMID(i);
     end

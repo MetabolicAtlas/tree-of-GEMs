@@ -76,9 +76,7 @@ for i=1:length(PMID)
         temp=queryresult.resultList.result.fullTextIdList.fullTextId;
         options=weboptions('Timeout',1e5,'ContentType','xmldom');%Note that content type is specified
         url=strjoin([api_EPMC_XML temp api_EPMCcap],'');
-        fname=strjoin(['PMID' PMID(i) 'EPMC' string(i) '.xml'],'');%Name of xml-file
-        %CAUTION/BUG! When fname was based on PMID or fulltextID,
-        %some files were "lost" due to overlapping names.        
+        fname=strjoin(['PMID' PMID(i) 'EPMC' string(i) '.xml'],'');%Name of xml-file      
         try%downloading the article off EPMC if there is a fulltextID
             queryresult=webread(url,options);
             xmlwrite(fname,queryresult);
