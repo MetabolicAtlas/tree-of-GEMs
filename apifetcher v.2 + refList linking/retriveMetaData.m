@@ -7,7 +7,7 @@ if isfile('cura_biomodels_metadata.mat')==0 %Check if data is already generated
     for i=1:1e10
         url = strjoin([api...These are our requests to the api, appended to the adress
             '/search?'...%Search for:
-            'query=*%3A*%20AND%20curationstatus%3A"Manually%20curated"&domain=biomodels'...All manually curated models
+            'query=*%3A*%20AND%20modellingapproach%3A"Constraint-based%20model"'...All constraint-based models (i.e probably GEMs)
             '&numResults=100'...return 100 results (max size)
             '&sort=publication_year-asc'...arbitrary sorting
             '&format=json'...return as json

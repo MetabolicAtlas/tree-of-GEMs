@@ -1,15 +1,8 @@
-% Running this program takes a long while (>40 min). If you've already
-% obtained cura_biomodels_metadata.mat,some of organized_metadata.mat or 
-% any xml articles (named after their PMCID) then the process will be sped
-% up. One might also consider running only some scripts.
-
 %Some webread:s will fail the first time. As most progress is saved, just
 %starting the program again should fix the problem with no time loss.
-%But it may be wise to wait a while as to not DDOS the site.
 
 retriveMetaData;
-% Construct cura_biomodels_metadata.mat if none exists The current code may
-% be too taxing on the website though.
+% Construct cura_biomodels_metadata.mat if none exists
 
 clusterModelsbyPublication;
 % Cluster models by publication in organized_metadata.mat Will update a
