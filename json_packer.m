@@ -1,17 +1,17 @@
-function json_packer(i)
-%json_packer(1) unpacks to .m and json_packer(2) packs to .json
-if i==1  %unpack
-    string=fileread('dataset.json')
-    dataset=jsondecode(string);
-    save('dataset.mat', 'dataset')
-    fprintf(['Unpacked', newline])
-elseif i==2  %pack
+function json_packer
+if isfile('dataset.mat') % .mat exist --> pack and delete .mat
     load('dataset.mat')
-    string=jsonendcode(dataset);
+    string=jsonencode(dataset);
     fig=fopen('dataset.json','w');
     fwrite(fig, string);
     fclose(fig);
+    delete dataset.mat
     fprintf(['Packed', newline])
+elseif isfile('dataset.json') % No .mat --> unpack
+    string=fileread('dataset.json');
+    dataset=jsondecode(string);
+    save('dataset.mat', 'dataset');
+    fprintf(['Unpacked', newline])
 else
-    fprintf(['Choose 1 or 2', newline])
+    fprintf(['files missing' newline])
 end
