@@ -6,7 +6,7 @@ fig.CloseRequestFcn = @closefun;
 %text feild: 
 %CONNECTION:sub(PMID, connection type, citation, citation link, notes) 
 %ARTICLE INFORMATION:sub(PMID, DOI, name(common), name(scientific), taxonomy id) 
-%MISC:sub(intitials, time, checking status, end session button)
+%MISC:sub(intitials, time, checking status)
 clf;
 bg = uibuttongroup(fig,'Visible','off',...
                   'Position',[0 0 .25 1],...
@@ -154,10 +154,10 @@ button_add = uicontrol(p_misc,'Style','pushbutton',...
 %% Make the uibuttongroup visible after creating child objects. 
 bg.Visible = 'on';
 %% Callbacks
-    function bselection(source,event)
+    function bselection(source,event) %Switch display based on sidebar
         p.Visible = 'off';
         p_misc.Visible = 'off';
-%         p_ai.Visible = 'off';
+        %         p_ai.Visible = 'off';
         if strcmp(bg.SelectedObject.String,'Connection')==1
             p.Visible = 'on';
         elseif strcmp(bg.SelectedObject.String,'Misc')==1
@@ -170,12 +170,12 @@ bg.Visible = 'on';
                 dataset(MLnr).misc.time = 0;
             end
             totalTime.String=...
-                    ['Total time:' char(string(dataset(MLnr).misc.time)) ' min'];
+                ['Total time:' char(string(dataset(MLnr).misc.time)) ' min'];
             val=sum([1 2 3].*strcmp(listStatus.String,dataset(MLnr).misc.status)');
             listStatus.Value=val;
             p_misc.Visible = 'on';
         elseif strcmp(bg.SelectedObject.String,'Article information')==1
-%             p_ai.Visible = 'on';
+            %             p_ai.Visible = 'on';
         end
     end
 
