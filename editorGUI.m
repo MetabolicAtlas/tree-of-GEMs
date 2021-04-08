@@ -2,11 +2,12 @@ function editorGUI(dataset)
 %i edits model i
 fig=figure(1);
 fig.CloseRequestFcn = @closefun;
-%% Sidebar
-%text feild: 
+
+%text field: 
 %CONNECTION:sub(PMID, connection type, citation, citation link, notes) 
 %ARTICLE INFORMATION:sub(PMID, DOI, name(common), name(scientific), taxonomy id) 
 %MISC:sub(intitials, time, checking status)
+%% Sidebar
 clf;
 bg = uibuttongroup(fig,'Visible','off',...
                   'Position',[0 0 .25 1],...
@@ -37,7 +38,6 @@ textChildMLnr = uicontrol(fig,'Style','text',...
 currentChildMLnr = uicontrol(fig,'Style','edit',...
                   'Position',[10 350 120 30],...
                   'HandleVisibility','off',...
-                  'String','1',...
                   'KeyPressFcn',@getchildpmid);
               
 textChildPMID = uicontrol(fig,'Style','text',...
@@ -49,7 +49,7 @@ currentChildPMID = uicontrol(fig,'Style','edit',...
                   'Position',[10 290 120 30],...
                   'HandleVisibility','off',...
                   'KeyPressFcn',@getchildMLnr);
-% currentChild = 
+
 %% Connection              
 p = uipanel(fig,...
             'Position',[.25 0 0.75 1],...
@@ -162,31 +162,53 @@ bg.Visible = 'on';
             p.Visible = 'on';
         elseif strcmp(bg.SelectedObject.String,'Misc')==1
             MLnr=str2double(currentChildMLnr.String);
+            if 0 == isfield(dataset(MLnr),'misc')
+                dataset(MLnr).misc = [];
+            end
             for i=1:length(misc_initals)
                 temp=initials{i};
+                if 0 == isfield(dataset(MLnr).misc,temp)
+                    dataset(MLnr).misc.(temp) = 0;
+                end
                 misc_initals(i).Value=dataset(MLnr).misc.(temp);
+            end
+            if 0 == isfield(dataset(MLnr).misc,'time')
+                dataset(MLnr).misc.time = [];
             end
             if 1==isempty(dataset(MLnr).misc.time)
                 dataset(MLnr).misc.time = 0;
             end
             totalTime.String=...
                 ['Total time:' char(string(dataset(MLnr).misc.time)) ' min'];
+            if 0 == isfield(dataset(MLnr).misc,'status')
+                dataset(MLnr).misc.status = 'Not checked';
+            end
             val=sum([1 2 3].*strcmp(listStatus.String,dataset(MLnr).misc.status)');
             listStatus.Value=val;
             p_misc.Visible = 'on';
         elseif strcmp(bg.SelectedObject.String,'Article information')==1
-            %             p_ai.Visible = 'on';
+            %             p_ai.Visible = 'on'; currently no article info
         end
     end
 
-function commit(source,event)
-    %Code that adds info to dataset.mat
-    ef1.String='';  %String is PMID
-    ef2.String{ef2.Value};      %Value=1 is direct, Value=2 is partial
-    ef3.String='';  %String is Citation
-    ef4.String='';  %String is Citation Link
-    ef5.String='';  %String is Notes
-end
+    function commit(source,event)
+        %Code that adds info to dataset.mat
+        MLnr = str2double(currentChildMLnr.String)
+        if 0 == isfield(dataset,'connection')
+            dataset(MLnr).connection = []
+        end
+        newConnPos = 1 + length(dataset(MLnr).connection)
+        dataset(MLnr).connection(newConnPos).PMID = ef1.String  %String is PMID
+        dataset(MLnr).connection(newConnPos).connType = ef2.String{ef2.Value}; %Value=1 is direct, Value=2 is partial
+        dataset(MLnr).connection(newConnPos).cit = ef3.String;  %String is Citation
+        dataset(MLnr).connection(newConnPos).citLink = ef4.String;  %String is Citation Link
+        dataset(MLnr).connection(newConnPos).notes = ef5.String;  %String is Notes
+        %clear connection
+        ef1.String='';
+        ef3.String='';
+        ef4.String='';
+        ef5.String='';
+    end
 
     function closefun(source,event)
         save('dataset.mat','dataset')
@@ -216,13 +238,28 @@ end
 
     function getchildpmid(source,event)
         if strcmp(event.Key,'return')
-            currentChildPMID.String='placeholder';
+            %clear connection
+            ef1.String='';
+            ef3.String='';
+            ef4.String='';
+            ef5.String='';
+            MLnr=str2double(currentChildMLnr.String);
+            currentChildPMID.String=dataset(MLnr).articleInformation.PMID;
         end
     end
 
     function getchildMLnr(source,event)
         if strcmp(event.Key,'return')
-            currentChildMLnr.String='placeholder';
+            %clear connection
+            ef1.String='';
+            ef3.String='';
+            ef4.String='';
+            ef5.String='';
+            for j = 1:length(dataset)
+                if 1==strcmp(currentChildPMID.String,dataset(j).articleInformation.PMID)
+                    currentChildMLnr.String=string(j);
+                end
+            end
         end
     end
 end
