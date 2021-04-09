@@ -2,10 +2,10 @@ function json_packer
 if isfile('dataset.mat') % .mat exist --> pack and delete .mat
     load('dataset.mat')
     string=jsonencode(dataset);
-    string = strrep(string, ',"', sprintf(',\r"'));
-    string = strrep(string, ',{', sprintf(',\r{')); %testing these 3
-    string = strrep(string, '[{', sprintf('[\r{\r'));
-    string = strrep(string, '}]', sprintf('\r}\r]'));
+    string = strrep(string, ',"', [',' newline '"']);
+    string = strrep(string, ',{', [',' newline '{']); %testing these 3
+    string = strrep(string, '[{', ['[' newline '{' newline]);
+    string = strrep(string, '}]', ['}' newline ']']);
     fig=fopen('dataset.json','w');
     fwrite(fig, string);
     fclose(fig);
