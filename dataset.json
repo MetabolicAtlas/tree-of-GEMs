@@ -128,13 +128,16 @@
 "YL":1,
 "time":10,
 "status":"Finished"},
-"connection":{"PMID":"12566402",
+"connection":
+{"PMID":"12566402",
 "connType":"Direct",
-"cit":"Since comprehensive knockout libraries for duplicate gene families are presently not available, we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fï¿½rster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"cit":"Since comprehensive knockout libraries for duplicate gene families are presently not available, we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fÿrster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240085/#__p8:~:text=Since%20comprehensive%20knockout%20libraries%20for%20duplicate,Analysis%20(FBA)%20(Price%20et%20al.%202004).",
 "notes":""}},
-{"submissionID":["MODEL1507180072"],
-"articleInformation":{"PMID":"16155945"},
+{"submissionID":
+["MODEL1507180072"],
+"articleInformation":
+{"PMID":"16155945"},
 "title":"In silico genome-scale reconstruction and validation of the Staphylococcus aureus metabolic network.",
 "misc":
 [],
@@ -146,7 +149,8 @@
 {"PMID":"15752426",
 "doi":"10.1186/1471-2180-5-8"},
 "title":"Genome-scale reconstruction of the metabolic network in Staphylococcus aureus N315: an initial draft to the two-dimensional annotation.",
-"misc":{"GS":0,
+"misc":
+{"GS":0,
 "EB":0,
 "LW":0,
 "KL":0,
@@ -154,13 +158,16 @@
 "YL":1,
 "time":0,
 "status":"Not checked"},
-"connection":{"PMID":"15494745",
+"connection":
+{"PMID":"15494745",
 "connType":"Direct",
 "cit":"Genome-scale reconstructions (GENREs) represent a biochemically and genetically structured database that can be queried and interrogated using in silico analytical methods[7]. ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1079855/#__p7:~:text=Genome%2Dscale%20reconstructions%20(GENREs)%20represent%20a%20biochemically,interrogated%20using%20in%20silico%20analytical%20methods%5B7%5D.",
-"notes":"lite osï¿½ker"}},
-{"submissionID":["MODEL1507180049"],
-"articleInformation":{"PMID":"15930493",
+"notes":"lite osÿker"}},
+{"submissionID":
+["MODEL1507180049"],
+"articleInformation":
+{"PMID":"15930493",
 "doi":"10.1101/gr.3364705"},
 "title":"Genome-scale analysis of Streptomyces coelicolor A3(2) metabolism.",
 "misc":
@@ -173,7 +180,8 @@
 {"PMID":"15982422",
 "doi":"10.1186/1471-2180-5-39"},
 "title":"Modeling Lactococcus lactis using a genome-scale flux model.",
-"misc":{"GS":0,
+"misc":
+{"GS":0,
 "EB":0,
 "LW":0,
 "KL":0,
@@ -181,13 +189,16 @@
 "YL":1,
 "time":10,
 "status":"Finished"},
-"connection":{"PMID":"108249",
+"connection":
+{"PMID":"108249",
 "connType":"Direct",
 "cit":"To further evaluate the modeling capabilities of FBA we used the genome-scale flux model to simulate the shift from homolactic to heterolactic metabolism in L. lactis growing anaerobically. This process consisted in comparing simulation results with experimental observations reported by Thomas, T.D. et al. (1979)",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1185544/#__p24:~:text=To%20further%20evaluate%20the%20modeling%20capabilities,Thomas%2C%20T.D.%20et%20al.%20(1979)%20%5B30%5D",
 "notes":""}},
-{"submissionID":["MODEL1507180045"],
-"articleInformation":{"PMID":"17062565"},
+{"submissionID":
+["MODEL1507180045"],
+"articleInformation":
+{"PMID":"17062565"},
 "title":"Analysis of growth of Lactobacillus plantarum WCFS1 on a complex medium using a genome-scale metabolic model.",
 "misc":
 [],
@@ -199,7 +210,8 @@
 {"PMID":"16461711",
 "doi":"10.1128/AEM.72.2.1558-1568.2006"},
 "title":"Characterization of metabolism in the Fe(III)-reducing organism Geobacter sulfurreducens by constraint-based modeling.",
-"misc":{"GS":0,
+"misc":
+{"GS":0,
 "EB":0,
 "LW":0,
 "KL":0,
@@ -207,7 +219,8 @@
 "YL":1,
 "time":0,
 "status":"Not checked"},
-"connection":[
+"connection":
+[
 {
 "PMID":"11246024",
 "connType":"Direct",
@@ -226,13 +239,16 @@
 "notes":""},
 {"PMID":"10592199",
 "connType":"Direct",
-"cit":["                                                                                                                                                                                                                                                            ",
+"cit":
+["                                                                                                                                                                                                                                                            ",
 "The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71)."],
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__sec2title:~:text=The%20G.%20sulfurreducens%20metabolic%20network%20was,metabolic%20databases%20(21%2C%2037%2C%2043%2C%2071).",
 "notes":""}
 ]},
-{"submissionID":["MODEL1507180062"],
-"articleInformation":{"PMID":"17405177"},
+{"submissionID":
+["MODEL1507180062"],
+"articleInformation":
+{"PMID":"17405177"},
 "title":"Genome-scale analysis of Mannheimia succiniciproducens metabolism.",
 "misc":
 [],
@@ -244,7 +260,8 @@
 {"PMID":"17521419",
 "doi":"10.1186/gb-2007-8-5-r89"},
 "title":"GSMN-TB: a web-based genome-scale network model of Mycobacterium tuberculosis metabolism.",
-"misc":{"GS":0,
+"misc":
+{"GS":0,
 "EB":0,
 "LW":0,
 "KL":0,
@@ -252,13 +269,16 @@
 "YL":1,
 "time":20,
 "status":"Not checked"},
-"connection":{"PMID":"10364169",
+"connection":
+{"PMID":"10364169",
 "connType":"Direct",
 "cit":"Whole-genome metabolic network models of sequenced micro-organisms such as Haemophilus influenzae [12], Escherichia coli [13], Helicobacter pylori [14], and Saccharomyces cerevisiae [15] have proven to be useful in hypothesis generation and correction of errors in genome annotation, and have also been successful in predicting phenotypic behavior. These models, interrogated with various constraint-based computer simulation methods such as flux balance analysis (FBA) [16], elementary flux modes [17], or extreme pathways [18], provided information on the robustness of the metabolic networks and identified vulnerable pathways that may be targeted with novel drugs [19].",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1929162/#__p8:~:text=Whole%2Dgenome%20metabolic%20network%20models%20of%20sequenced,be%20targeted%20with%20novel%20drugs%20%5B19%5D.",
 "notes":""}},
-{"submissionID":["MODEL1507180006"],
-"articleInformation":{"PMID":"17922569",
+{"submissionID":
+["MODEL1507180006"],
+"articleInformation":
+{"PMID":"17922569",
 "doi":"10.1371/journal.pcbi.0030192"},
 "title":"Metabolic reconstruction and modeling of nitrogen fixation in Rhizobium etli.",
 "misc":
@@ -874,7 +894,7 @@
 "connection":
 {"PMID":"21083885",
 "connType":"Direct",
-"cit":"an extensive effort was made to construct a complete and compartmentalized model of photosynthesis that exceeds previously published efforts in detail and coverage (8ï¿½11).",
+"cit":"an extensive effort was made to construct a complete and compartmentalized model of photosynthesis that exceeds previously published efforts in detail and coverage (8ÿ11).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3289291/#__p9:~:text=an%20extensive%20effort%20was%20made%20to,efforts%20in%20detail%20and%20coverage%20(8%E2%80%9311).",
 "notes":""}},
 {"submissionID":
@@ -1139,6 +1159,8 @@
 "articleInformation":
 {"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3"},
 "title":"Integrative computational approach identifies drug targets in CD4+ T-cell-mediated immune disorders",
-"misc":[],
-"connection":[]}
+"misc":
+[],
+"connection":
+[]}
 ]
