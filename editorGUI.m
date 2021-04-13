@@ -23,7 +23,8 @@ r1 = uicontrol(bg,'Style',...
     'radiobutton',...
     'String','Connection',...
     'Position',[10 200 120 30],...
-    'HandleVisibility','off');
+    'HandleVisibility','off',...
+    'Value',1);
 
 r3 = uicontrol(bg,'Style','radiobutton',...
     'String','Misc',...
@@ -96,7 +97,7 @@ text_taxID = uicontrol(articleInfo,'Style','text',...
     'Position',[10 60 120 30],...
     'HandleVisibility','off');
 
-taxID = uicontrol(articleInfo,'Style','edit',...
+AItaxID = uicontrol(articleInfo,'Style','edit',...
     'Position',[10 30 400 40],...
     'HandleVisibility','off');
 
@@ -105,7 +106,7 @@ button_Connection = uicontrol(articleInfo,'Style','pushbutton',...
     'String','Add Article Information',...
     'Position',[200 350 120 30],...
     'HandleVisibility','off',...
-    'Callback',@addArticleInformation);
+    'Callback',@addarticleInformation);
 %% Connection
 p = uipanel(fig,...
     'Position',[.25 0 0.75 1],...
@@ -260,7 +261,7 @@ bg.Visible = 'on';
                 AIDOI.String = dataset(MLnr).articleInformation.doi;
             end
             if isfield(dataset(MLnr).articleInformation,'taxName')
-                AItaxCommon.String = dataset(MLnr).articleInformation.taxCommon;
+                AItaxCommon.String = dataset(MLnr).articleInformation.taxName;
             end
             if isfield(dataset(MLnr).articleInformation,'taxSci')
                 AItaxSci.String = dataset(MLnr).articleInformation.taxSci;
@@ -297,17 +298,17 @@ bg.Visible = 'on';
         delete(fig)
     end
 
-    function addArticleInfo(source,event)
+    function addarticleInformation(source,event)
         %Code that adds info to dataset.mat
         MLnr = str2double(currentChildMLnr.String);
-        if 0 == isfield(dataset,'articleInfo')
-            dataset(MLnr).articleInfo = [];
+        if 0 == isfield(dataset,'articleInformation')
+            dataset(MLnr).articleInformation = [];
         end
-        dataset(MLnr).articleInfo(newConnPos).PMID = AIpmid.String;
-        dataset(MLnr).articleInfo(newConnPos).DOI = AIDOI.String;
-        dataset(MLnr).articleInfo(newConnPos).taxName = AItaxCommon.String;
-        dataset(MLnr).articleInfo(newConnPos).taxSciName = AItaxSci.String;
-        dataset(MLnr).articleInfo(newConnPos).taxID = AItaxID.String;
+        dataset(MLnr).articleInformation.PMID = AIpmid.String;
+        dataset(MLnr).articleInformation.DOI = AIDOI.String;
+        dataset(MLnr).articleInformation.taxName = AItaxCommon.String;
+        dataset(MLnr).articleInformation.taxSciName = AItaxSci.String;
+        dataset(MLnr).articleInformation.taxID = AItaxID.String;
     end
 
     function addmisc(source,event)
