@@ -257,14 +257,14 @@ bg.Visible = 'on';
             if isfield(dataset(MLnr).articleInformation,'PMID')
                 AIpmid.String = dataset(MLnr).articleInformation.PMID;
             end
-            if isfield(dataset(MLnr).articleInformation,'doi')
-                AIDOI.String = dataset(MLnr).articleInformation.doi;
+            if isfield(dataset(MLnr).articleInformation,'DOI')
+                AIDOI.String = dataset(MLnr).articleInformation.DOI;
             end
             if isfield(dataset(MLnr).articleInformation,'taxName')
                 AItaxCommon.String = dataset(MLnr).articleInformation.taxName;
             end
-            if isfield(dataset(MLnr).articleInformation,'taxSci')
-                AItaxSci.String = dataset(MLnr).articleInformation.taxSci;
+            if isfield(dataset(MLnr).articleInformation,'taxSciName')
+                AItaxSci.String = dataset(MLnr).articleInformation.taxSciName;
             end
             if isfield(dataset(MLnr).articleInformation,'taxID')
                 AItaxID.String = dataset(MLnr).articleInformation.taxID;
@@ -355,14 +355,14 @@ bg.Visible = 'on';
                 if isfield(dataset(MLnr).articleInformation,'PMID')
                     AIpmid.String = dataset(MLnr).articleInformation.PMID;
                 end
-                if isfield(dataset(MLnr).articleInformation,'doi')
-                    AIDOI.String = dataset(MLnr).articleInformation.doi;
+                if isfield(dataset(MLnr).articleInformation,'DOI')
+                    AIDOI.String = dataset(MLnr).articleInformation.DOI;
                 end
                 if isfield(dataset(MLnr).articleInformation,'taxName')
-                    AItaxCommon.String = dataset(MLnr).articleInformation.taxCommon;
+                    AItaxCommon.String = dataset(MLnr).articleInformation.taxName;
                 end
-                if isfield(dataset(MLnr).articleInformation,'taxSci')
-                    AItaxSci.String = dataset(MLnr).articleInformation.taxSci;
+                if isfield(dataset(MLnr).articleInformation,'taxSciName')
+                    AItaxSci.String = dataset(MLnr).articleInformation.taxSciName;
                 end
                 if isfield(dataset(MLnr).articleInformation,'taxID')
                     AItaxID.String = dataset(MLnr).articleInformation.taxID;
@@ -398,14 +398,14 @@ bg.Visible = 'on';
                 if isfield(dataset(MLnr).articleInformation,'PMID')
                     AIpmid.String = dataset(MLnr).articleInformation.PMID;
                 end
-                if isfield(dataset(MLnr).articleInformation,'doi')
-                    AIDOI.String = dataset(MLnr).articleInformation.doi;
+                if isfield(dataset(MLnr).articleInformation,'DOI')
+                    AIDOI.String = dataset(MLnr).articleInformation.DOI;
                 end
                 if isfield(dataset(MLnr).articleInformation,'taxName')
-                    AItaxCommon.String = dataset(MLnr).articleInformation.taxCommon;
+                    AItaxCommon.String = dataset(MLnr).articleInformation.taxName;
                 end
-                if isfield(dataset(MLnr).articleInformation,'taxSci')
-                    AItaxSci.String = dataset(MLnr).articleInformation.taxSci;
+                if isfield(dataset(MLnr).articleInformation,'taxSciName')
+                    AItaxSci.String = dataset(MLnr).articleInformation.taxSciName;
                 end
                 if isfield(dataset(MLnr).articleInformation,'taxID')
                     AItaxID.String = dataset(MLnr).articleInformation.taxID;
