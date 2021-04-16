@@ -43,12 +43,27 @@
 ["MODEL1507180060"],
 "articleInformation":
 {"PMID":"12952533",
-"doi":"10.1186/gb-2003-4-9-r54"},
+"doi":"10.1186/gb-2003-4-9-r54",
+"DOI":"10.1186/gb-2003-4-9-r54",
+"taxName":"",
+"taxSciName":"Escherichia coli K-12 MG1655",
+"taxID":"511145"},
 "title":"An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR).",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"10805808",
+"connType":"Direct",
+"cit":"This paper reports an expansion of iJE660a GSM, which itself is a slight modification of the original genome-scale metabolic model (iJE660 GSM) ",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193654/#__p8:~:text=This%20paper%20reports%20an%20expansion%20of,genome%2Dscale%20metabolic%20model%20(iJE660%20GSM)%20%5B8%5D.",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180012"],
 "articleInformation":
