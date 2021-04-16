@@ -430,7 +430,11 @@
 ["MODEL1507180020"],
 "articleInformation":
 {"PMID":"18192387",
-"doi":"10.1128/JB.01583-07"},
+"doi":"10.1128/JB.01583-07",
+"DOI":"10.1128/JB.01583-07",
+"taxName":"",
+"taxSciName":"Pseudomonas aeruginosa PAO1",
+"taxID":"txid208964"},
 "title":"Genome-scale metabolic network analysis of the opportunistic pathogen Pseudomonas aeruginosa PAO1.",
 "misc":
 {"GS":0,
