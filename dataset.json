@@ -96,11 +96,7 @@
 ["MODEL1507180007"],
 "articleInformation":
 {"PMID":"16077130",
-"doi":"10.1128/JB.187.16.5818-5830.2005",
-"DOI":"10.1128/JB.187.16.5818-5830.2005",
-"taxName":"",
-"taxSciName":"Helicobacter pylori 26695",
-"taxID":"txid85962"},
+"doi":"10.1128/JB.187.16.5818-5830.2005"},
 "title":"Expanded metabolic reconstruction of Helicobacter pylori (iIT341 GSM/GPR): an in silico genome-scale characterization of single- and double-deletion mutants.",
 "misc":
 {"GS":0,
@@ -351,7 +347,11 @@
 ["MODEL1507180056"],
 "articleInformation":
 {"PMID":"18500999",
-"doi":"10.1186/1471-2164-9-245"},
+"doi":"10.1186/1471-2164-9-245",
+"DOI":"10.1186/1471-2164-9-245",
+"taxName":"kÿji mold",
+"taxSciName":"Aspergillus oryzae",
+"taxID":"txid5062"},
 "title":"Improved annotation through genome-scale metabolic modeling of Aspergillus oryzae.",
 "misc":
 {"GS":0,
