@@ -1036,7 +1036,11 @@
 ["MODEL1703310000"],
 "articleInformation":
 {"PMID":"29241534",
-"doi":"10.1016/j.celrep.2017.11.065"},
+"doi":"10.1016/j.celrep.2017.11.065",
+"DOI":"10.1016/j.celrep.2017.11.065",
+"taxName":"Human",
+"taxSciName":"Homo sapiens",
+"taxID":"txid9606"},
 "title":"Integrating Extracellular Flux Measurements and Genome-Scale Modeling Reveals Differences between Brown and White Adipocytes.",
 "misc":
 {"GS":0,
