@@ -649,7 +649,11 @@
 {"submissionID":
 ["MODEL1507180050"],
 "articleInformation":
-{"PMID":"20503221"},
+{"PMID":"20503221",
+"DOI":"10.1002/biot.201000078",
+"taxName":"",
+"taxSciName":"Komagataella pastoris",
+"taxID":"txid4922"},
 "title":"Genome-scale metabolic model of methylotrophic yeast Pichia pastoris and its use for in silico analysis of heterologous protein production.",
 "misc":
 {"GS":0,
