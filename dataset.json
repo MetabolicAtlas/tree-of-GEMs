@@ -85,12 +85,27 @@
 ["MODEL1507180019"],
 "articleInformation":
 {"PMID":"15197165",
-"doi":"10.1101/gr.2250904"},
+"doi":"10.1101/gr.2250904",
+"DOI":"10.1101/gr.2250904",
+"taxName":"baker's yeast",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":"4932"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"12566402",
+"connType":"Direct",
+"cit":"Based on these studies, the following modifications and extensions have been made to improve the FörsterÿFamili model",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442145/#__p6:~:text=The%20metabolic%20network%20reconstructed%20by%20F%C3%B6rster,made%20to%20improve%20the%20F%C3%B6rster%E2%80%93Famili%20model%3A",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180025"],
 "articleInformation":
