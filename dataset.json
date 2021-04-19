@@ -43,12 +43,27 @@
 ["MODEL1507180060"],
 "articleInformation":
 {"PMID":"12952533",
-"doi":"10.1186/gb-2003-4-9-r54"},
+"doi":"10.1186/gb-2003-4-9-r54",
+"DOI":"10.1186/gb-2003-4-9-r54",
+"taxName":"",
+"taxSciName":"Escherichia coli K-12 MG1655",
+"taxID":"511145"},
 "title":"An expanded genome-scale model of Escherichia coli K-12 (iJR904 GSM/GPR).",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"10805808",
+"connType":"Direct",
+"cit":"This paper reports an expansion of iJE660a GSM, which itself is a slight modification of the original genome-scale metabolic model (iJE660 GSM) ",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC193654/#__p8:~:text=This%20paper%20reports%20an%20expansion%20of,genome%2Dscale%20metabolic%20model%20(iJE660%20GSM)%20%5B8%5D.",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180012"],
 "articleInformation":
@@ -70,12 +85,27 @@
 ["MODEL1507180019"],
 "articleInformation":
 {"PMID":"15197165",
-"doi":"10.1101/gr.2250904"},
+"doi":"10.1101/gr.2250904",
+"DOI":"10.1101/gr.2250904",
+"taxName":"baker's yeast",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":"4932"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"12566402",
+"connType":"Direct",
+"cit":"Based on these studies, the following modifications and extensions have been made to improve the FörsterÿFamili model",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442145/#__p6:~:text=The%20metabolic%20network%20reconstructed%20by%20F%C3%B6rster,made%20to%20improve%20the%20F%C3%B6rster%E2%80%93Famili%20model%3A",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180025"],
 "articleInformation":
@@ -347,7 +377,11 @@
 ["MODEL1507180056"],
 "articleInformation":
 {"PMID":"18500999",
-"doi":"10.1186/1471-2164-9-245"},
+"doi":"10.1186/1471-2164-9-245",
+"DOI":"10.1186/1471-2164-9-245",
+"taxName":"kÿji mold",
+"taxSciName":"Aspergillus oryzae",
+"taxID":"txid5062"},
 "title":"Improved annotation through genome-scale metabolic modeling of Aspergillus oryzae.",
 "misc":
 {"GS":0,
@@ -426,7 +460,11 @@
 ["MODEL1507180020"],
 "articleInformation":
 {"PMID":"18192387",
-"doi":"10.1128/JB.01583-07"},
+"doi":"10.1128/JB.01583-07",
+"DOI":"10.1128/JB.01583-07",
+"taxName":"",
+"taxSciName":"Pseudomonas aeruginosa PAO1",
+"taxID":"txid208964"},
 "title":"Genome-scale metabolic network analysis of the opportunistic pathogen Pseudomonas aeruginosa PAO1.",
 "misc":
 {"GS":0,
@@ -641,7 +679,11 @@
 {"submissionID":
 ["MODEL1507180050"],
 "articleInformation":
-{"PMID":"20503221"},
+{"PMID":"20503221",
+"DOI":"10.1002/biot.201000078",
+"taxName":"",
+"taxSciName":"Komagataella pastoris",
+"taxID":"txid4922"},
 "title":"Genome-scale metabolic model of methylotrophic yeast Pichia pastoris and its use for in silico analysis of heterologous protein production.",
 "misc":
 {"GS":0,
@@ -1024,7 +1066,11 @@
 ["MODEL1703310000"],
 "articleInformation":
 {"PMID":"29241534",
-"doi":"10.1016/j.celrep.2017.11.065"},
+"doi":"10.1016/j.celrep.2017.11.065",
+"DOI":"10.1016/j.celrep.2017.11.065",
+"taxName":"Human",
+"taxSciName":"Homo sapiens",
+"taxID":"txid9606"},
 "title":"Integrating Extracellular Flux Measurements and Genome-Scale Modeling Reveals Differences between Brown and White Adipocytes.",
 "misc":
 {"GS":0,
