@@ -373,9 +373,20 @@
 "doi":"10.1186/gb-2007-8-7-r136"},
 "title":"Modeling Neisseria meningitidis metabolism: from genome to metabolic fluxes.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":3,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"10710307",
+"connType":"Direct",
+"cit":"The available genome sequence of MenB [21] and its annotation in the Kyoto Encyclopedia of Genes and Genomes (KEGG) database [22] was taken as starting point for model construction.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323225/#__p13:~:text=The%20available%20genome%20sequence%20of%20MenB,as%20starting%20point%20for%20model%20construction.",
+"notes":"Based on parent, but child is a more simplified model."}},
 {"submissionID":
 ["MODEL1507180001"],
 "articleInformation":
@@ -383,7 +394,14 @@
 "doi":"10.1186/1752-0509-1-26"},
 "title":"Investigating the metabolic capabilities of Mycobacterium tuberculosis H37Rv using the in silico strain iNJ661 and proposing alternative drug targets.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":3,
+"status":"Not checked"},
 "connection":
 []},
 {"submissionID":
@@ -496,7 +514,11 @@
 "misc":
 [],
 "connection":
-[]},
+{"PMID":"12534463",
+"connType":"Direct",
+"cit":"The metabolic reconstruction of P. putida KT2440, iJN746, was constructed based on its annotated genome sequence [20]",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2569920/#__p9:~:text=The%20metabolic%20reconstruction%20of%20P.%20putida,on%20its%20annotated%20genome%20sequence%20%5B20%5D%2C",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180027"],
 "articleInformation":
@@ -504,9 +526,20 @@
 "doi":"10.1002/bit.22010"},
 "title":"Genome-scale model for Clostridium acetobutylicum: Part I. Metabolic network resolution and analysis.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"11466286",
+"connType":"Partial",
+"cit":"Prediction of metabolic reactions or transport processes were based on the annotated genome (Nolling et al., 2001)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2760220/#P6:~:text=Prediction%20of%20metabolic%20reactions%20or%20transport,annotated%20genome%20(Nolling%20et%20al.%2C%202001)",
+"notes":"Does not seem to be totally based on. "}},
 {"submissionID":
 ["MODEL1507180020"],
 "articleInformation":
@@ -538,7 +571,14 @@
 {"PMID":"19425150"},
 "title":"On the reconstruction of the Mus musculus genome-scale metabolic network model.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":0,
+"status":"Not checked"},
 "connection":
 []},
 {"submissionID":
@@ -606,9 +646,20 @@
 "doi":"10.1074/jbc.M109.005868"},
 "title":"Genome scale reconstruction of a Salmonella metabolic model: comparison of similarity and differences with a commensal Escherichia coli strain.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":5,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"17593909",
+"connType":"Direct",
+"cit":"In this work comparison of the Salmonella genome scale model, based on that constructed for the E. coli strain MG1655 (15)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2785581/#__p32:~:text=In%20this%20work%20comparison%20of%20the,the%20E.%20coli%20strain%20MG1655%20(15)%2C",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180015"],
 "articleInformation":
@@ -616,9 +667,20 @@
 "doi":"10.1186/gb-2009-10-6-r69"},
 "title":"iBsu1103: a new genome-scale metabolic model of Bacillus subtilis based on SEED annotations.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":5,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"17573341",
+"connType":"Partial",
+"cit":"This BOF was based primarily on the BOF developed for the Oh et al. genome-scale model of B. subtilis [7].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2718503/#__p18:~:text=This%20BOF%20was%20based%20primarily%20on,genome%2Dscale%20model%20of%20B.%20subtilis%20%5B7%5D.",
+"notes":"Seems only partial because just one aspect of child that is based on parent."}},
 {"submissionID":
 ["MODEL1507180052"],
 "articleInformation":
@@ -1242,12 +1304,40 @@
 {"submissionID":
 ["MODEL1912100001"],
 "articleInformation":
-{"PMID":"unknown"},
+{"PMID":"32068953",
+"DOI":"",
+"taxName":"",
+"taxSciName":"",
+"taxID":""},
 "title":"Konduru2020 - Genome-scale metabolic reconstruction and in silico analysis of rice leaf blight pathogen, Xanthomonas oryzae",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":8,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"15673718",
+"connType":"Direct",
+"cit":"Hence, we initially reconstructed a draft of the metabolic network of Xoo based on the genome annotations available in biochemical databases",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7060145/#__p7:~:text=Hence%2C%20we%20initially%20reconstructed%20a%20draft,genome%20annotations%20available%20in%20biochemical%20databases",
+"notes":"Reconstruction of the Xoo model"},
+{"PMID":"20615263",
+"connType":"Partial",
+"cit":"For example, an acylÿCoA thioester hydrolase ... required for DSF (and BDSF) synthesis was added based on the report that these quorumÿsensing molecules were produced by Xoo (He et al., 2010). ",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7060145/#__p7:~:text=For%20example%2C%20an%20acyl%E2%80%90CoA%20thioester%20hydrolase,by%20Xoo%20(He%20et%20al.%2C%202010).",
+"notes":"Only used one factor so a partial inheritance."},
+{"PMID":"11529561",
+"connType":"Partial",
+"cit":"dÿgalactonoÿ1,4ÿlactone hydroxyacylhydrolase ..., ÿÿglucosidase ..., and sucroseÿphosphate phosphatase ... reactions were included because uptake of galactose, maltose, and sucrose was observed (Tsuge et al., 2001).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7060145/#__p7:~:text=d%E2%80%90galactono%E2%80%901%2C4%E2%80%90lactone%20hydroxyacylhydrolase%20(http%3A%2F%2Fwww.chem.qmul.ac.uk%2Fiubmb%2Fenzyme%2FEC3%2F1%2F1%2F25.html)%2C%20%CE%B1%E2%80%90glucosidase%20(http%3A%2F%2Fwww.chem.qmul.ac.uk%2Fiubmb%2Fenzyme%2FEC3%2F2%2F1%2F20.html)%2C%20and,was%20observed%20(Tsuge%20et%20al.%2C%202001).",
+"notes":"Same here, some aspects included in child model. "}
+]},
 {"submissionID":
 ["MODEL1909260006",
 "MODEL1909260003",
