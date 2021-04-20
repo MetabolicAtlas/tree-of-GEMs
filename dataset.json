@@ -109,17 +109,21 @@
 {"submissionID":
 ["MODEL1507180025"],
 "articleInformation":
-{"PMID":"15378067"},
+{"PMID":"15378067",
+"DOI":"10.1038/nbt1010",
+"taxName":"",
+"taxSciName":"Mannheimia succiniciproducens",
+"taxID":""},
 "title":"The genome sequence of the capnophilic rumen bacterium Mannheimia succiniciproducens.",
 "misc":
 {"GS":0,
 "EB":0,
 "LW":0,
-"KL":0,
+"KL":1,
 "JY":0,
 "YL":0,
-"time":0,
-"status":"Not checked"},
+"time":6,
+"status":"Unfinshed"},
 "connection":
 []},
 {"submissionID":
@@ -147,17 +151,21 @@
 ["MODEL1507180066"],
 "articleInformation":
 {"PMID":"16204195",
-"doi":"10.1101/gr.3992505"},
+"doi":"10.1101/gr.3992505",
+"DOI":"10.1101/gr.3992505",
+"taxName":"",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":""},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae.",
 "misc":
 {"GS":0,
 "EB":0,
 "LW":0,
-"KL":0,
+"KL":1,
 "JY":0,
 "YL":1,
-"time":10,
-"status":"Finished"},
+"time":16,
+"status":"Unfinshed"},
 "connection":
 {"PMID":"12566402",
 "connType":"Direct",
@@ -167,10 +175,21 @@
 {"submissionID":
 ["MODEL1507180072"],
 "articleInformation":
-{"PMID":"16155945"},
+{"PMID":"16155945",
+"DOI":"10.1002/bit.20663",
+"taxName":"",
+"taxSciName":"Staphylococcus aureus",
+"taxID":""},
 "title":"In silico genome-scale reconstruction and validation of the Staphylococcus aureus metabolic network.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":5,
+"status":"Unfinshed"},
 "connection":
 []},
 {"submissionID":
@@ -329,12 +348,27 @@
 {"submissionID":
 ["MODEL1507180062"],
 "articleInformation":
-{"PMID":"17405177"},
+{"PMID":"17405177",
+"DOI":"10.1002/bit.21433",
+"taxName":"",
+"taxSciName":"Mannheimia succiniciproducens",
+"taxID":""},
 "title":"Genome-scale analysis of Mannheimia succiniciproducens metabolism.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":4,
+"status":"Unfinshed"},
 "connection":
-[]},
+{"PMID":"17405177",
+"connType":"Direct",
+"cit":"This newlyupdated model contains 313 more reactions and 167 moremetabolites than the small-scale model we reportedpreviously (Hong et al., 2004).",
+"citLink":"",
+"notes":"No citation link because access requires chalmers student account (wiley.com)"}},
 {"submissionID":
 ["MODEL1507180021"],
 "articleInformation":
@@ -360,10 +394,21 @@
 ["MODEL1507180006"],
 "articleInformation":
 {"PMID":"17922569",
-"doi":"10.1371/journal.pcbi.0030192"},
+"doi":"10.1371/journal.pcbi.0030192",
+"DOI":"10.1371/journal.pcbi.0030192",
+"taxName":"",
+"taxSciName":"Rhizobium etli",
+"taxID":""},
 "title":"Metabolic reconstruction and modeling of nitrogen fixation in Rhizobium etli.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":5,
+"status":"Unfinshed"},
 "connection":
 []},
 {"submissionID":
@@ -389,41 +434,113 @@
 {"submissionID":
 ["MODEL1507180013"],
 "articleInformation":
-{"PMID":"17573341"},
+{"PMID":"17573341",
+"DOI":"10.1074/jbc.M703759200",
+"taxName":"",
+"taxSciName":"Bacillus subtilis",
+"taxID":""},
 "title":"Genome-scale reconstruction of metabolic network in Bacillus subtilis based on high-throughput phenotyping and gene essentiality data.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":7,
+"status":"Unfinshed"},
 "connection":
-[]},
+[
+{
+"PMID":"11505383",
+"connType":"Direct",
+"cit":"For B. subtilis, a stoichiometric model consisting of around 35 reactions in the central metabolism and the purine metabolism has been constructed previously (13, 14).",
+"citLink":"",
+"notes":"No citation link, accuont required (JBC.org)"},
+{"PMID":"10099333",
+"connType":"Direct",
+"cit":"For B. subtilis, a stoichiometric model consisting of around 35 reactions in the central metabolism and the purine metabolism has been constructed previously (13, 14).",
+"citLink":"",
+"notes":"No citation link, accuont required (JBC.org)"}
+]},
 {"submissionID":
 ["MODEL1507180030"],
 "articleInformation":
-{"PMID":"18758767"},
+{"PMID":"18758767",
+"DOI":"10.1007/s00253-008-1654-4",
+"taxName":"",
+"taxSciName":"Clostridium acetobutylicum",
+"taxID":""},
 "title":"Genome-scale reconstruction and in silico analysis of the Clostridium acetobutylicum ATCC 824 metabolic network.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":15,
+"status":"Unfinshed"},
 "connection":
-[]},
+[
+{
+"PMID":"16418748",
+"connType":"Direct",
+"cit":"...and it was used as a guideline to build geneÿproteinÿreaction (GPR) relationships (Reed et al. 2006a).",
+"citLink":"https://link.springer.com/article/10.1007/s00253-008-1654-4#Sec3:~:text=and%20it%20was%20used%20as%20a,(GPR)%20relationships%20(Reed%20et%20al.%202006a).",
+"notes":"This may be part of a larger tree of about 15!"},
+{"PMID":"16169729",
+"connType":"Direct",
+"cit":"Information on most biochemical reactions was obtained from the BioSilico and KEGG databases and was used to develop the draft reconstruction as outlined in Francke et al. (2005).",
+"citLink":"https://link.springer.com/article/10.1007/s00253-008-1654-4#Sec3:~:text=Information%20on%20most%20biochemical%20reactions%20was,outlined%20in%20Francke%20et%20al.%20(2005).",
+"notes":"This may be a part of a tree of about 15!"}
+]},
 {"submissionID":
 ["MODEL1507180059"],
 "articleInformation":
 {"PMID":"18364711",
-"doi":"10.1038/msb.2008.15"},
+"doi":"10.1038/msb.2008.15",
+"DOI":"10.1038/msb.2008.15",
+"taxName":"",
+"taxSciName":"Leishmania major",
+"taxID":""},
 "title":"Systems analysis of metabolism in the pathogenic trypanosomatid Leishmania major.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":6,
+"status":"Unfinshed"},
 "connection":
 []},
 {"submissionID":
 ["MODEL1507180016"],
 "articleInformation":
 {"PMID":"18405346",
-"doi":"10.1186/1471-2164-9-163"},
+"doi":"10.1186/1471-2164-9-163",
+"DOI":"10.1186/1471-2164-9-163",
+"taxName":"",
+"taxSciName":"Aspergillus nidulans",
+"taxID":""},
 "title":"Analysis of Aspergillus nidulans metabolism at the genome-scale.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":12,
+"status":"Unfinshed"},
 "connection":
-[]},
+{"PMID":"12566402",
+"connType":"Direct",
+"cit":"For the purpose, we made use of the links between the metabolic models available for A. nidulans and S. cerevisiae, which enabled to transfer specific tools for the analysis of -omics data in yeast to A. nidulans. Thus, all the enzymes associated to the top 30 reporter metabolites (listed in Table ÿTable4)4) were identified through the metabolic reconstruction developed for A. nidulans. Based on the EC numbers of these enzymes, the corresponding ORFs in S. cerevisiae were retrieved via a genome-scale metabolic model previously developed for yeast [22].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386489/#__p35:~:text=For%20the%20purpose%2C%20we%20made%20use,model%20previously%20developed%20for%20yeast%20%5B22%5D.",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180056"],
 "articleInformation":
@@ -471,20 +588,46 @@
 ["MODEL1507180044"],
 "articleInformation":
 {"PMID":"18974823",
-"doi":"10.1371/journal.pcbi.1000210"},
+"doi":"10.1371/journal.pcbi.1000210",
+"DOI":"10.1371/journal.pcbi.1000210",
+"taxName":"",
+"taxSciName":"Pseudomonas putida",
+"taxID":""},
 "title":"Genome-scale reconstruction and analysis of the Pseudomonas putida KT2440 metabolic network facilitates applications in biotechnology.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":9,
+"status":"Unfinshed"},
 "connection":
-[]},
+{"PMID":"12534463",
+"connType":"Direct",
+"cit":"The main sources of information regarding the composition of the metabolic network of Pseudomonas putida KT2440 were various biological databases. Most of the information came from the Kyoto Encyclopedia of Genes and Genomes (KEGG) [35],[81] and Pseudomonas Genome Database (PGD) [82]. Information regarding P. putida contained in these two databases is mainly based on the published genome annotation of the bacterium [14], so there is a large overlap between them.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563689/#__p84:~:text=The%20main%20sources%20of%20information%20regarding,is%20a%20large%20overlap%20between%20them.",
+"notes":"Direct connection reffers to reference [14]"}},
 {"submissionID":
 ["MODEL1507180047"],
 "articleInformation":
 {"PMID":"18364712",
-"doi":"10.1038/msb.2008.12"},
+"doi":"10.1038/msb.2008.12",
+"DOI":"10.1038/msb.2008.12",
+"taxName":"",
+"taxSciName":"Aspergillus niger",
+"taxID":""},
 "title":"Metabolic model integration of the bibliome, genome, metabolome and reactome of Aspergillus niger.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":1,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Unfinshed"},
 "connection":
 []},
 {"submissionID":
