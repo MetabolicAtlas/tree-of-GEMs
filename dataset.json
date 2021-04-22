@@ -1193,7 +1193,14 @@
 {"PMID":"20491062"},
 "title":"A genome-scale metabolic model of Cryptosporidium hominis.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":5,
+"status":"Not checked"},
 "connection":
 []},
 {"submissionID":
@@ -1203,9 +1210,38 @@
 "doi":"10.1186/1475-2859-9-50"},
 "title":"Genome-scale metabolic reconstruction and in silico analysis of methylotrophic yeast Pichia pastoris for strain improvement.",
 "misc":
-[],
+{"GS":0,
+"EB":1,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":8,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"19321003",
+"connType":"Direct",
+"cit":"The reconstructed metabolic model of P. pastoris, iPP668, accounts for 668 metabolic genes, 1,361 reactions and 1,177 metabolites segregated into 8 compartments: cytosol, endoplasmic reticulum, extracellular matrix, Golgi apparatus, mitochondria, nucleus, peroxisome and vacuole as summarized in Table 1",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908565/#__p10:~:text=The%20reconstructed%20metabolic%20model%20of%20P.,peroxisome%20and%20vacuole%20as%20summarized%20in",
+"notes":"In table is says that the content comes from two yeast GEMs, which is the parents in this connection. The parent article covers both of these."},
+{"PMID":"12566402",
+"connType":"Partial",
+"cit":"the composition of the individual RNA is assumed to be similar to that of S. cerevisiae [36]",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908565/#__p15:~:text=the%20composition%20of%20the%20individual%20RNA%20is%20assumed%20to%20be%20similar%20to%20that%20of%20S.%20cerevisiae%20%5B36%5D",
+"notes":"Only partial because only states similarities between parent and child."},
+{"PMID":"11745174",
+"connType":"Partial",
+"cit":"NGAM requirement (2.3 mmol ATP/gDCW-hr) was estimated from our chemostat data whereas we defined P/O ratio (1.48 mol ATP/mol O) based on previous studies [39,40].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908565/#__p20:~:text=NGAM%20requirement%20(2.3%20mmol%20ATP%2FgDCW%2Dhr)%20was,O)%20based%20on%20previous%20studies%20%5B39%2C40%5D.",
+"notes":""},
+{"PMID":"17185557",
+"connType":"Partial",
+"cit":"Another set of chemostat culture data [38] also allowed us to evaluate the fidelity of physiological predictions under the glycerol/methanol mixed media condition.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2908565/#__p22:~:text=Another%20set%20of%20chemostat%20culture%20data,under%20the%20glycerol%2Fmethanol%20mixed%20media%20condition.",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1507180005"],
 "articleInformation":
