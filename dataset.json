@@ -1567,32 +1567,93 @@
 ["MODEL1507180010"],
 "articleInformation":
 {"PMID":"21208457",
-"doi":"10.1186/1471-2164-12-9"},
+"doi":"10.1186/1471-2164-12-9",
+"DOI":"10.1186/1471-2164-12-9",
+"taxName":"E.coli W",
+"taxSciName":"Escherichia coli W",
+"taxID":"566546"},
 "title":"The genome sequence of E. coli W (ATCC 9637): comparative genome analysis and an improved genome-scale reconstruction of E. coli.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":1,
+"time":0,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"16689791",
+"connType":"Direct",
+"cit":"Phylogenetic analysis was performed using the gene concatenation method [36].",
+"citLink":"https://europepmc.org/article/med/21208457#id516421:~:text=Phylogenetic%20analysis%20was%20performed%20using%20the%20gene%20concatenation%20method%20%5B36%5D.",
+"notes":""},
+{"PMID":"18698408",
+"connType":"Direct",
+"cit":"This is the case in W, which contains two T6SSs. The structure of the first gene cluster is homologous to the system previously described in E. coli O157:H7 Sakai [107]. ",
+"citLink":"https://europepmc.org/article/med/21208457#id533789:~:text=This%20is%20the%20case%20in%20W%2C,E.%20coli%20O157%3AH7%20Sakai%20%5B107%5D.%20It",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1507180040"],
 "articleInformation":
 {"PMID":"22139506",
-"doi":"10.1128/JB.06040-11"},
+"doi":"10.1128/JB.06040-11",
+"DOI":"10.1128/jb.06040-11 ",
+"taxName":"",
+"taxSciName":"Methanosarcina acetivorans C2A",
+"taxID":"188937"},
 "title":"Genome-scale metabolic reconstruction and hypothesis testing in the methanogenic archaeon Methanosarcina acetivorans C2A.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":1,
+"time":15,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"16738551",
+"connType":"Direct",
+"cit":"The biomass reaction for Methanosarcina acetivorans strain C2A was modified from that of the closest relative for which a biomass reaction had previously been built, Methanosarcina barkeri strain Fusaro (19). ",
+"citLink":"https://europepmc.org/article/med/22139506#id755235:~:text=The%20biomass%20reaction%20for%20Methanosarcina%20acetivorans,Methanosarcina%20barkeri%20strain%20Fusaro%20(19).%20This",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180026"],
 "articleInformation":
 {"PMID":"22998943",
-"doi":"10.1186/1754-6834-5-72"},
+"doi":"10.1186/1754-6834-5-72",
+"DOI":"10.1186/1754-6834-5-72 ",
+"taxName":"budding yeasts",
+"taxSciName":"Scheffersomyces stipitis ",
+"taxID":"4924"},
 "title":"A constraint-based model of Scheffersomyces stipitis for improved ethanol production.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":0,
+"YL":1,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"18588132",
+"connType":"Direct",
+"cit":"Previous study of xylose utilization in S. stipitis was mainly focused on the illustration of transport mechanism and metabolic pathway [36,37]. ",
+"citLink":"https://europepmc.org/article/med/22998943#id353160:~:text=Previous%20study%20of%20xylose%20utilization%20in,mechanism%20and%20metabolic%20pathway%20%5B36%2C37%5D.%20In",
+"notes":""},
+{"PMID":"20714641",
+"connType":"Direct",
+"cit":"In the model iTL885, seven putative high-affinity xylose transporters (XUT1-7) were annotated, and one of them (XUT1) has been biochemically characterized from S. stipitis[38].",
+"citLink":"https://europepmc.org/article/med/22998943#id353160:~:text=In%20the%20model%20iTL885%2C%20seven%20putative,been%20biochemically%20characterized%20from%20S.%20stipitis%5B38%5D.",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1507180039"],
 "articleInformation":
