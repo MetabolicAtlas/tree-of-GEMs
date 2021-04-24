@@ -1657,12 +1657,27 @@
 {"submissionID":
 ["MODEL1507180039"],
 "articleInformation":
-{"PMID":"22728423"},
+{"PMID":"22728423",
+"DOI":"10.1016/j.jbiotec.2012.05.015",
+"taxName":"K. vulgare WSH001",
+"taxSciName":"Ketogulonicigenium vulgare WSH001",
+"taxID":"759362"},
 "title":"Reconstruction and analysis of a genome-scale metabolic model of the vitamin C producing industrial strain Ketogulonicigenium vulgare WSH-001.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"12952533",
+"connType":"Direct",
+"cit":"Following the above protocols, a genome-scale metabolic model for K. vulgare WSH001, named iWZ663 (Reed et al., 2003), was reconstructed.",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S0168165612003045?via%3Dihub#par0100:~:text=Following%20the%20above%20protocols%2C%20a%20genome%2Dscale,(Reed%20et%20al.%2C%202003)%2C%20was%20reconstructed.",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180061"],
 "articleInformation":
@@ -1999,6 +2014,19 @@
 "articleInformation":
 {"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3"},
 "title":"Integrative computational approach identifies drug targets in CD4+ T-cell-mediated immune disorders",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"22728423",
+"DOI":"10.1016/j.jbiotec.2012.05.015",
+"taxName":"K. vulgare WSH001",
+"taxSciName":" Ketogulonicigenium vulgare WSH-001",
+"taxID":"759362"},
+"title":"Reconstruction and analysis of a genome-scale metabolic model of the vitamin C producing industrial strain Ketogulonicigenium vulgare WSH-001",
 "misc":
 [],
 "connection":
