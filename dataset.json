@@ -1693,27 +1693,12 @@
 "MODEL1507180022"],
 "articleInformation":
 {"PMID":"22472172",
-"doi":"10.1186/1752-0509-6-24",
-"DOI":"10.1186/1752-0509-6-24",
-"taxName":"",
-"taxSciName":"Pichia",
-"taxID":" 4919 "},
+"doi":"10.1186/1752-0509-6-24"},
 "title":"Genome-scale metabolic reconstructions of Pichia stipitis and Pichia pastoris and in silico evaluation of their potentials.",
 "misc":
-{"GS":0,
-"EB":0,
-"LW":1,
-"KL":0,
-"JY":0,
-"YL":0,
-"time":10,
-"status":"Not checked"},
+[],
 "connection":
-{"PMID":"18687109",
-"connType":"Partial",
-"cit":"The iIN800 GEM of S. cerevisiae was used as reference framework because of its accurate annotation of fatty acid metabolism",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364918/#__p8:~:text=The%20iIN800%20GEM%20of%20S.%20cerevisiae,accurate%20annotation%20of%20fatty%20acid%20metabolism",
-"notes":""}},
+[]},
 {"submissionID":
 ["MODEL1507180046"],
 "articleInformation":
@@ -1824,55 +1809,12 @@
 "MODEL1604280048"],
 "articleInformation":
 {"PMID":"27895706",
-"doi":"10.1186/s13068-016-0665-0",
-"DOI":"10.1186/s13068-016-0665-0",
-"taxName":"",
-"taxSciName":"Trichoderma reesei",
-"taxID":"51453"},
+"doi":"10.1186/s13068-016-0665-0"},
 "title":"Whole-genome metabolic model of Trichoderma reesei built by comparative reconstruction.",
 "misc":
-{"GS":0,
-"EB":0,
-"LW":1,
-"KL":0,
-"JY":0,
-"YL":0,
-"time":15,
-"status":"Not checked"},
+[],
 "connection":
-[
-{
-"PMID":"18846089",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included",
-"notes":""},
-{"PMID":"18364712",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included",
-"notes":""},
-{"PMID":"18500999",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included.",
-"notes":""},
-{"PMID":"18405346",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included",
-"notes":""},
-{"PMID":"22472172",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included",
-"notes":""},
-{"PMID":"23555215",
-"connType":"Direct",
-"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#__p18:~:text=For%20the%20purpose%20of%20reconstructing%20models,Penicillium%20chrysogenum%20(iAL1006)%20%5B20%5D%20were%20included",
-"notes":""}
-]},
+[]},
 {"submissionID":
 ["MODEL1603030000"],
 "articleInformation":
@@ -1895,12 +1837,36 @@
 {"submissionID":
 ["MODEL2102080001"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1098/rstb.2016.0404"},
+{"PMID":"http://identifiers.org/doi/10.1098/rstb.2016.0404",
+"DOI":"https://doi.org/10.1098/rstb.2016.0404",
+"taxName":"P. tricornutum",
+"taxSciName":"Phaeodactylum tricornutum",
+"taxID":"556484"},
 "title":"Investigating mixotrophic metabolism in the model diatom\t\t            Phaeodactylum tricornutum",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":18,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":" 26614658",
+"connType":"Direct",
+"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31],
+",
+"citLink":"https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0404#d3e1145:~:text=A%20genome%2Dscale%20metabolic%20model%20(GSM)%20of%20P.%20tricornutum%20was%20developed%20as%20described%20in%20%5B31%5D%2C",
+"notes":""},
+{"PMID":"24497502",
+"connType":"Direct",
+"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31], starting from the model of [32]. ",
+"citLink":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31], starting from the model of [32]. ",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1703310000"],
 "articleInformation":
@@ -2113,6 +2079,19 @@
 "taxSciName":"Escherichia coli ",
 "taxID":"562"},
 "title":"Model-assisted metabolic engineering of Escherichia coli for long chain alkane and alcohol production",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"",
+"DOI":"https://doi.org/10.1098/rstb.2016.0404",
+"taxName":"P. tricornutum CCAP 1055/1",
+"taxSciName":"Phaeodactylum tricornutum CCAP 1055/1",
+"taxID":"556484"},
+"title":"Investigating mixotrophic metabolism in the model diatom Phaeodactylum tricornutum",
 "misc":
 [],
 "connection":
