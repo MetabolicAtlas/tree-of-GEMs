@@ -2003,12 +2003,27 @@
 "MODEL2010230001",
 "MODEL2010230002"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1101/2020.10.26.355578"},
+{"PMID":"http://identifiers.org/doi/10.1101/2020.10.26.355578",
+"DOI":"10.1371/journal.pone.0241960",
+"taxName":"T. pseudonana",
+"taxSciName":"Thalassiosira pseudonana CCMP 1335",
+"taxID":"296543"},
 "title":"Genome-scale metabolic model of the diatom Thalassiosira pseudonana highlights the importance of nitrogen and sulfur metabolism in redox balance",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":15,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"27152931",
+"connType":"Direct",
+"cit":"A genome-scale metabolic model of Thalassiosira pseudonana CCMP 1335 was generated using iLB1027_lipid (the model of Phaeodactylum tricornutum CCAP 1055/1, [27]) as a starting point, based on similarities between the two diatoms.",
+"citLink":"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0241960#article1.body1.sec2.sec1.p1:~:text=A%20genome%2Dscale%20metabolic%20model%20of%20Thalassiosira%20pseudonana%20CCMP,similarities%20between%20the%20two%20diatoms.%20The",
+"notes":""}},
 {"submissionID":
 ["MODEL2003240001"],
 "articleInformation":
@@ -2147,6 +2162,19 @@
 "taxSciName":"Clastoptera proteus",
 "taxID":"295197"},
 "title":"Syntrophic splitting of central carbon metabolism in host cells bearing functionally different symbiotic bacteria",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"33760840",
+"DOI":"10.1371/journal.pone.0241960",
+"taxName":"T. pseudonana",
+"taxSciName":"Thalassiosira pseudonana CCMP1335",
+"taxID":"296543"},
+"title":"Genome-scale metabolic model of the diatom Thalassiosira pseudonana highlights the importance of nitrogen and sulfur metabolism in redox balance",
 "misc":
 [],
 "connection":
