@@ -1857,8 +1857,7 @@
 {
 "PMID":" 26614658",
 "connType":"Direct",
-"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31],
-",
+"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31],\n",
 "citLink":"https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0404#d3e1145:~:text=A%20genome%2Dscale%20metabolic%20model%20(GSM)%20of%20P.%20tricornutum%20was%20developed%20as%20described%20in%20%5B31%5D%2C",
 "notes":""},
 {"PMID":"24497502",
@@ -1952,12 +1951,27 @@
 "MODEL1907260014",
 "MODEL1907260009"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1016/j.ymben.2020.06.002"},
+{"PMID":"http://identifiers.org/doi/10.1016/j.ymben.2020.06.002",
+"DOI":"https://doi.org/10.1016/j.ymben.2020.06.002",
+"taxName":"Chinese hamster",
+"taxSciName":"Cricetulus barabensis griseus",
+"taxID":"10029"},
 "title":"What CHO is made of: Variations in the biomass composition of Chinese hamster ovary cell lines",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":20,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"27883890",
+"connType":"Direct",
+"cit":"Recently, a community-driven, consensus genome-scale metabolic model of CHO cells became available (Hefzi et al., 2016). ",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S1096717620301014?via%3Dihub#p0255:~:text=Recently%2C%20a%20community%2Ddriven%2C%20consensus%20genome%2Dscale%20metabolic,available%20(Hefzi%20et%20al.%2C%202016).%20A",
+"notes":""}},
 {"submissionID":
 ["MODEL1908040004",
 "MODEL1908040002",
@@ -2092,6 +2106,19 @@
 "taxSciName":"Phaeodactylum tricornutum CCAP 1055/1",
 "taxID":"556484"},
 "title":"Investigating mixotrophic metabolism in the model diatom Phaeodactylum tricornutum",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"32619503",
+"DOI":"https://doi.org/10.1016/j.ymben.2020.06.002",
+"taxName":"Chinese hamster",
+"taxSciName":"Cricetulus griseus",
+"taxID":"10029"},
+"title":"What CHO is made of: Variations in the biomass composition of Chinese hamster ovary cell lines",
 "misc":
 [],
 "connection":
