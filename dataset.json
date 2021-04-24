@@ -1892,12 +1892,27 @@
 {"submissionID":
 ["MODEL1802080001"],
 "articleInformation":
-{"PMID":"29408291"},
+{"PMID":"29408291",
+"DOI":"10.1016/j.ymben.2018.01.002",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli",
+"taxID":"562"},
 "title":"Model-assisted metabolic engineering of Escherichia coli for long chain alkane and alcohol production.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":20,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"19755544",
+"connType":"Direct",
+"cit":"The model was built according to our standard approach as an assembly of modules as previously described (Hartman et al., 2014, Poolman et al., 2009). ",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S109671761730366X?via%3Dihub#p0055:~:text=The%20model%20was%20built%20according%20to,al.%2C%202014%2C%20Poolman%20et%20al.%2C%202009).",
+"notes":""}},
 {"submissionID":
 ["MODEL1907260013",
 "MODEL1907260006",
@@ -2027,6 +2042,19 @@
 "taxSciName":" Ketogulonicigenium vulgare WSH-001",
 "taxID":"759362"},
 "title":"Reconstruction and analysis of a genome-scale metabolic model of the vitamin C producing industrial strain Ketogulonicigenium vulgare WSH-001",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"29408291",
+"DOI":"10.1016/j.ymben.2018.01.002",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli ",
+"taxID":"562"},
+"title":"Model-assisted metabolic engineering of Escherichia coli for long chain alkane and alcohol production",
 "misc":
 [],
 "connection":
