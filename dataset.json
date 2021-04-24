@@ -2028,12 +2028,35 @@
 ["MODEL2003240001"],
 "articleInformation":
 {"PMID":"32444627",
-"doi":"10.1038/s41467-020-16484-2"},
+"doi":"10.1038/s41467-020-16484-2",
+"DOI":"10.1038/s41467-020-16484-2",
+"taxName":"S. meliloti  1021",
+"taxSciName":"Sinorhizobium meliloti 1021",
+"taxID":"266834"},
 "title":"Genome-scale metabolic reconstruction of the symbiosis between a leguminous plant and a nitrogen-fixing bacterium.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":30,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"29672509",
+"connType":"Direct",
+"cit":"Concerning S. meliloti, we started from the existing core metabolic reconstruction iGD72634, ",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244743/#Par37:~:text=Concerning%20S.%20meliloti%2C%20we%20started%20from%20the%20existing%20core%20metabolic%20reconstruction%20iGD72634%2C%20which",
+"notes":""},
+{"PMID":"30131500",
+"connType":"Direct",
+"cit":"In terms of the M. truncatula reconstruction, a recently published reconstruction40 was used in this work.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7244743/#Par37:~:text=In%20terms%20of%20the%20M.%20truncatula,reconstruction40%20was%20used%20in%20this%20work.",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL2003100001"],
 "articleInformation":
@@ -2175,6 +2198,32 @@
 "taxSciName":"Thalassiosira pseudonana CCMP1335",
 "taxID":"296543"},
 "title":"Genome-scale metabolic model of the diatom Thalassiosira pseudonana highlights the importance of nitrogen and sulfur metabolism in redox balance",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"32444627",
+"DOI":"10.1038/s41467-020-16484-2",
+"taxName":"S. meliloti 1021",
+"taxSciName":"Sinorhizobium meliloti 1021",
+"taxID":"266834"},
+"title":"Genome-scale metabolic reconstruction of the symbiosis between a leguminous plant and a nitrogen-fixing bacterium",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"32444627",
+"DOI":"10.1038/s41467-020-16484-2",
+"taxName":"M. truncatula",
+"taxSciName":"Medicago truncatula",
+"taxID":"3880"},
+"title":"Genome-scale metabolic reconstruction of the symbiosis between a leguminous plant and a nitrogen-fixing bacterium",
 "misc":
 [],
 "connection":
