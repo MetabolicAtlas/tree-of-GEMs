@@ -1693,12 +1693,27 @@
 "MODEL1507180022"],
 "articleInformation":
 {"PMID":"22472172",
-"doi":"10.1186/1752-0509-6-24"},
+"doi":"10.1186/1752-0509-6-24",
+"DOI":"10.1186/1752-0509-6-24",
+"taxName":"",
+"taxSciName":"Pichia",
+"taxID":" 4919 "},
 "title":"Genome-scale metabolic reconstructions of Pichia stipitis and Pichia pastoris and in silico evaluation of their potentials.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"18687109",
+"connType":"Partial",
+"cit":"The iIN800 GEM of S. cerevisiae was used as reference framework because of its accurate annotation of fatty acid metabolism",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3364918/#__p8:~:text=The%20iIN800%20GEM%20of%20S.%20cerevisiae,accurate%20annotation%20of%20fatty%20acid%20metabolism",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180046"],
 "articleInformation":
