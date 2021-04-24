@@ -1977,12 +1977,27 @@
 "MODEL1908040002",
 "MODEL1908040003"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1038/s41396-020-0661-z"},
+{"PMID":"http://identifiers.org/doi/10.1038/s41396-020-0661-z",
+"DOI":"10.1038/s41396-020-0661-z",
+"taxName":"Dogwood Spittlebug",
+"taxSciName":"Clastoptera proteus",
+"taxID":"295197"},
 "title":"Syntrophic splitting of central carbon metabolism in host cells bearing functionally different symbiotic bacteria",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":20,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"30254121",
+"connType":"Direct",
+"cit":" we collated published metabolic models of three xylem-feeding insects (spittlebugs, cicadas, and sharpshooters) [15]",
+"citLink":"https://www.nature.com/articles/s41396-020-0661-z#Sec10:~:text=%2C%20we%20collated%20published%20metabolic%20models,insects%20(spittlebugs%2C%20cicadas%2C%20and%20sharpshooters)%20%5B15%5D",
+"notes":""}},
 {"submissionID":
 ["MODEL2010230003",
 "MODEL2010230001",
@@ -2119,6 +2134,19 @@
 "taxSciName":"Cricetulus griseus",
 "taxID":"10029"},
 "title":"What CHO is made of: Variations in the biomass composition of Chinese hamster ovary cell lines",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":" 32350409",
+"DOI":"10.1038/s41396-020-0661-z",
+"taxName":"Dogwood Spittlebug",
+"taxSciName":"Clastoptera proteus",
+"taxID":"295197"},
+"title":"Syntrophic splitting of central carbon metabolism in host cells bearing functionally different symbiotic bacteria",
 "misc":
 [],
 "connection":
