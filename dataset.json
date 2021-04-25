@@ -1828,12 +1828,30 @@
 {"submissionID":
 ["MODEL2010130001"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1038/s41598-017-10743-x"},
+{"PMID":"http://identifiers.org/doi/10.1038/s41598-017-10743-x",
+"DOI":"10.1038/s41598-017-10743-x",
+"taxName":"",
+"taxSciName":"Leishmania infantum",
+"taxID":"435258"},
 "title":"Revealing the mystery of metabolic adaptations using a genome scale model of Leishmania infantum",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":15,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"26367006",
+"connType":"Direct",
+"cit":
+["A previously established strategy standardized for reconstruction of L. infantum energy          ",
+"metabolic network1 30 , was used for iAS556 model reconstruction. Further, the iAS142 L. infantum",
+"energy metabolic network1 31 was expanded to include the entire genome-scale metabolism.         "],
+"citLink":"A previously established strategy standardized for reconstruction of L. infantum energy metabolic network1 30 , was used for iAS556 model reconstruction. Further, the iAS142 L. infantum energy metabolic network1 31 was expanded to include the entire genome-scale metabolism. ",
+"notes":"The connection was found in the supplementary information of the article. The citation link is taken from this supplementary information as well. "}},
 {"submissionID":
 ["MODEL2102080001"],
 "articleInformation":
