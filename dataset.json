@@ -2078,12 +2078,27 @@
 {"submissionID":
 ["MODEL2003100001"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1128/mSystems.00698-19"},
+{"PMID":"32234775",
+"DOI":"10.1128/mSystems.00698-19",
+"taxName":"",
+"taxSciName":"Xylella fastidiosa",
+"taxID":"2371"},
 "title":"Genome-Scale Investigation of the Metabolic Determinants Generating Bacterial Fastidious Growth",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":10,
+"status":"Not checked"},
 "connection":
-[]},
+{"PMID":"27732672",
+"connType":"Direct",
+"cit":"We built a genome-scale metabolic network of X. fastidiosa using in-house automatic reconstruction algorithms from the genomic sequence of Xylella fastidiosa subsp. multiplex strain CFBP 8418",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7112962/#__p7:~:text=We%20built%20a%20genome%2Dscale%20metabolic%20network,8418%20isolated%20in%202015%20in%20Corsica",
+"notes":""}},
 {"submissionID":
 ["MODEL2001310002"],
 "articleInformation":
