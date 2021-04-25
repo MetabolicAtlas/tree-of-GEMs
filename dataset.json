@@ -2069,12 +2069,35 @@
 {"submissionID":
 ["MODEL2001310002"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1128/mBio.00402-20"},
+{"PMID":"http://identifiers.org/doi/10.1128/mBio.00402-20",
+"DOI":"10.1128/mBio.00402-20",
+"taxName":"Hamiltonella",
+"taxSciName":"Candidatus Hamiltonella defensa",
+"taxID":"138072"},
 "title":"Impact of Facultative Bacteria on the Metabolic Function of an Obligate Insect-Bacterial Symbiosis",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":30,
+"status":"Not checked"},
 "connection":
-[]},
+[
+{
+"PMID":"28348026",
+"connType":"Direct",
+"cit":"The first identified gene orthologs in the Hamiltonella defensa genome (NCBI JAABOV000000000) and Escherichia coli strain K-12 substrain MG1655 by reciprocal BLAST searches and then manually extracted reactions encoded by these genes from E. coli strain K-12 substrain MG1655 metabolic model iML1515 (79) to create a draft model, as previously described (41).",
+"citLink":"https://mbio.asm.org/content/11/4/e00402-20#p-57:~:text=The%20first%20identified%20gene%20orthologs%20in,draft%20model%2C%20as%20previously%20described%20(41).",
+"notes":""},
+{"PMID":"20802497",
+"connType":"Direct",
+"cit":"The second draft reconstruction was generated from the automated reconstruction pipeline ModelSEED (80) using a RAST (81) reannotated Hamiltonella defensa genome as input. ",
+"citLink":"https://mbio.asm.org/content/11/4/e00402-20#p-57:~:text=The%20second%20draft%20reconstruction%20was%20generated,Hamiltonella%20defensa%20genome%20as%20input.%20The",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1912100001"],
 "articleInformation":
@@ -2224,6 +2247,19 @@
 "taxSciName":"Medicago truncatula",
 "taxID":"3880"},
 "title":"Genome-scale metabolic reconstruction of the symbiosis between a leguminous plant and a nitrogen-fixing bacterium",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"32665268",
+"DOI":"10.1128/mBio.00402-20",
+"taxName":"Hamiltonella defensa",
+"taxSciName":" Candidatus Hamiltonella defensa",
+"taxID":"138072"},
+"title":"Impact of Facultative Bacteria on the Metabolic Function of an Obligate Insect-Bacterial Symbiosis",
 "misc":
 [],
 "connection":
