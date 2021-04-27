@@ -1629,10 +1629,10 @@
 "JY":0,
 "YL":1,
 "time":15,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"16738551",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The biomass reaction for Methanosarcina acetivorans strain C2A was modified from that of the closest relative for which a biomass reaction had previously been built, Methanosarcina barkeri strain Fusaro (19). ",
 "citLink":"https://europepmc.org/article/med/22139506#id755235:~:text=The%20biomass%20reaction%20for%20Methanosarcina%20acetivorans,Methanosarcina%20barkeri%20strain%20Fusaro%20(19).%20This",
 "notes":""}},
