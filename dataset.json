@@ -1888,9 +1888,9 @@
 "connection":
 [
 {
-"PMID":" 26614658",
+"PMID":"26614658",
 "connType":"Direct",
-"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31],\n",
+"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31], ",
 "citLink":"https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0404#d3e1145:~:text=A%20genome%2Dscale%20metabolic%20model%20(GSM)%20of%20P.%20tricornutum%20was%20developed%20as%20described%20in%20%5B31%5D%2C",
 "notes":""},
 {"PMID":"24497502",
@@ -1941,7 +1941,7 @@
 "status":"Not checked"},
 "connection":
 {"PMID":"28687644",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The growth on different sugars was compared with predictions from the A. muciniphila model as presented before (Ottman et al., 2017a). ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902328/#__p26:~:text=The%20growth%20on%20different%20sugars%20was,presented%20before%20(Ottman%20et%20al.%2C%202017a).",
 "notes":""}},
