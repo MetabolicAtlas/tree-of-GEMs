@@ -389,8 +389,8 @@
 {"PMID":"17405177",
 "connType":"Direct",
 "cit":"This newlyupdated model contains 313 more reactions and 167 moremetabolites than the small-scale model we reportedpreviously (Hong et al., 2004).",
-"citLink":"https://onlinelibrary.wiley.com/doi/epdf/10.1002/bit.21433",
-"notes":""}},
+"citLink":"",
+"notes":"No citation link because access requires chalmers student account (wiley.com)"}},
 {"submissionID":
 ["MODEL1507180021"],
 "articleInformation":
@@ -407,10 +407,10 @@
 "time":20,
 "status":"Not checked"},
 "connection":
-{"PMID":"15930493",
+{"PMID":"10364169",
 "connType":"Direct",
-"cit":"The GSMN of Streptomyces coelicolor [21] was used as a starting point in the iterative model building process. ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1929162/#__p10:~:text=The%20GSMN%20of%20Streptomyces%20coelicolor%20%5B21%5D,in%20the%20iterative%20model%20building%20process.",
+"cit":"Whole-genome metabolic network models of sequenced micro-organisms such as Haemophilus influenzae [12], Escherichia coli [13], Helicobacter pylori [14], and Saccharomyces cerevisiae [15] have proven to be useful in hypothesis generation and correction of errors in genome annotation, and have also been successful in predicting phenotypic behavior. These models, interrogated with various constraint-based computer simulation methods such as flux balance analysis (FBA) [16], elementary flux modes [17], or extreme pathways [18], provided information on the robustness of the metabolic networks and identified vulnerable pathways that may be targeted with novel drugs [19].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1929162/#__p8:~:text=Whole%2Dgenome%20metabolic%20network%20models%20of%20sequenced,be%20targeted%20with%20novel%20drugs%20%5B19%5D.",
 "notes":""}},
 {"submissionID":
 ["MODEL1507180006"],
@@ -449,7 +449,11 @@
 "time":3,
 "status":"Not checked"},
 "connection":
-[]},
+{"PMID":"10710307",
+"connType":"Direct",
+"cit":"The available genome sequence of MenB [21] and its annotation in the Kyoto Encyclopedia of Genes and Genomes (KEGG) database [22] was taken as starting point for model construction.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2323225/#__p13:~:text=The%20available%20genome%20sequence%20of%20MenB,as%20starting%20point%20for%20model%20construction.",
+"notes":"Based on parent, but child is a more simplified model."}},
 {"submissionID":
 ["MODEL1507180001"],
 "articleInformation":
@@ -486,7 +490,19 @@
 "time":7,
 "status":"Unfinshed"},
 "connection":
-[]},
+[
+{
+"PMID":"11505383",
+"connType":"Direct",
+"cit":"For B. subtilis, a stoichiometric model consisting of around 35 reactions in the central metabolism and the purine metabolism has been constructed previously (13, 14).",
+"citLink":"",
+"notes":"No citation link, accuont required (JBC.org)"},
+{"PMID":"10099333",
+"connType":"Direct",
+"cit":"For B. subtilis, a stoichiometric model consisting of around 35 reactions in the central metabolism and the purine metabolism has been constructed previously (13, 14).",
+"citLink":"",
+"notes":"No citation link, accuont required (JBC.org)"}
+]},
 {"submissionID":
 ["MODEL1507180030"],
 "articleInformation":
@@ -506,7 +522,19 @@
 "time":15,
 "status":"Unfinshed"},
 "connection":
-[]},
+[
+{
+"PMID":"16418748",
+"connType":"Direct",
+"cit":"...and it was used as a guideline to build geneÿproteinÿreaction (GPR) relationships (Reed et al. 2006a).",
+"citLink":"https://link.springer.com/article/10.1007/s00253-008-1654-4#Sec3:~:text=and%20it%20was%20used%20as%20a,(GPR)%20relationships%20(Reed%20et%20al.%202006a).",
+"notes":"This may be part of a larger tree of about 15!"},
+{"PMID":"16169729",
+"connType":"Direct",
+"cit":"Information on most biochemical reactions was obtained from the BioSilico and KEGG databases and was used to develop the draft reconstruction as outlined in Francke et al. (2005).",
+"citLink":"https://link.springer.com/article/10.1007/s00253-008-1654-4#Sec3:~:text=Information%20on%20most%20biochemical%20reactions%20was,outlined%20in%20Francke%20et%20al.%20(2005).",
+"notes":"This may be a part of a tree of about 15!"}
+]},
 {"submissionID":
 ["MODEL1507180059"],
 "articleInformation":
@@ -548,24 +576,11 @@
 "time":12,
 "status":"Unfinshed"},
 "connection":
-[
-{
-"PMID":"14622289",
-"connType":"Direct",
-"cit":"For the purpose, we reconstructed the central metabolic network of A. nidulans, based on detailed metabolic reconstructions of other eukaryotes, namely A. niger [21], Saccharomyces cerevisiae [22], and Mus musculus [23].",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386489/#__p10:~:text=For%20the%20purpose%2C%20we%20reconstructed%20the,cerevisiae%20%5B22%5D%2C%20and%20Mus%20musculus%20%5B23%5D.",
-"notes":""},
 {"PMID":"12566402",
 "connType":"Direct",
-"cit":"For the purpose, we reconstructed the central metabolic network of A. nidulans, based on detailed metabolic reconstructions of other eukaryotes, namely A. niger [21], Saccharomyces cerevisiae [22], and Mus musculus [23]. ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386489/#__p10:~:text=For%20the%20purpose%2C%20we%20reconstructed%20the,cerevisiae%20%5B22%5D%2C%20and%20Mus%20musculus%20%5B23%5D.",
-"notes":""},
-{"PMID":"15903248",
-"connType":"Direct",
-"cit":"For the purpose, we reconstructed the central metabolic network of A. nidulans, based on detailed metabolic reconstructions of other eukaryotes, namely A. niger [21], Saccharomyces cerevisiae [22], and Mus musculus [23]. ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386489/#__p10:~:text=For%20the%20purpose%2C%20we%20reconstructed%20the,cerevisiae%20%5B22%5D%2C%20and%20Mus%20musculus%20%5B23%5D.",
-"notes":""}
-]},
+"cit":"For the purpose, we made use of the links between the metabolic models available for A. nidulans and S. cerevisiae, which enabled to transfer specific tools for the analysis of -omics data in yeast to A. nidulans. Thus, all the enzymes associated to the top 30 reporter metabolites (listed in Table ÿTable4)4) were identified through the metabolic reconstruction developed for A. nidulans. Based on the EC numbers of these enzymes, the corresponding ORFs in S. cerevisiae were retrieved via a genome-scale metabolic model previously developed for yeast [22].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2386489/#__p35:~:text=For%20the%20purpose%2C%20we%20made%20use,model%20previously%20developed%20for%20yeast%20%5B22%5D.",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180056"],
 "articleInformation":
@@ -589,22 +604,22 @@
 [
 {
 "PMID":"12566402",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"\"The metabolic models for S. cerevisiae [13], A. nidulans [14], and A. niger [15,16] were combined to generate an initial reaction list for the construction of the A. oryzae metabolic network.\" ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2413144/#__p15:~:text=The%20metabolic%20models%20for%20S.%20cerevisiae,of%20the%20A.%20oryzae%20metabolic%20network.",
 "notes":""},
 {"PMID":"18405346",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The metabolic models for S. cerevisiae, A. nidulans, and A. niger were combined to generate an initial reaction list for the construction of the A. oryzae metabolic network.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2413144/#__p15:~:text=The%20metabolic%20models%20for%20S.%20cerevisiae,of%20the%20A.%20oryzae%20metabolic%20network.",
 "notes":""},
 {"PMID":"18364712",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The metabolic models for S. cerevisiae, A. nidulans, and A. niger were combined to generate an initial reaction list for the construction of the A. oryzae metabolic network.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2413144/#__p15:~:text=The%20metabolic%20models%20for%20S.%20cerevisiae,of%20the%20A.%20oryzae%20metabolic%20network.",
 "notes":""},
 {"PMID":"14622289",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The metabolic models for S. cerevisiae, A. nidulans, and A. niger were combined to generate an initial reaction list for the construction of the A. oryzae metabolic network.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2413144/#__p15:~:text=The%20metabolic%20models%20for%20S.%20cerevisiae,of%20the%20A.%20oryzae%20metabolic%20network.",
 "notes":""}
@@ -629,7 +644,11 @@
 "time":9,
 "status":"Unfinshed"},
 "connection":
-[]},
+{"PMID":"12534463",
+"connType":"Direct",
+"cit":"The main sources of information regarding the composition of the metabolic network of Pseudomonas putida KT2440 were various biological databases. Most of the information came from the Kyoto Encyclopedia of Genes and Genomes (KEGG) [35],[81] and Pseudomonas Genome Database (PGD) [82]. Information regarding P. putida contained in these two databases is mainly based on the published genome annotation of the bacterium [14], so there is a large overlap between them.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2563689/#__p84:~:text=The%20main%20sources%20of%20information%20regarding,is%20a%20large%20overlap%20between%20them.",
+"notes":"Direct connection reffers to reference [14]"}},
 {"submissionID":
 ["MODEL1507180047"],
 "articleInformation":
@@ -660,7 +679,11 @@
 "misc":
 [],
 "connection":
-[]},
+{"PMID":"12534463",
+"connType":"Direct",
+"cit":"The metabolic reconstruction of P. putida KT2440, iJN746, was constructed based on its annotated genome sequence [20]",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2569920/#__p9:~:text=The%20metabolic%20reconstruction%20of%20P.%20putida,on%20its%20annotated%20genome%20sequence%20%5B20%5D%2C",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180027"],
 "articleInformation":
@@ -677,7 +700,11 @@
 "time":10,
 "status":"Not checked"},
 "connection":
-[]},
+{"PMID":"11466286",
+"connType":"Partial",
+"cit":"Prediction of metabolic reactions or transport processes were based on the annotated genome (Nolling et al., 2001)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2760220/#P6:~:text=Prediction%20of%20metabolic%20reactions%20or%20transport,annotated%20genome%20(Nolling%20et%20al.%2C%202001)",
+"notes":"Does not seem to be totally based on. "}},
 {"submissionID":
 ["MODEL1507180020"],
 "articleInformation":
@@ -698,7 +725,11 @@
 "time":10,
 "status":"Not checked"},
 "connection":
-[]},
+{"PMID":"12952533",
+"connType":"Partial",
+"cit":"We present a genome-scale metabolic reconstruction of P. aeruginosa PAO1 (hereafter referred to as PAO1), called in silico strain iMO1056 following an often-used naming convention (48)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2293256/#__p7:~:text=We%20present%20a%20genome%2Dscale%20metabolic%20reconstruction,following%20an%20often%2Dused%20naming%20convention%20(48).",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180067"],
 "articleInformation":
@@ -1301,7 +1332,7 @@
 "JY":0,
 "YL":0,
 "time":5,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"17555602",
 "connType":"Direct",
