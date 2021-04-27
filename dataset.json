@@ -715,19 +715,19 @@
 "JY":1,
 "YL":0,
 "time":20,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
 "PMID":"15494745",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"and a genome-scale metabolic model was reconstructed using the constraint-based modeling approach [13-15].",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2755013/#__p8:~:text=and%20a%20genome%2Dscale%20metabolic%20model%20was,using%20the%20constraint%2Dbased%20modeling%20approach%20%5B13%2D15%5D.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2755013/#:~:text=was annotated in more detail and a genome-scale metabolic model was reconstructed using the constraint-based modeling approach [13-15]. ",
 "notes":""},
-{"PMID":"12700248",
-"connType":"Direct",
+{"PMID":"19116616",
+"connType":"Partial",
 "cit":"and a genome-scale metabolic model was reconstructed using the constraint-based modeling approach [13-15].",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2755013/#__p8:~:text=and%20a%20genome%2Dscale%20metabolic%20model%20was,the%20constraint%2Dbased%20modeling%20approach%20%5B13%2D15%5D.%20Constraint",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2755013/#:~:text=was annotated in more detail and a genome-scale metabolic model was reconstructed using the constraint-based modeling approach [13-15]. ",
 "notes":""}
 ]},
 {"submissionID":
@@ -744,7 +744,7 @@
 "JY":1,
 "YL":0,
 "time":15,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
@@ -773,7 +773,7 @@
 "JY":0,
 "YL":0,
 "time":5,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"17593909",
 "connType":"Direct",
@@ -794,7 +794,7 @@
 "JY":0,
 "YL":0,
 "time":5,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"17573341",
 "connType":"Partial",
@@ -815,7 +815,7 @@
 "JY":0,
 "YL":0,
 "time":5,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 []},
 {"submissionID":
@@ -841,7 +841,7 @@
 [
 {
 "PMID":"12949112",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"As with most previous stoichiometric models, the bulk of information utilized was derived from the annotated sequenced genome of the organism (61).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2612419/#__p20:~:text=As%20with%20most%20previous%20stoichiometric%20models%2C,sequenced%20genome%20of%20the%20organism%20(61).",
 "notes":""},
@@ -874,7 +874,7 @@
 [
 {
 "PMID":"10805808",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The G. metallireducens metabolic network was reconstructed by a modified version of previously published procedure [26].",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2640342/#__p8:~:text=The%20G.%20metallireducens%20metabolic%20network%20was,version%20of%20previously%20published%20procedure%20%5B26%5D.",
 "notes":""},
@@ -917,7 +917,7 @@
 "JY":0,
 "YL":0,
 "time":4,
-"status":"Unfinshed"},
+"status":"Not checked"},
 "connection":
 {"PMID":"11677609",
 "connType":"Direct",
@@ -963,7 +963,7 @@
 "JY":0,
 "YL":0,
 "time":10,
-"status":"Unfinshed"},
+"status":"Not checked"},
 "connection":
 [
 {
@@ -1028,7 +1028,7 @@
 "JY":0,
 "YL":0,
 "time":8,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
@@ -1071,7 +1071,7 @@
 "JY":0,
 "YL":0,
 "time":8,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 []},
 {"submissionID":
@@ -1088,7 +1088,7 @@
 "JY":0,
 "YL":0,
 "time":5,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"17267599",
 "connType":"Partial",
