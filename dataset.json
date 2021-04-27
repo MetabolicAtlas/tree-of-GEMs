@@ -1239,7 +1239,7 @@
 "JY":0,
 "YL":0,
 "time":8,
-"status":"Not checked"},
+"status":"Unfinshed"},
 "connection":
 [
 {
@@ -1888,9 +1888,9 @@
 "connection":
 [
 {
-"PMID":"26614658",
+"PMID":" 26614658",
 "connType":"Direct",
-"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31], ",
+"cit":"A genome-scale metabolic model (GSM) of P. tricornutum was developed as described in [31],\n",
 "citLink":"https://royalsocietypublishing.org/doi/10.1098/rstb.2016.0404#d3e1145:~:text=A%20genome%2Dscale%20metabolic%20model%20(GSM)%20of%20P.%20tricornutum%20was%20developed%20as%20described%20in%20%5B31%5D%2C",
 "notes":""},
 {"PMID":"24497502",
@@ -1941,7 +1941,7 @@
 "status":"Not checked"},
 "connection":
 {"PMID":"28687644",
-"connType":"Partial",
+"connType":"Direct",
 "cit":"The growth on different sugars was compared with predictions from the A. muciniphila model as presented before (Ottman et al., 2017a). ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5902328/#__p26:~:text=The%20growth%20on%20different%20sugars%20was,presented%20before%20(Ottman%20et%20al.%2C%202017a).",
 "notes":""}},
@@ -2001,7 +2001,7 @@
 "status":"Not checked"},
 "connection":
 {"PMID":"27883890",
-"connType":"Partial",
+"connType":"Direct",
 "cit":"Recently, a community-driven, consensus genome-scale metabolic model of CHO cells became available (Hefzi et al., 2016). ",
 "citLink":"https://www.sciencedirect.com/science/article/pii/S1096717620301014?via%3Dihub#p0255:~:text=Recently%2C%20a%20community%2Ddriven%2C%20consensus%20genome%2Dscale%20metabolic,available%20(Hefzi%20et%20al.%2C%202016).%20A",
 "notes":""}},
