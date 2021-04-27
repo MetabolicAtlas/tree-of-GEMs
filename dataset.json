@@ -272,19 +272,11 @@
 "time":16,
 "status":"Unfinshed"},
 "connection":
-[
-{
-"PMID":"108249",
-"connType":"Direct",
-"cit":"To further evaluate the modeling capabilities of FBA we used the genome-scale flux model to simulate the shift from homolactic to heterolactic metabolism in L. lactis growing anaerobically. This process consisted in comparing simulation results with experimental observations reported by Thomas, T.D. et al. (1979)",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1185544/#__p24:~:text=To%20further%20evaluate%20the%20modeling%20capabilities,Thomas%2C%20T.D.%20et%20al.%20(1979)%20%5B30%5D",
-"notes":""},
 {"PMID":"11337471",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"The process started based on the ORFs information from the annotated genome of L. lactis IL 1403 [3].",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1185544/#__p42:~:text=The%20process%20started%20based%20on%20the,of%20L.%20lactis%20IL%201403%20%5B3%5D.",
-"notes":""}
-]},
+"notes":""}},
 {"submissionID":
 ["MODEL1507180045"],
 "articleInformation":
@@ -329,36 +321,7 @@
 "time":15,
 "status":"Unfinshed"},
 "connection":
-[
-{
-"PMID":"11246024",
-"connType":"Direct",
-"cit":"The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71). ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__p9:~:text=The%20G.%20sulfurreducens%20metabolic%20network%20was,databases%20(21%2C%2037%2C%2043%2C%2071).%20Metabolic",
-"notes":""},
-{"PMID":"11752349",
-"connType":"Direct",
-"cit":"The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71). ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__p9:~:text=The%20G.%20sulfurreducens%20metabolic%20network%20was,databases%20(21%2C%2037%2C%2043%2C%2071).%20Metabolic",
-"notes":""},
-{"PMID":"14681412",
-"connType":"Direct",
-"cit":"The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71). ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__p9:~:text=The%20G.%20sulfurreducens%20metabolic%20network%20was,databases%20(21%2C%2037%2C%2043%2C%2071).%20Metabolic",
-"notes":""},
-{"PMID":"10592199",
-"connType":"Direct",
-"cit":
-["                                                                                                                                                                                                                                                            ",
-"The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71)."],
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__sec2title:~:text=The%20G.%20sulfurreducens%20metabolic%20network%20was,metabolic%20databases%20(21%2C%2037%2C%2043%2C%2071).",
-"notes":""},
-{"PMID":"11246024",
-"connType":"Direct",
-"cit":"The G. sulfurreducens metabolic network was reconstructed from open reading frames (ORFs) encoded in the G. sulfurreducens genome (62) by using previously described metabolic reconstruction procedures and available metabolic databases (21, 37, 43, 71). Metabolic functions were assigned to the genes in the G. sulfurreducens genome (62) based on available biochemical and genetic evidence (20, 34) and sequence similarity.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392927/#__sec2title:~:text=Metabolic%20network%20reconstruction.,evidence%20(20%2C%2034)%20and%20sequence%20similarity.",
-"notes":"Note that only reference 20 was a model as far as I could see."}
-]},
+[]},
 {"submissionID":
 ["MODEL1507180062"],
 "articleInformation":
