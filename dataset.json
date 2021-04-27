@@ -2001,7 +2001,7 @@
 "status":"Not checked"},
 "connection":
 {"PMID":"27883890",
-"connType":"Direct",
+"connType":"Partial",
 "cit":"Recently, a community-driven, consensus genome-scale metabolic model of CHO cells became available (Hefzi et al., 2016). ",
 "citLink":"https://www.sciencedirect.com/science/article/pii/S1096717620301014?via%3Dihub#p0255:~:text=Recently%2C%20a%20community%2Ddriven%2C%20consensus%20genome%2Dscale%20metabolic,available%20(Hefzi%20et%20al.%2C%202016).%20A",
 "notes":""}},
