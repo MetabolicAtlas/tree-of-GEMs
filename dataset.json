@@ -370,7 +370,11 @@
 "time":20,
 "status":"Not checked"},
 "connection":
-[]},
+{"PMID":"15930493",
+"connType":"Direct",
+"cit":"The GSMN of Streptomyces coelicolor [21] was used as a starting point in the iterative model building process. S. coelicolor is an actinomycete that shares significant portions of genome synteny with M. tuberculosis",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1929162/#:~:text=the%20gsmn%20of%20streptomyces%20coelicolor%20%5B21%5D%20was%20used%20as%20a%20starting%20point%20in%20the%20iterative%20model%20building%20process.%20s.%20coelicolor%20is%20an%20actinomycete%20that%20shares%20significant%20portions%20of%20genome%20synteny%20with%20m.%20tuberculosis",
+"notes":""}},
 {"submissionID":
 ["MODEL1507180006"],
 "articleInformation":
@@ -2353,5 +2357,119 @@
 "connType":"Direct",
 "cit":"Evaluation of every reaction resulted in 54 updates to iML1515 compared with iJO1366, the most complete of prior models. ... In total, iML1515 contains 184 new genes and 196 new reactions compared with 2,583 reactions in iJO1366 (ref. 7)",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521705/#:~:text=Evaluation%20of%20every,ref.%207",
-"notes":""}}
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"19714220",
+"DOI":"10.1371/journal.pcbi.1000489",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"17521419",
+"connType":"Direct",
+"cit":"To validate that our method scales to genome-wide metabolic model, we applied E-Flux to the comprehensive model of M. tuberculosis metabolism of Beste et al. [6]. ... Beste et al.'s model [6] was modified by merging this genome scale model with the mycolic acid submodel of Raman et al. [7].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2726785/#:~:text=19-,To%20validate%20that%20our,al.%20%5B7,-Specifically",
+"notes":""},
+{"PMID":"16261191",
+"connType":"Direct",
+"cit":"To validate that our method scales to genome-wide metabolic model, we applied E-Flux to the comprehensive model of M. tuberculosis metabolism of Beste et al. [6]. ... Beste et al.'s model [6] was modified by merging this genome scale model with the mycolic acid submodel of Raman et al. [7].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2726785/#:~:text=19-,To%20validate%20that%20our,al.%20%5B7,-Specifically",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"20959820",
+"DOI":"10.1038/msb.2010.68",
+"taxName":"Mycobacterium tuberculosis",
+"taxSciName":"",
+"taxID":"1773"},
+"title":"Insight into human alveolar macrophage and M. tuberculosis interactions via metabolic reconstructions",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"17267599",
+"connType":"Direct",
+"cit":"We, therefore, constructed a cell-specific alveolar macrophage model, iAB-AMØ-1410, from the global human metabolic reconstruction, Recon 1.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2990636/#:~:text=we%2C%20therefore%2C%20constructed%20a%20cell-specific%20alveolar%20macrophage%20model%2C%20iab-am%C3%B8-1410%2C%20from%20the%20global%20human%20metabolic%20reconstruction%2C%20recon%201.",
+"notes":""},
+{"PMID":"17555602",
+"connType":"Direct",
+"cit":"This model was then integrated with an M. tuberculosis H37Rv model, iNJ661, to build an integrated hostÿpathogen genome-scale reconstruction, iAB-AMØ-1410-Mt-661.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2990636/#:~:text=this%20model%20was%20then%20integrated%20with%20an%20m.%20tuberculosis%20h37rv%20model%2C%20inj661%2C%20to%20build%20an%20integrated%20host%E2%80%93pathogen%20genome-scale%20reconstruction%2C%20iab-am%C3%B8-1410-mt-661.",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"24098743",
+"DOI":"10.1371/journal.pone.0075913",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis variant bovis",
+"taxID":"1765"},
+"title":"Systems-Based Approaches to Probing Metabolic Variation within the Mycobacterium tuberculosis Complex",
+"misc":
+[],
+"connection":
+{"PMID":"17521419",
+"connType":"Direct",
+"cit":"The first M. tuberculosis genome scale metabolic network [20] (GSMN-TB) (Table S1; Model S1) created for the H37Rv strain formed the basis for the reconstruction of M. bovis AF2122/97 (GSMN-MB) (Table S2; Model S2) and M. bovis BCG Pasteur (GSMN-BCG) (Table S3; Model S3).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3783153/#:~:text=the%20first%20m.%20tuberculosis%20genome%20scale%20metabolic%20network%20%5B20%5D%20(gsmn-tb)%20(table%20s1%3B%20model%20s1)%20created%20for%20the%20h37rv%20strain%20formed%20the%20basis%20for%20the%20reconstruction%20of%20m.%20bovis%20af2122%2F97%20(gsmn-mb)%20(table%20s2%3B%20model%20s2)%20and%20m.%20bovis%20bcg%20pasteur%20(gsmn-bcg)%20(table%20s3%3B%20model%20s3).",
+"notes":"The child model are actually txo models of the M. bovis pathogen. But the parent model are basis to both of them."}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"25304862",
+"DOI":"10.1186/s12967-014-0263-5",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Systems level mapping of metabolic complexity in Mycobacterium tuberculosis to identify high-value drug targets",
+"misc":
+[],
+"connection":
+{"PMID":"17555602",
+"connType":"Direct",
+"cit":"The iNJ661 reconstruction was our starting point [24]. Its inconsistencies were removed, and additional gene-reaction associations were incorporated from various databases such as KEGG, Biocyc, MetaCyc, SEED as well as reference textbooks from PubMed (Additional file 1: Table S1A-C for detailed references). This resulted in the iOSDD890 reconstruction.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4201925/#:~:text=The%20iNJ661%20reconstruction,the%20iOSDD890%20reconstruction",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"25453232",
+"DOI":"10.1016/j.smim.2014.09.013",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Systems-level modeling of mycobacterial metabolism for the identification of new (multi-)drug targets",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"16261191",
+"connType":"Direct",
+"cit":"Therefore we have constructed sMtb, a manually curated merged model of MAP, iNJ661 and GSMN-TB 1.1 that is currently the most comprehensive genome-scale metabolic model of Mtb.",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S1044532314000979?via%3Dihub#:~:text=therefore%20we%20have%20constructed%20smtb%2C%20a%20manually%20curated%20merged%20model%20of%20map%2C%20inj661%20and%20gsmn-tb%201.1%20that%20is%20currently%20the%20most%20comprehensive%20genome-scale%20metabolic%20model%20of%20mtb.",
+"notes":"Citation link may not work."},
+{"PMID":"17555602",
+"connType":"Direct",
+"cit":"Therefore we have constructed sMtb, a manually curated merged model of MAP, iNJ661 and GSMN-TB 1.1 that is currently the most comprehensive genome-scale metabolic model of Mtb.",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S1044532314000979?via%3Dihub#:~:text=therefore%20we%20have%20constructed%20smtb%2C%20a%20manually%20curated%20merged%20model%20of%20map%2C%20inj661%20and%20gsmn-tb%201.1%20that%20is%20currently%20the%20most%20comprehensive%20genome-scale%20metabolic%20model%20of%20mtb.",
+"notes":""},
+{"PMID":"24098743",
+"connType":"Direct",
+"cit":"Therefore we have constructed sMtb, a manually curated merged model of MAP, iNJ661 and GSMN-TB 1.1 that is currently the most comprehensive genome-scale metabolic model of Mtb.",
+"citLink":"https://www.sciencedirect.com/science/article/pii/S1044532314000979?via%3Dihub#:~:text=therefore%20we%20have%20constructed%20smtb%2C%20a%20manually%20curated%20merged%20model%20of%20map%2C%20inj661%20and%20gsmn-tb%201.1%20that%20is%20currently%20the%20most%20comprehensive%20genome-scale%20metabolic%20model%20of%20mtb.",
+"notes":""}
+]}
 ]
