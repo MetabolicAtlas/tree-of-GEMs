@@ -417,7 +417,11 @@
 ["MODEL1507180001"],
 "articleInformation":
 {"PMID":"17555602",
-"doi":"10.1186/1752-0509-1-26"},
+"doi":"10.1186/1752-0509-1-26",
+"DOI":"10.1186/1752-0509-1-26",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis H37Rv",
+"taxID":"83332"},
 "title":"Investigating the metabolic capabilities of Mycobacterium tuberculosis H37Rv using the in silico strain iNJ661 and proposing alternative drug targets.",
 "misc":
 {"GS":0,
@@ -633,7 +637,11 @@
 ["MODEL1507180068"],
 "articleInformation":
 {"PMID":"18793442",
-"doi":"10.1186/1752-0509-2-79"},
+"doi":"10.1186/1752-0509-2-79",
+"DOI":"10.1186/1752-0509-2-79",
+"taxName":"",
+"taxSciName":"Pseudomonas putida KT2440",
+"taxID":"160488"},
 "title":"A genome-scale metabolic reconstruction of Pseudomonas putida KT2440: iJN746 as a cell factory.",
 "misc":
 [],
@@ -647,7 +655,11 @@
 ["MODEL1507180027"],
 "articleInformation":
 {"PMID":"18767192",
-"doi":"10.1002/bit.22010"},
+"doi":"10.1002/bit.22010",
+"DOI":"10.1002/bit.22010",
+"taxName":"Weizmann Organism",
+"taxSciName":"Clostridium acetobutylicum ATCC 824",
+"taxID":"272562"},
 "title":"Genome-scale model for Clostridium acetobutylicum: Part I. Metabolic network resolution and analysis.",
 "misc":
 {"GS":0,
@@ -692,7 +704,11 @@
 {"submissionID":
 ["MODEL1507180067"],
 "articleInformation":
-{"PMID":"19425150"},
+{"PMID":"19425150",
+"DOI":"",
+"taxName":"Mouse",
+"taxSciName":"Mus musculus",
+"taxID":"10090"},
 "title":"On the reconstruction of the Mus musculus genome-scale metabolic network model.",
 "misc":
 {"GS":0,
@@ -767,7 +783,11 @@
 ["MODEL1507180009"],
 "articleInformation":
 {"PMID":"19690172",
-"doi":"10.1074/jbc.M109.005868"},
+"doi":"10.1074/jbc.M109.005868",
+"DOI":"10.1074/jbc.M109.005868",
+"taxName":"Salmonella typhimurium",
+"taxSciName":"Salmonella enterica subsp. enterica serovar Typhimurium",
+"taxID":"90371"},
 "title":"Genome scale reconstruction of a Salmonella metabolic model: comparison of similarity and differences with a commensal Escherichia coli strain.",
 "misc":
 {"GS":0,
@@ -788,7 +808,11 @@
 ["MODEL1507180015"],
 "articleInformation":
 {"PMID":"19555510",
-"doi":"10.1186/gb-2009-10-6-r69"},
+"doi":"10.1186/gb-2009-10-6-r69",
+"DOI":"10.1186/gb-2009-10-6-r69",
+"taxName":"B. subtilis 168 or hay bacillus/grass bacillus",
+"taxSciName":"Bacillus subtilis subsp. subtilis str. 168",
+"taxID":"224308"},
 "title":"iBsu1103: a new genome-scale metabolic model of Bacillus subtilis based on SEED annotations.",
 "misc":
 {"GS":0,
