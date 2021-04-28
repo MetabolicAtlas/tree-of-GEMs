@@ -362,11 +362,7 @@
 "time":20,
 "status":"Not checked"},
 "connection":
-{"PMID":"10364169",
-"connType":"Direct",
-"cit":"Whole-genome metabolic network models of sequenced micro-organisms such as Haemophilus influenzae [12], Escherichia coli [13], Helicobacter pylori [14], and Saccharomyces cerevisiae [15] have proven to be useful in hypothesis generation and correction of errors in genome annotation, and have also been successful in predicting phenotypic behavior. These models, interrogated with various constraint-based computer simulation methods such as flux balance analysis (FBA) [16], elementary flux modes [17], or extreme pathways [18], provided information on the robustness of the metabolic networks and identified vulnerable pathways that may be targeted with novel drugs [19].",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1929162/#__p8:~:text=Whole%2Dgenome%20metabolic%20network%20models%20of%20sequenced,be%20targeted%20with%20novel%20drugs%20%5B19%5D.",
-"notes":""}},
+[]},
 {"submissionID":
 ["MODEL1507180006"],
 "articleInformation":
@@ -2198,5 +2194,80 @@
 "misc":
 [],
 "connection":
-[]}
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"17267599",
+"DOI":"10.1073/pnas.0610772104",
+"taxName":"Man",
+"taxSciName":"Homo sapiens",
+"taxID":"9606"},
+"title":"Global reconstruction of the human metabolic network based on genomic and bibliomic data",
+"misc":
+[],
+"connection":
+[]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"33585414",
+"DOI":"10.3389/fbioe.2020.612832",
+"taxName":"",
+"taxSciName":"Rhodotorula toruloides",
+"taxID":"5286"},
+"title":"Multi-Omics Driven Metabolic Network Reconstruction and Analysis of Lignocellulosic Carbon Utilization in Rhodosporidium toruloides",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"17267599",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873862/#:~:text=models-,Among%20the%20models%20available,in%20R.%20toruloides,-In",
+"notes":"Does not mention if uses whole of parent model or only parts of it."},
+{"PMID":"19321003",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873862/#:~:text=models-,Among%20the%20models%20available,in%20R.%20toruloides,-In",
+"notes":""},
+{"PMID":"21811229",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873862/#:~:text=models-,Among%20the%20models%20available,in%20R.%20toruloides,-In",
+"notes":""},
+{"PMID":"20959003",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873862/#:~:text=models-,Among%20the%20models%20available,in%20R.%20toruloides,-In",
+"notes":""},
+{"PMID":"29020004",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7873862/#:~:text=models-,Among%20the%20models%20available,in%20R.%20toruloides,-In",
+"notes":""},
+{"PMID":"18793442",
+"connType":"Partial",
+"cit":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"citLink":"Among the models available in BiGG Models, genome-scale metabolic models of S. cerevisiae (Mo et al., 2009), Chlamydomonas reinhardtii (Chang et al., 2011), human (Duarte et al., 2007), mouse (Sigurdsson et al., 2010), E. coli (Monk et al., 2017), and P. putida (Nogales et al., 2008) were used for reconstruction since these models covered most of the orthologous proteins found in R. toruloides.",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"29020004",
+"DOI":"10.1038/nbt.3956",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli K-12",
+"taxID":"83333"},
+"title":"iML1515, a knowledgebase that computes Escherichia coli traits",
+"misc":
+[],
+"connection":
+{"PMID":"21988831",
+"connType":"Direct",
+"cit":"Evaluation of every reaction resulted in 54 updates to iML1515 compared with iJO1366, the most complete of prior models. ... In total, iML1515 contains 184 new genes and 196 new reactions compared with 2,583 reactions in iJO1366 (ref. 7)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521705/#:~:text=Evaluation%20of%20every,ref.%207",
+"notes":""}}
 ]
