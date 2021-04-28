@@ -86,7 +86,11 @@
 ["MODEL1507180012"],
 "articleInformation":
 {"PMID":"12566402",
-"doi":"10.1101/gr.234503"},
+"doi":"10.1101/gr.234503",
+"DOI":"",
+"taxName":"baker's yeast",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":"4932"},
 "title":"Genome-scale reconstruction of the Saccharomyces cerevisiae metabolic network.",
 "misc":
 {"GS":0,
@@ -148,7 +152,11 @@
 ["MODEL1507180007"],
 "articleInformation":
 {"PMID":"16077130",
-"doi":"10.1128/JB.187.16.5818-5830.2005"},
+"doi":"10.1128/JB.187.16.5818-5830.2005",
+"DOI":"10.1128/JB.187.16.5818-5830.2005",
+"taxName":"",
+"taxSciName":"Helicobacter pylori strain 26695",
+"taxID":"85962"},
 "title":"Expanded metabolic reconstruction of Helicobacter pylori (iIT341 GSM/GPR): an in silico genome-scale characterization of single- and double-deletion mutants.",
 "misc":
 {"GS":0,
@@ -1474,7 +1482,11 @@
 "MODEL1507180011"],
 "articleInformation":
 {"PMID":"21755001",
-"doi":"10.1371/journal.pone.0021784"},
+"doi":"10.1371/journal.pone.0021784",
+"DOI":"10.1371/journal.pone.0021784",
+"taxName":"maize",
+"taxSciName":"Zea mays",
+"taxID":"4577"},
 "title":"Zea mays iRS1563: a comprehensive genome-scale metabolic reconstruction of maize metabolism.",
 "misc":
 {"GS":1,
@@ -1632,7 +1644,11 @@
 ["MODEL1507180061"],
 "articleInformation":
 {"PMID":"22631437",
-"doi":"10.1186/1752-0509-6-49"},
+"doi":"10.1186/1752-0509-6-49",
+"DOI":"10.1186/1752-0509-6-49",
+"taxName":"fission yeast",
+"taxSciName":"Schizosaccharomyces pombe",
+"taxID":"4896"},
 "title":"Genome-scale metabolic model of the fission yeast Schizosaccharomyces pombe and the reconciliation of in silico/in vivo mutant growth.",
 "misc":
 [],
@@ -1643,7 +1659,11 @@
 "MODEL1507180022"],
 "articleInformation":
 {"PMID":"22472172",
-"doi":"10.1186/1752-0509-6-24"},
+"doi":"10.1186/1752-0509-6-24",
+"DOI":"10.1186/1752-0509-6-24",
+"taxName":"",
+"taxSciName":"Pichia",
+"taxID":"4919"},
 "title":"Genome-scale metabolic reconstructions of Pichia stipitis and Pichia pastoris and in silico evaluation of their potentials.",
 "misc":
 [],
@@ -1653,7 +1673,11 @@
 ["MODEL1507180046"],
 "articleInformation":
 {"PMID":"22308420",
-"doi":"10.1073/pnas.1117907109"},
+"doi":"10.1073/pnas.1117907109",
+"DOI":"10.1073/pnas.1117907109",
+"taxName":"",
+"taxSciName":"Synechocystis sp. PCC 6803",
+"taxID":"1148"},
 "title":"Detailing the optimality of photosynthesis in cyanobacteria through systems biology analysis.",
 "misc":
 {"GS":0,
@@ -1669,7 +1693,11 @@
 {"submissionID":
 ["MODEL2010130002"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1371/journal.pone.0137976"},
+{"PMID":"http://identifiers.org/doi/10.1371/journal.pone.0137976",
+"DOI":"10.1371/journal.pone.0137976",
+"taxName":"",
+"taxSciName":"Leishmania infantum",
+"taxID":"5671"},
 "title":"Dissecting Leishmania infantum Energy Metabolism - A Systems Perspective",
 "misc":
 [],
@@ -1679,7 +1707,11 @@
 ["MODEL1510010000"],
 "articleInformation":
 {"PMID":"25527553",
-"doi":"10.1128/AEM.03279-14"},
+"doi":"10.1128/AEM.03279-14",
+"DOI":"10.1128/AEM.03279-14",
+"taxName":"",
+"taxSciName":"Enterococcus faecalis V583",
+"taxID":"226185"},
 "title":"Using a genome-scale metabolic model of Enterococcus faecalis V583 to assess amino acid uptake and its impact on central metabolism.",
 "misc":
 {"GS":0,
@@ -1755,12 +1787,60 @@
 "MODEL1604280048"],
 "articleInformation":
 {"PMID":"27895706",
-"doi":"10.1186/s13068-016-0665-0"},
+"doi":"10.1186/s13068-016-0665-0",
+"DOI":"10.1186/s13068-016-0665-0",
+"taxName":"",
+"taxSciName":"Trichoderma reesei ",
+"taxID":"51453"},
 "title":"Whole-genome metabolic model of Trichoderma reesei built by comparative reconstruction.",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":1,
+"KL":0,
+"JY":0,
+"YL":0,
+"time":30,
+"status":"Unfinshed"},
 "connection":
-[]},
+[
+{
+"PMID":"18846089",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=for%20the%20purpose%20of%20reconstructing%20models%20for%20fungi%2C%20genome-scale%20metabolic%20models%20of%20s.%20cerevisiae%20(community%20model%20v.%206.06)",
+"notes":"This is an article in which they created 56 models in total, which makes the information hard to sum up. But it seems like the main organism for which they did this was T. reesei. "},
+{"PMID":"18364712",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=for%20the%20purpose%20of%20reconstructing%20models%20for%20fungi%2C%20genome-scale%20metabolic%20models%20of%20s.%20cerevisiae%20(community%20model%20v.%206.06)%20%5B2%5D%2C%20a.%20niger%20(ima871)",
+"notes":""},
+{"PMID":"18500999",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=for%20the%20purpose%20of%20reconstructing%20models%20for%20fungi%2C%20genome-scale%20metabolic%20models%20of%20s.%20cerevisiae%20(community%20model%20v.%206.06)%20%5B2%5D%2C%20a.%20niger%20(ima871)%20%5B7%5D%2C%20a.%20oryzae%20(iwv1314)",
+"notes":""},
+{"PMID":"18405346",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=a.%20nidulans%20(ihd666)%20%5B9%5D%2C%20k.%20(pichia)%20pastoris%20(ilc915)%2C%20p.%20stipitis%20(iss884)%20%5B3%5D%2C%20and%20penicillium%20chrysogenum%20(ial1006)%20%5B20%5D%20were%20included.",
+"notes":""},
+{"PMID":"22472172",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=k.%20(pichia)%20pastoris%20(ilc915)%2C%20p.%20stipitis%20(iss884)%20%5B3%5D%2C%20and%20penicillium%20chrysogenum%20(ial1006)%20%5B20%5D%20were%20included",
+"notes":""},
+{"PMID":"23555215",
+"connType":"Partial",
+"cit":"For the purpose of reconstructing models for fungi, genome-scale metabolic models of S. cerevisiae (community model v. 6.06) [2], A. niger (iMA871) [7], A. oryzae (iWV1314) [8], A. nidulans (iHD666) [9], K. (Pichia) pastoris (iLC915), P. stipitis (iSS884) [3], and Penicillium chrysogenum (iAL1006) [20] were included",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=k.%20(pichia)%20pastoris%20(ilc915)%2C%20p.%20stipitis%20(iss884)%20%5B3%5D%2C%20and%20penicillium%20chrysogenum%20(ial1006)%20%5B20%5D%20were%20included",
+"notes":""},
+{"PMID":"24678285",
+"connType":"Partial",
+"cit":"For the CoReCo reaction database, reactions for lipid metabolism were collected from v7.0 of the yeast community model [33].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5117618/#:~:text=for%20the%20coreco%20reaction%20database%2C%20reactions%20for%20lipid%20metabolism%20were%20collected%20from%20v7.0%20of%20the%20yeast%20community%20model%20%5B33%5D.%20lipid%20reactions%20from%20other%20sources%20were%20removed.",
+"notes":""}
+]},
 {"submissionID":
 ["MODEL1603030000"],
 "articleInformation":
@@ -2120,7 +2200,11 @@
 "MODEL1909260004",
 "MODEL1909260005"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3"},
+{"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3",
+"DOI":"10.1038/s41540-020-00165-3",
+"taxName":"human",
+"taxSciName":"Homo Sapiens",
+"taxID":"9606"},
 "title":"Integrative computational approach identifies drug targets in CD4+ T-cell-mediated immune disorders",
 "misc":
 [],
