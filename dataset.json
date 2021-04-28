@@ -86,7 +86,11 @@
 ["MODEL1507180012"],
 "articleInformation":
 {"PMID":"12566402",
-"doi":"10.1101/gr.234503"},
+"doi":"10.1101/gr.234503",
+"DOI":"",
+"taxName":"baker's yeast",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":"4932"},
 "title":"Genome-scale reconstruction of the Saccharomyces cerevisiae metabolic network.",
 "misc":
 {"GS":0,
