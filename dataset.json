@@ -392,7 +392,11 @@
 ["MODEL1507180069"],
 "articleInformation":
 {"PMID":"17617894",
-"doi":"10.1186/gb-2007-8-7-r136"},
+"doi":"10.1186/gb-2007-8-7-r136",
+"DOI":"10.1186/gb-2007-8-7-r136",
+"taxName":"Meningococcus",
+"taxSciName":"Neisseria meningitidis",
+"taxID":"487"},
 "title":"Modeling Neisseria meningitidis metabolism: from genome to metabolic fluxes.",
 "misc":
 {"GS":0,
@@ -2113,10 +2117,10 @@
 ["MODEL1912100001"],
 "articleInformation":
 {"PMID":"32068953",
-"DOI":"",
-"taxName":"",
-"taxSciName":"",
-"taxID":""},
+"DOI":"10.1111/mpp.12914",
+"taxName":"rice leaf blight",
+"taxSciName":"Xanthomonas oryzae pv. oryzae",
+"taxID":"64187"},
 "title":"Konduru2020 - Genome-scale metabolic reconstruction and in silico analysis of rice leaf blight pathogen, Xanthomonas oryzae",
 "misc":
 {"GS":0,
