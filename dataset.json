@@ -919,11 +919,19 @@
 "time":4,
 "status":"Not checked"},
 "connection":
-{"PMID":"11677609",
-"connType":"Direct",
-"cit":"The initial draft reconstruction was built from the annotated genome [25] of Salmonella enterica serovar typhimurium LT2 (S. typhimurium LT2), which is available at TIGR.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2678070/#__p61:~:text=The%20initial%20draft%20reconstruction%20was%20built,LT2)%2C%20which%20is%20available%20at%20TIGR.",
-"notes":""}},
+[
+{
+"PMID":"12952533",
+"connType":"Partial",
+"cit":"These GPR associations connect genetic data to reactions in the metabolic network [26] and allow for subsequent evaluation of how genetic perturbations affect metabolic phenotypes.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2678070/?fbclid=IwAR3G3tjFBbJ-rwOhQuyNOFpMPrSxsQSreUZRwqBXTSU8NbMCSIxPleXPigQ#:~:text= these gpr associations connect genetic data to reactions in the metabolic network [26] and allow for subsequent evaluation of how genetic perturbations affect metabolic phenotypes.",
+"notes":""},
+{"PMID":"",
+"connType":"Partial",
+"cit":"",
+"citLink":"",
+"notes":"Additional file 9"}
+]},
 {"submissionID":
 ["MODEL1507180048"],
 "articleInformation":
