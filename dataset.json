@@ -718,7 +718,7 @@
 "JY":0,
 "YL":0,
 "time":0,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 []},
 {"submissionID":
@@ -945,7 +945,7 @@
 "JY":0,
 "YL":0,
 "time":4,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
@@ -999,7 +999,7 @@
 "JY":0,
 "YL":0,
 "time":10,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
