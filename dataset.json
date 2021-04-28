@@ -1486,7 +1486,11 @@
 "MODEL1507180011"],
 "articleInformation":
 {"PMID":"21755001",
-"doi":"10.1371/journal.pone.0021784"},
+"doi":"10.1371/journal.pone.0021784",
+"DOI":"10.1371/journal.pone.0021784",
+"taxName":"maize",
+"taxSciName":"Zea mays",
+"taxID":"4577"},
 "title":"Zea mays iRS1563: a comprehensive genome-scale metabolic reconstruction of maize metabolism.",
 "misc":
 {"GS":1,
@@ -1644,7 +1648,11 @@
 ["MODEL1507180061"],
 "articleInformation":
 {"PMID":"22631437",
-"doi":"10.1186/1752-0509-6-49"},
+"doi":"10.1186/1752-0509-6-49",
+"DOI":"10.1186/1752-0509-6-49",
+"taxName":"fission yeast",
+"taxSciName":"Schizosaccharomyces pombe",
+"taxID":"4896"},
 "title":"Genome-scale metabolic model of the fission yeast Schizosaccharomyces pombe and the reconciliation of in silico/in vivo mutant growth.",
 "misc":
 [],
@@ -1655,7 +1663,11 @@
 "MODEL1507180022"],
 "articleInformation":
 {"PMID":"22472172",
-"doi":"10.1186/1752-0509-6-24"},
+"doi":"10.1186/1752-0509-6-24",
+"DOI":"10.1186/1752-0509-6-24",
+"taxName":"",
+"taxSciName":"Pichia",
+"taxID":"4919"},
 "title":"Genome-scale metabolic reconstructions of Pichia stipitis and Pichia pastoris and in silico evaluation of their potentials.",
 "misc":
 [],
@@ -1665,7 +1677,11 @@
 ["MODEL1507180046"],
 "articleInformation":
 {"PMID":"22308420",
-"doi":"10.1073/pnas.1117907109"},
+"doi":"10.1073/pnas.1117907109",
+"DOI":"10.1073/pnas.1117907109",
+"taxName":"",
+"taxSciName":"Synechocystis sp. PCC 6803",
+"taxID":"1148"},
 "title":"Detailing the optimality of photosynthesis in cyanobacteria through systems biology analysis.",
 "misc":
 {"GS":0,
