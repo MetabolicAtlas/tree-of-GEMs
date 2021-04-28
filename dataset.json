@@ -2201,5 +2201,18 @@
 "cit":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fÿrster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240085/#:~:text=we predicted lethality of metabolic mutants with the recently described genome-scale model iff708 of s. cerevisiae (forster et al. 2003a) by flux balance analysis (fba) (price et al. 2004).",
 "notes":""}
-]}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"19356237",
+"DOI":"10.1186/1752-0509-3-38",
+"taxName":"",
+"taxSciName":"Salmonella typhimurium",
+"taxID":"99287"},
+"title":"Constraint-based analysis of metabolic capacity of Salmonella typhimurium during host-pathogen interaction",
+"misc":
+[],
+"connection":
+[]}
 ]
