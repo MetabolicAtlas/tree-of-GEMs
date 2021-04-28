@@ -2170,5 +2170,18 @@
 "connType":"Direct",
 "cit":"An earlier metabolic model of S. cerevisiae (referred to here as iFF708; Förster et al. 2003a) served as a starting point for the reconstruction of iND750, ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442145/#:~:text=an earlier metabolic model of s. cerevisiae (referred to here as iff708; forster et al. 2003a) served as a starting point for the reconstruction of ind750, ",
-"notes":""}}
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"16204195",
+"DOI":"10.1101/gr.3992505",
+"taxName":"S. cerevisiae",
+"taxSciName":"Saccharomyces cerevisiae",
+"taxID":"4932"},
+"title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
+"misc":
+[],
+"connection":
+[]}
 ]
