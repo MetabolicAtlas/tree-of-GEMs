@@ -1574,19 +1574,7 @@
 "time":0,
 "status":"Not checked"},
 "connection":
-[
-{
-"PMID":"16689791",
-"connType":"Direct",
-"cit":"Phylogenetic analysis was performed using the gene concatenation method [36].",
-"citLink":"https://europepmc.org/article/med/21208457#id516421:~:text=Phylogenetic%20analysis%20was%20performed%20using%20the%20gene%20concatenation%20method%20%5B36%5D.",
-"notes":""},
-{"PMID":"18698408",
-"connType":"Direct",
-"cit":"This is the case in W, which contains two T6SSs. The structure of the first gene cluster is homologous to the system previously described in E. coli O157:H7 Sakai [107]. ",
-"citLink":"https://europepmc.org/article/med/21208457#id533789:~:text=This%20is%20the%20case%20in%20W%2C,E.%20coli%20O157%3AH7%20Sakai%20%5B107%5D.%20It",
-"notes":""}
-]},
+[]},
 {"submissionID":
 ["MODEL1507180040"],
 "articleInformation":
@@ -2192,7 +2180,7 @@
 "connection":
 {"PMID":"12566402",
 "connType":"Direct",
-"cit":"An earlier metabolic model of S. cerevisiae (referred to here as iFF708; Förster et al. 2003a) served as a starting point for the reconstruction of iND750, ",
+"cit":"An earlier metabolic model of S. cerevisiae (referred to here as iFF708; Fÿrster et al. 2003a) served as a starting point for the reconstruction of iND750, ",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442145/#:~:text=an earlier metabolic model of s. cerevisiae (referred to here as iff708; forster et al. 2003a) served as a starting point for the reconstruction of ind750, ",
 "notes":""}},
 {"submissionID":
