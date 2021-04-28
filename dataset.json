@@ -2157,7 +2157,18 @@
 "taxID":"4932"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":5,
+"status":"Unfinshed"},
 "connection":
-[]}
+{"PMID":"12566402",
+"connType":"Direct",
+"cit":"An earlier metabolic model of S. cerevisiae (referred to here as iFF708; Förster et al. 2003a) served as a starting point for the reconstruction of iND750, ",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC442145/#:~:text=an earlier metabolic model of s. cerevisiae (referred to here as iff708; forster et al. 2003a) served as a starting point for the reconstruction of ind750, ",
+"notes":""}}
 ]
