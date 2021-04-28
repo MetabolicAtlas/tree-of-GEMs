@@ -1515,24 +1515,11 @@
 "time":15,
 "status":"Unfinished"},
 "connection":
-[
-{
-"PMID":"19356237",
+{"PMID":"19356237",
 "connType":"Direct",
 "cit":"The starting MRs were AJRecon (a variant is published in [20]) and BRecon (D. Bumann, unpublished data), which were derived from published E. coli MRs, iJR904 [26] and iAF1260 [27], respectively, and their contents were modified to account for Salmonella-specific properties; i.e., transport and enzymatic reactions not present in Salmonella were removed and the proteins associated with the reactions were modified to contain proteins present in S. Typhimurium LT2.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3032673/#__p7:~:text=The%20starting%20MRs%20were%20AJRecon%20(a,proteins%20present%20in%20S.%20Typhimurium%20LT2.",
-"notes":""},
-{"PMID":"12952533",
-"connType":"Direct",
-"cit":"The starting MRs were AJRecon (a variant is published in [20]) and BRecon (D. Bumann, unpublished data), which were derived from published E. coli MRs, iJR904 [26] and iAF1260 [27], respectively, and their contents were modified to account for Salmonella-specific properties; i.e., transport and enzymatic reactions not present in Salmonella were removed and the proteins associated with the reactions were modified to contain proteins present in S. Typhimurium LT2.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3032673/#__p7:~:text=The%20starting%20MRs%20were%20AJRecon%20(a,proteins%20present%20in%20S.%20Typhimurium%20LT2.",
-"notes":""},
-{"PMID":"17593909",
-"connType":"Direct",
-"cit":"The starting MRs were AJRecon (a variant is published in [20]) and BRecon (D. Bumann, unpublished data), which were derived from published E. coli MRs, iJR904 [26] and iAF1260 [27], respectively, and their contents were modified to account for Salmonella-specific properties; i.e., transport and enzymatic reactions not present in Salmonella were removed and the proteins associated with the reactions were modified to contain proteins present in S. Typhimurium LT2.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3032673/#__p7:~:text=The%20starting%20MRs%20were%20AJRecon%20(a,proteins%20present%20in%20S.%20Typhimurium%20LT2.",
-"notes":""}
-]},
+"notes":""}},
 {"submissionID":
 ["MODEL1507180051"],
 "articleInformation":
@@ -2206,12 +2193,12 @@
 {
 "PMID":"12566402",
 "connType":"Direct",
-"cit":"we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
-"citLink":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"cit":"we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fÿrster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"citLink":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fÿrster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
 "notes":""},
 {"PMID":"15494745",
 "connType":"Direct",
-"cit":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"cit":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Fÿrster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240085/#:~:text=we predicted lethality of metabolic mutants with the recently described genome-scale model iff708 of s. cerevisiae (forster et al. 2003a) by flux balance analysis (fba) (price et al. 2004).",
 "notes":""}
 ]}
