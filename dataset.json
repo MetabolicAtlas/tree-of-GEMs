@@ -1697,7 +1697,11 @@
 {"submissionID":
 ["MODEL2010130002"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1371/journal.pone.0137976"},
+{"PMID":"http://identifiers.org/doi/10.1371/journal.pone.0137976",
+"DOI":"10.1371/journal.pone.0137976",
+"taxName":"",
+"taxSciName":"Leishmania infantum",
+"taxID":"5671"},
 "title":"Dissecting Leishmania infantum Energy Metabolism - A Systems Perspective",
 "misc":
 [],
@@ -1707,7 +1711,11 @@
 ["MODEL1510010000"],
 "articleInformation":
 {"PMID":"25527553",
-"doi":"10.1128/AEM.03279-14"},
+"doi":"10.1128/AEM.03279-14",
+"DOI":"10.1128/AEM.03279-14",
+"taxName":"",
+"taxSciName":"Enterococcus faecalis V583",
+"taxID":"226185"},
 "title":"Using a genome-scale metabolic model of Enterococcus faecalis V583 to assess amino acid uptake and its impact on central metabolism.",
 "misc":
 {"GS":0,
@@ -2148,7 +2156,11 @@
 "MODEL1909260004",
 "MODEL1909260005"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3"},
+{"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3",
+"DOI":"10.1038/s41540-020-00165-3",
+"taxName":"human",
+"taxSciName":"Homo Sapiens",
+"taxID":"9606"},
 "title":"Integrative computational approach identifies drug targets in CD4+ T-cell-mediated immune disorders",
 "misc":
 [],
