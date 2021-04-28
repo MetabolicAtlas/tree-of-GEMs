@@ -1607,19 +1607,7 @@
 "time":10,
 "status":"Not checked"},
 "connection":
-[
-{
-"PMID":"18588132",
-"connType":"Direct",
-"cit":"Previous study of xylose utilization in S. stipitis was mainly focused on the illustration of transport mechanism and metabolic pathway [36,37]. ",
-"citLink":"https://europepmc.org/article/med/22998943#id353160:~:text=Previous%20study%20of%20xylose%20utilization%20in,mechanism%20and%20metabolic%20pathway%20%5B36%2C37%5D.%20In",
-"notes":""},
-{"PMID":"20714641",
-"connType":"Direct",
-"cit":"In the model iTL885, seven putative high-affinity xylose transporters (XUT1-7) were annotated, and one of them (XUT1) has been biochemically characterized from S. stipitis[38].",
-"citLink":"https://europepmc.org/article/med/22998943#id353160:~:text=In%20the%20model%20iTL885%2C%20seven%20putative,been%20biochemically%20characterized%20from%20S.%20stipitis%5B38%5D.",
-"notes":""}
-]},
+[]},
 {"submissionID":
 ["MODEL1507180039"],
 "articleInformation":
