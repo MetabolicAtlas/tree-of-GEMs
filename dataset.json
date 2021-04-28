@@ -1669,11 +1669,7 @@
 "time":10,
 "status":"Not checked"},
 "connection":
-{"PMID":"21083885",
-"connType":"Direct",
-"cit":"an extensive effort was made to construct a complete and compartmentalized model of photosynthesis that exceeds previously published efforts in detail and coverage (8ÿ11).",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3289291/#__p9:~:text=an%20extensive%20effort%20was%20made%20to,efforts%20in%20detail%20and%20coverage%20(8%E2%80%9311).",
-"notes":""}},
+[]},
 {"submissionID":
 ["MODEL2010130002"],
 "articleInformation":
