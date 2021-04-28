@@ -2205,7 +2205,26 @@
 "taxID":"4932"},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
 "misc":
-[],
+{"GS":0,
+"EB":0,
+"LW":0,
+"KL":0,
+"JY":1,
+"YL":0,
+"time":5,
+"status":"Unfinshed"},
 "connection":
-[]}
+[
+{
+"PMID":"12566402",
+"connType":"Direct",
+"cit":"we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"citLink":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"notes":""},
+{"PMID":"15494745",
+"connType":"Direct",
+"cit":" we predicted lethality of metabolic mutants with the recently described genome-scale model iFF708 of S. cerevisiae (Förster et al. 2003a) by Flux Balance Analysis (FBA) (Price et al. 2004).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240085/#:~:text=we predicted lethality of metabolic mutants with the recently described genome-scale model iff708 of s. cerevisiae (forster et al. 2003a) by flux balance analysis (fba) (price et al. 2004).",
+"notes":""}
+]}
 ]
