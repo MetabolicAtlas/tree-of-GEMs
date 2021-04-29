@@ -1220,7 +1220,11 @@
 {"submissionID":
 ["MODEL1507180071"],
 "articleInformation":
-{"PMID":"20491062"},
+{"PMID":"20491062",
+"DOI":"10.1002/cbdv.200900323",
+"taxName":"",
+"taxSciName":"Cryptosporidium hominis",
+"taxID":"237895"},
 "title":"A genome-scale metabolic model of Cryptosporidium hominis.",
 "misc":
 {"GS":0,
@@ -1237,7 +1241,11 @@
 ["MODEL1507180023"],
 "articleInformation":
 {"PMID":"20594333",
-"doi":"10.1186/1475-2859-9-50"},
+"doi":"10.1186/1475-2859-9-50",
+"DOI":"10.1186/1475-2859-9-50",
+"taxName":"",
+"taxSciName":"Pichia pastoris",
+"taxID":"4922"},
 "title":"Genome-scale metabolic reconstruction and in silico analysis of methylotrophic yeast Pichia pastoris for strain improvement.",
 "misc":
 {"GS":0,
@@ -1351,7 +1359,11 @@
 ["MODEL1507180031"],
 "articleInformation":
 {"PMID":"21092328",
-"doi":"10.1186/1475-2859-9-94"},
+"doi":"10.1186/1475-2859-9-94",
+"DOI":"10.1186/1475-2859-9-94",
+"taxName":"",
+"taxSciName":"Zymomonas mobilis ZM4",
+"taxID":"542"},
 "title":"The genome-scale metabolic network analysis of Zymomonas mobilis ZM4 explains physiological features and suggests ethanol and succinic acid production strategies.",
 "misc":
 {"GS":0,
@@ -1368,7 +1380,11 @@
 ["MODEL1507180028"],
 "articleInformation":
 {"PMID":"20044452",
-"doi":"10.1104/pp.109.148817"},
+"doi":"10.1104/pp.109.148817",
+"DOI":"10.1104/pp.109.148817",
+"taxName":"mouse-ear cress/thale-cress",
+"taxSciName":"Arabidopsis thaliana",
+"taxID":"3702"},
 "title":"AraGEM, a genome-scale reconstruction of the primary metabolic network in Arabidopsis.",
 "misc":
 {"GS":0,
@@ -1384,7 +1400,11 @@
 {"submissionID":
 ["MODEL1507180042"],
 "articleInformation":
-{"PMID":"20024077"},
+{"PMID":"20024077",
+"DOI":"10.1039/b912865d",
+"taxName":"House mouse",
+"taxSciName":"Mus musculus",
+"taxID":"10090"},
 "title":"Genome-scale modeling and in silico analysis of mouse cell metabolic network.",
 "misc":
 {"GS":0,
