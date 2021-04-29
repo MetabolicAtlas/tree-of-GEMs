@@ -2553,5 +2553,140 @@
 "cit":"Using a variety of both quantitative and qualitative criteria (e.g., standardized identifiers, gene essentiality predictions, mass balanced reactions; see Methods), iOSDD and sMtb were chosen as the base reconstructions for the unification process (Fig. 1a).",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5834885/#:~:text=using%20a%20variety%20of%20both%20quantitative%20and%20qualitative%20criteria%20(e.g.%2C%20standardized%20identifiers%2C%20gene%20essentiality%20predictions%2C%20mass%20balanced%20reactions%3B%20see%20methods)%2C%20iosdd%20and%20smtb%20were%20chosen%20as%20the%20base%20reconstructions%20for%20the%20unification%20process",
 "notes":""}
-]}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"26618656",
+"DOI":"10.1371/journal.pcbi.1004543",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Integrated Modeling of Gene Regulatory and Metabolic Networks in Mycobacterium tuberculosis",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"17521419",
+"connType":"Partial",
+"cit":"To expand the knowledge base of metabolism represented by MTBPROM2.0, we updated the metabolic component by integrating gene-associated reactions with literature evidence from the multiple existing genome-scale metabolic models and supplementing with additional reaction information from literature (see S1 Text for details) [20ÿ23].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4664399/#:~:text=to%20expand%20the%20knowledge%20base%20of%20metabolism%20represented%20by%20mtbprom2.0%2C%20we%20updated%20the%20metabolic%20component%20by%20integrating%20gene-associated%20reactions%20with%20literature%20evidence%20from%20the%20multiple%20existing%20genome-scale%20metabolic%20models%20and%20supplementing%20with%20additional%20reaction%20information%20from%20literature",
+"notes":""},
+{"PMID":"21092312",
+"connType":"Partial",
+"cit":"To expand the knowledge base of metabolism represented by MTBPROM2.0, we updated the metabolic component by integrating gene-associated reactions with literature evidence from the multiple existing genome-scale metabolic models and supplementing with additional reaction information from literature (see S1 Text for details) [20ÿ23].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4664399/#:~:text=to%20expand%20the%20knowledge%20base%20of%20metabolism%20represented%20by%20mtbprom2.0%2C%20we%20updated%20the%20metabolic%20component%20by%20integrating%20gene-associated%20reactions%20with%20literature%20evidence%20from%20the%20multiple%20existing%20genome-scale%20metabolic%20models%20and%20supplementing%20with%20additional%20reaction%20information%20from%20literature",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"26377923",
+"DOI":"10.1186/s12918-015-0206-7",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Metabolic modeling predicts metabolite changes in Mycobacterium tuberculosis",
+"misc":
+[],
+"connection":
+{"PMID":"17521419",
+"connType":"Direct",
+"cit":"For our analysis, we utilized a modified version of the GSMN-TB model, which was originally described by Beste et al. [43]. Our modifications were incorporated in order to achieve more agreement with the current state of biochemical knowledge of the pathways responsible for the production of sulfolipid-1, phthiocerol dimycocerosates, triacylglycerol, diacyltrehalose, and polyacyltrehalose.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4574064/#:~:text=our%20modifications%20were%20incorporated%20in%20order%20to%20achieve%20more%20agreement%20with%20the%20current%20state%20of%20biochemical%20knowledge%20of%20the%20pathways%20responsible%20for%20the%20production%20of%20sulfolipid-1%2C%20phthiocerol%20dimycocerosates%2C%20triacylglycerol%2C%20diacyltrehalose%2C%20and%20polyacyltrehalose.",
+"notes":"Used parent model and incorporated own modifications. Direct."}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"22292986",
+"DOI":"10.1186/gb-2012-13-1-r6",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"MetaMerge: scaling up genome-scale metabolic reconstructions with application to Mycobacterium tuberculosis",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"17521419",
+"connType":"Direct",
+"cit":"We applied MetaMerge to the two M. tuberculosis models [13,14] and generated one combined model (Figure ÿ(Figure2,2, Table ÿTable1).1).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488975/#:~:text=we%20applied%20metamerge%20to%20the%20two%20m.%20tuberculosis%20models%20%5B13%2C14%5D%20and%20generated%20one%20combined%20model",
+"notes":""},
+{"PMID":"17555602",
+"connType":"Direct",
+"cit":"We applied MetaMerge to the two M. tuberculosis models [13,14] and generated one combined model (Figure ÿ(Figure2,2, Table ÿTable1).1).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3488975/#:~:text=we%20applied%20metamerge%20to%20the%20two%20m.%20tuberculosis%20models%20%5B13%2C14%5D%20and%20generated%20one%20combined%20model",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"28680478",
+"DOI":"10.1186/s13068-017-0856-3",
+"taxName":"",
+"taxSciName":"Corynebacterium glutamicum ATCC 13032",
+"taxID":"196627"},
+"title":"A new genome-scale metabolic model of Corynebacterium glutamicum and its application",
+"misc":
+[],
+"connection":
+{"PMID":"19646286",
+"connType":"Direct",
+"cit":"The reconstruction of the C. glutamicum ATCC13032 metabolic network was conducted based on the model of Shinfuku et al. [22].",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5493880/#:~:text=the%20reconstruction%20of%20the%20c.%20glutamicum%20atcc13032%20metabolic%20network%20was%20conducted%20based%20on%20the%20model%20of%20shinfuku%20et%20al.%20%5B22%5D.",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"17593909",
+"DOI":"10.1038/msb4100155",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli str. K-12 substr. MG1655",
+"taxID":"511145"},
+"title":"A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information",
+"misc":
+[],
+"connection":
+{"PMID":"12952533",
+"connType":"Direct",
+"cit":"This network reconstruction, termed iAF1260, was based on a previous reconstruction, iJR904 (Reed et al, 2003)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1911197/#:~:text=this%20network%20reconstruction%2C%20termed%20iaf1260%2C%20was%20based%20on%20a%20previous%20reconstruction%2C%20ijr904%20(reed%20et%20al%2C%202003)",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"21988831",
+"DOI":"10.1038/msb.2011.65",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli K-12 MG1655",
+"taxID":"511145"},
+"title":"A comprehensive genome-scale reconstruction of Escherichia coli metabolism--2011",
+"misc":
+[],
+"connection":
+{"PMID":"19840862",
+"connType":"Direct",
+"cit":"The updated network reconstruction of E. coli K-12 MG1655 began with the iAF1260b network (Feist et al, 2010)",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3261703/#:~:text=the%20updated%20network%20reconstruction%20of%20e.%20coli%20k-12%20mg1655%20began%20with%20the%20iaf1260b%20network%20(feist%20et%20al%2C%202010)",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"19840862",
+"DOI":"10.1016/j.ymben.2009.10.003",
+"taxName":"E. coli",
+"taxSciName":"Escherichia coli",
+"taxID":"562"},
+"title":"Model-driven evaluation of the production potential for growth-coupled products of Escherichia coli",
+"misc":
+[],
+"connection":
+{"PMID":"17593909",
+"connType":"Direct",
+"cit":"The metabolic reconstruction of E. coli iAF1260 (Feist et al., 2007) was utilized as a basis for the model used throughout the work described herein, with minor changes to network content",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3125152/#:~:text=the%20metabolic%20reconstruction%20of%20e.%20coli%20iaf1260%20(feist%20et%20al.%2C%202007)%20was%20utilized%20as%20a%20basis%20for%20the%20model%20used%20throughout%20the%20work%20described%20herein%2C%20with%20minor%20changes%20to%20network%20content",
+"notes":""}}
 ]
