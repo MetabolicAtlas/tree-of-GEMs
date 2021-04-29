@@ -1727,11 +1727,7 @@
 "time":8,
 "status":"Not checked"},
 "connection":
-{"PMID":"23974365",
-"connType":"Direct",
-"cit":"We further tested the genome-scale model for the presence of loops, as reported for the genome-scale model of L. lactis (8). ",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4325170/#__p17:~:text=We%20further%20tested%20the%20genome%2Dscale%20model,genome%2Dscale%20model%20of%20L.%20lactis%20(8).",
-"notes":""}},
+[]},
 {"submissionID":
 ["MODEL1604280050",
 "MODEL1604280044",
@@ -2399,12 +2395,12 @@
 {
 "PMID":"17267599",
 "connType":"Direct",
-"cit":"We, therefore, constructed a cell-specific alveolar macrophage model, iAB-AMØ-1410, from the global human metabolic reconstruction, Recon 1.",
+"cit":"We, therefore, constructed a cell-specific alveolar macrophage model, iAB-AMÿ-1410, from the global human metabolic reconstruction, Recon 1.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2990636/#:~:text=we%2C%20therefore%2C%20constructed%20a%20cell-specific%20alveolar%20macrophage%20model%2C%20iab-am%C3%B8-1410%2C%20from%20the%20global%20human%20metabolic%20reconstruction%2C%20recon%201.",
 "notes":""},
 {"PMID":"17555602",
 "connType":"Direct",
-"cit":"This model was then integrated with an M. tuberculosis H37Rv model, iNJ661, to build an integrated hostÿpathogen genome-scale reconstruction, iAB-AMØ-1410-Mt-661.",
+"cit":"This model was then integrated with an M. tuberculosis H37Rv model, iNJ661, to build an integrated hostÿpathogen genome-scale reconstruction, iAB-AMÿ-1410-Mt-661.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2990636/#:~:text=this%20model%20was%20then%20integrated%20with%20an%20m.%20tuberculosis%20h37rv%20model%2C%20inj661%2C%20to%20build%20an%20integrated%20host%E2%80%93pathogen%20genome-scale%20reconstruction%2C%20iab-am%C3%B8-1410-mt-661.",
 "notes":""}
 ]},
