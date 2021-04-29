@@ -139,7 +139,7 @@
 "DOI":"10.1038/nbt1010",
 "taxName":"",
 "taxSciName":"Mannheimia succiniciproducens",
-"taxID":""},
+"taxID":"157673 "},
 "title":"The genome sequence of the capnophilic rumen bacterium Mannheimia succiniciproducens.",
 "misc":
 {"GS":0,
@@ -183,9 +183,9 @@
 {"PMID":"16204195",
 "doi":"10.1101/gr.3992505",
 "DOI":"10.1101/gr.3992505",
-"taxName":"",
+"taxName":"brewer's yeast",
 "taxSciName":"Saccharomyces cerevisiae",
-"taxID":""},
+"taxID":"4932 "},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae.",
 "misc":
 {"GS":0,
@@ -209,7 +209,7 @@
 "DOI":"10.1002/bit.20663",
 "taxName":"",
 "taxSciName":"Staphylococcus aureus",
-"taxID":""},
+"taxID":"1280 "},
 "title":"In silico genome-scale reconstruction and validation of the Staphylococcus aureus metabolic network.",
 "misc":
 {"GS":0,
@@ -230,7 +230,7 @@
 "DOI":"10.1186/1471-2180-5-8",
 "taxName":"",
 "taxSciName":"Staphylococcus aureus",
-"taxID":""},
+"taxID":"1280"},
 "title":"Genome-scale reconstruction of the metabolic network in Staphylococcus aureus N315: an initial draft to the two-dimensional annotation.",
 "misc":
 {"GS":0,
@@ -251,7 +251,7 @@
 "DOI":"10.1101/gr.3364705",
 "taxName":"",
 "taxSciName":"Streptomyces coelicolor",
-"taxID":""},
+"taxID":"1902"},
 "title":"Genome-scale analysis of Streptomyces coelicolor A3(2) metabolism.",
 "misc":
 {"GS":0,
@@ -272,7 +272,7 @@
 "DOI":"10.1186/1471-2180-5-39",
 "taxName":"",
 "taxSciName":"Lactococcus lactis",
-"taxID":""},
+"taxID":"1358 "},
 "title":"Modeling Lactococcus lactis using a genome-scale flux model.",
 "misc":
 {"GS":0,
@@ -296,7 +296,7 @@
 "DOI":"10.1074/jbc.M606263200",
 "taxName":"",
 "taxSciName":"Lactiplantibacillus plantarum",
-"taxID":""},
+"taxID":"1590 "},
 "title":"Analysis of growth of Lactobacillus plantarum WCFS1 on a complex medium using a genome-scale metabolic model.",
 "misc":
 {"GS":0,
@@ -321,7 +321,7 @@
 "DOI":"10.1128/AEM.72.2.1558-1568.2006",
 "taxName":"",
 "taxSciName":"Geobacter sulfurreducens",
-"taxID":""},
+"taxID":"35554 "},
 "title":"Characterization of metabolism in the Fe(III)-reducing organism Geobacter sulfurreducens by constraint-based modeling.",
 "misc":
 {"GS":0,
@@ -341,7 +341,7 @@
 "DOI":"10.1002/bit.21433",
 "taxName":"",
 "taxSciName":"Mannheimia succiniciproducens",
-"taxID":""},
+"taxID":"157673 "},
 "title":"Genome-scale analysis of Mannheimia succiniciproducens metabolism.",
 "misc":
 {"GS":0,
@@ -387,7 +387,7 @@
 "DOI":"10.1371/journal.pcbi.0030192",
 "taxName":"",
 "taxSciName":"Rhizobium etli",
-"taxID":""},
+"taxID":"29449 "},
 "title":"Metabolic reconstruction and modeling of nitrogen fixation in Rhizobium etli.",
 "misc":
 {"GS":0,
@@ -453,7 +453,7 @@
 "DOI":"10.1074/jbc.M703759200",
 "taxName":"",
 "taxSciName":"Bacillus subtilis",
-"taxID":""},
+"taxID":"1423"},
 "title":"Genome-scale reconstruction of metabolic network in Bacillus subtilis based on high-throughput phenotyping and gene essentiality data.",
 "misc":
 {"GS":0,
@@ -485,7 +485,7 @@
 "DOI":"10.1007/s00253-008-1654-4",
 "taxName":"",
 "taxSciName":"Clostridium acetobutylicum",
-"taxID":""},
+"taxID":"1488 "},
 "title":"Genome-scale reconstruction and in silico analysis of the Clostridium acetobutylicum ATCC 824 metabolic network.",
 "misc":
 {"GS":0,
@@ -518,7 +518,7 @@
 "DOI":"10.1038/msb.2008.15",
 "taxName":"",
 "taxSciName":"Leishmania major",
-"taxID":""},
+"taxID":"5664"},
 "title":"Systems analysis of metabolism in the pathogenic trypanosomatid Leishmania major.",
 "misc":
 {"GS":0,
@@ -539,7 +539,7 @@
 "DOI":"10.1186/1471-2164-9-163",
 "taxName":"",
 "taxSciName":"Aspergillus nidulans",
-"taxID":""},
+"taxID":"162425"},
 "title":"Analysis of Aspergillus nidulans metabolism at the genome-scale.",
 "misc":
 {"GS":0,
@@ -607,7 +607,7 @@
 "DOI":"10.1371/journal.pcbi.1000210",
 "taxName":"",
 "taxSciName":"Pseudomonas putida",
-"taxID":""},
+"taxID":"303"},
 "title":"Genome-scale reconstruction and analysis of the Pseudomonas putida KT2440 metabolic network facilitates applications in biotechnology.",
 "misc":
 {"GS":0,
@@ -632,7 +632,7 @@
 "DOI":"10.1038/msb.2008.12",
 "taxName":"",
 "taxSciName":"Aspergillus niger",
-"taxID":""},
+"taxID":"5061"},
 "title":"Metabolic model integration of the bibliome, genome, metabolome and reactome of Aspergillus niger.",
 "misc":
 {"GS":0,
@@ -870,7 +870,7 @@
 "DOI":"10.1128/JB.01123-08",
 "taxName":"",
 "taxSciName":"Porphyromonas gingivalis",
-"taxID":""},
+"taxID":"837"},
 "title":"Metabolic network model of a human oral pathogen.",
 "misc":
 {"GS":0,
@@ -903,7 +903,7 @@
 "DOI":"10.1186/1752-0509-3-15",
 "taxName":"",
 "taxSciName":"Geobacter metallireducens",
-"taxID":""},
+"taxID":"28232"},
 "title":"Genome-scale constraint-based modeling of Geobacter metallireducens.",
 "misc":
 {"GS":0,
@@ -951,7 +951,7 @@
 "DOI":"10.1186/1752-0509-3-38",
 "taxName":"",
 "taxSciName":"Salmonella typhimurium",
-"taxID":""},
+"taxID":"90371"},
 "title":"Constraint-based analysis of metabolic capacity of Salmonella typhimurium during host-pathogen interaction.",
 "misc":
 {"GS":0,
@@ -984,7 +984,7 @@
 "DOI":"10.1126/science.1174671",
 "taxName":"",
 "taxSciName":"Thermotoga maritima",
-"taxID":""},
+"taxID":"2336"},
 "title":"Three-dimensional structural view of the central metabolic network of Thermotoga maritima.",
 "misc":
 {"GS":0,
@@ -1005,7 +1005,7 @@
 "DOI":"10.1186/1752-0509-3-37",
 "taxName":"Yeast",
 "taxSciName":"Saccharomyces cerevisiae",
-"taxID":""},
+"taxID":"4932"},
 "title":"Connecting extracellular metabolomic measurements to intracellular flux states in yeast.",
 "misc":
 {"GS":0,
@@ -1038,7 +1038,7 @@
 "DOI":"10.1186/1752-0509-4-156",
 "taxName":"",
 "taxSciName":"Synechocystis sp. PCC6803",
-"taxID":""},
+"taxID":"1148"},
 "title":"Reconstruction and analysis of genome-scale metabolic model of a photosynthetic bacterium.",
 "misc":
 {"GS":0,
@@ -1292,7 +1292,7 @@
 "DOI":"10.1186/1471-2164-11-202",
 "taxName":"",
 "taxSciName":"Streptomyces coelicolor",
-"taxID":""},
+"taxID":"1902"},
 "title":"Metabolic modeling and analysis of the metabolic switch in Streptomyces coelicolor.",
 "misc":
 {"GS":0,
@@ -1317,7 +1317,7 @@
 "DOI":"10.1186/1752-0509-4-118",
 "taxName":"",
 "taxSciName":"Francisella tularensis",
-"taxID":""},
+"taxID":"263"},
 "title":"Systems approach to investigating host-pathogen interactions in infections with the biothreat agent Francisella. Constraints-based model of Francisella tularensis.",
 "misc":
 {"GS":0,
@@ -1342,7 +1342,7 @@
 "DOI":"10.1186/1752-0509-4-160",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":""},
+"taxID":"1773"},
 "title":"Development and analysis of an in vivo-compatible metabolic network of Mycobacterium tuberculosis.",
 "misc":
 {"GS":0,
