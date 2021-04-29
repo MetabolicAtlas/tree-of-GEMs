@@ -2511,5 +2511,47 @@
 "cit":"Therefore we have constructed sMtb, a manually curated merged model of MAP, iNJ661 and GSMN-TB 1.1 that is currently the most comprehensive genome-scale metabolic model of Mtb.",
 "citLink":"https://www.sciencedirect.com/science/article/pii/S1044532314000979?via%3Dihub#:~:text=therefore%20we%20have%20constructed%20smtb%2C%20a%20manually%20curated%20merged%20model%20of%20map%2C%20inj661%20and%20gsmn-tb%201.1%20that%20is%20currently%20the%20most%20comprehensive%20genome-scale%20metabolic%20model%20of%20mtb.",
 "notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"30123778",
+"DOI":"10.3389/fcimb.2018.00264",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Modeling the Metabolic State of Mycobacterium tuberculosis Upon Infection",
+"misc":
+[],
+"connection":
+{"PMID":"25453232",
+"connType":"Direct",
+"cit":"We used our genome-scale metabolic model of M. tuberculosis called sMtb, in silico M. tuberculosis (Rienksma et al., 2014). We made some minor corrections to this model regarding among others the respiration chain, and added six reactions to improve the functioning of the model.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6085482/#:~:text=we%20used%20our%20genome-scale%20metabolic%20model%20of%20m.%20tuberculosis%20called%20smtb%2C%20in%20silico%20m.%20tuberculosis%20(rienksma%20et%20al.%2C%202014).%20we%20made%20some%20minor%20corrections%20to%20this%20model%20regarding%20among%20others%20the%20respiration%20chain%2C%20and%20added%20six%20reactions%20to%20improve%20the%20functioning%20of%20the%20model.",
+"notes":"Same creator of parent have created this. So can be seen as a version of the parent one. Direct."}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"29499714",
+"DOI":"10.1186/s12918-018-0557-y",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis H37Rv",
+"taxID":"83332"},
+"title":"Updated and standardized genome-scale reconstruction of Mycobacterium tuberculosis H37Rv, iEK1011, simulates flux states indicative of physiological conditions",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"25304862",
+"connType":"Direct",
+"cit":"Using a variety of both quantitative and qualitative criteria (e.g., standardized identifiers, gene essentiality predictions, mass balanced reactions; see Methods), iOSDD and sMtb were chosen as the base reconstructions for the unification process (Fig. 1a).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5834885/#:~:text=using%20a%20variety%20of%20both%20quantitative%20and%20qualitative%20criteria%20(e.g.%2C%20standardized%20identifiers%2C%20gene%20essentiality%20predictions%2C%20mass%20balanced%20reactions%3B%20see%20methods)%2C%20iosdd%20and%20smtb%20were%20chosen%20as%20the%20base%20reconstructions%20for%20the%20unification%20process",
+"notes":""},
+{"PMID":"25453232",
+"connType":"Direct",
+"cit":"Using a variety of both quantitative and qualitative criteria (e.g., standardized identifiers, gene essentiality predictions, mass balanced reactions; see Methods), iOSDD and sMtb were chosen as the base reconstructions for the unification process (Fig. 1a).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5834885/#:~:text=using%20a%20variety%20of%20both%20quantitative%20and%20qualitative%20criteria%20(e.g.%2C%20standardized%20identifiers%2C%20gene%20essentiality%20predictions%2C%20mass%20balanced%20reactions%3B%20see%20methods)%2C%20iosdd%20and%20smtb%20were%20chosen%20as%20the%20base%20reconstructions%20for%20the%20unification%20process",
+"notes":""}
 ]}
 ]
