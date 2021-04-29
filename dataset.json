@@ -3,7 +3,11 @@
 "submissionID":
 ["MODEL2008060001"],
 "articleInformation":
-{"PMID":"unknown"},
+{"PMID":"24085837",
+"DOI":"10.1099/mic.0.071340-0",
+"taxName":"",
+"taxSciName":"Zymomonas mobilis",
+"taxID":"542"},
 "title":"Zymomonas ED Pathway",
 "misc":
 {"GS":0,
