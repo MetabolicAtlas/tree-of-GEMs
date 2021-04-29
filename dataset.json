@@ -841,7 +841,11 @@
 ["MODEL1507180052"],
 "articleInformation":
 {"PMID":"19214212",
-"doi":"10.1371/journal.pcbi.1000285"},
+"doi":"10.1371/journal.pcbi.1000285",
+"DOI":"10.1371/journal.pcbi.1000285",
+"taxName":"",
+"taxSciName":"Mycoplasma genitalium",
+"taxID":"2097"},
 "title":"A genome-scale metabolic reconstruction of Mycoplasma genitalium, iPS189.",
 "misc":
 {"GS":0,
@@ -1047,7 +1051,11 @@
 ["MODEL1507180004"],
 "articleInformation":
 {"PMID":"20307315",
-"doi":"10.1186/1752-0509-4-31"},
+"doi":"10.1186/1752-0509-4-31",
+"DOI":"10.1186/1752-0509-4-31",
+"taxName":"",
+"taxSciName":"Clostridium thermocellum ATCC 27405",
+"taxID":"1515"},
 "title":"Genome-scale metabolic analysis of Clostridium thermocellum for bioethanol production.",
 "misc":
 {"GS":0,
@@ -1090,7 +1098,11 @@
 {"submissionID":
 ["MODEL1507180029"],
 "articleInformation":
-{"PMID":"20094653"},
+{"PMID":"20094653",
+"DOI":"10.1039/b916446d",
+"taxName":"",
+"taxSciName":"Acinetobacter baumannii AYE",
+"taxID":"509173"},
 "title":"Genome-scale metabolic network analysis and drug targeting of multi-drug resistant pathogen Acinetobacter baumannii AYE.",
 "misc":
 {"GS":0,
@@ -1107,7 +1119,11 @@
 ["MODEL1507180055"],
 "articleInformation":
 {"PMID":"20959003",
-"doi":"10.1186/1752-0509-4-140"},
+"doi":"10.1186/1752-0509-4-140",
+"DOI":"10.1186/1752-0509-4-140",
+"taxName":"House mouse",
+"taxSciName":"Mus musculus",
+"taxID":"10090"},
 "title":"A detailed genome-wide reconstruction of mouse metabolism based on human Recon 1.",
 "misc":
 {"GS":0,
@@ -1127,7 +1143,11 @@
 {"submissionID":
 ["MODEL1507180043"],
 "articleInformation":
-{"PMID":"20540110"},
+{"PMID":"20540110",
+"DOI":"10.1002/biot.201000124",
+"taxName":"",
+"taxSciName":"Pseudomonas putida KT2440",
+"taxID":"160488"},
 "title":"In silico genome-scale metabolic analysis of Pseudomonas putida KT2440 for polyhydroxyalkanoate synthesis, degradation of aromatics and anaerobic survival.",
 "misc":
 {"GS":0,
@@ -1168,7 +1188,11 @@
 ["MODEL1507180036"],
 "articleInformation":
 {"PMID":"20589080",
-"doi":"10.1371/journal.pcbi.1000822"},
+"doi":"10.1371/journal.pcbi.1000822",
+"DOI":"10.1371/journal.pcbi.1000822",
+"taxName":"",
+"taxSciName":"Shewanella oneidensis MR-1",
+"taxID":"211586"},
 "title":"Constraint-based model of Shewanella oneidensis MR-1 metabolism: a tool for data analysis and hypothesis generation.",
 "misc":
 {"GS":0,
@@ -2204,7 +2228,7 @@
 "MODEL1909260004",
 "MODEL1909260005"],
 "articleInformation":
-{"PMID":"http://identifiers.org/doi/10.1038/s41540-020-00165-3",
+{"PMID":"33483502",
 "DOI":"10.1038/s41540-020-00165-3",
 "taxName":"human",
 "taxSciName":"Homo Sapiens",
