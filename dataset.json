@@ -774,7 +774,11 @@
 ["MODEL1507180063"],
 "articleInformation":
 {"PMID":"19346354",
-"doi":"10.1128/AEM.00138-09"},
+"doi":"10.1128/AEM.00138-09",
+"DOI":"10.1128/AEM.00138-09",
+"taxName":"S. thermophilus LMG18311",
+"taxSciName":"Streptococcus thermophilus LMG18311",
+"taxID":"264199"},
 "title":"Genome-scale model of Streptococcus thermophilus LMG18311 for metabolic comparison of lactic acid bacteria.",
 "misc":
 {"GS":0,
