@@ -756,7 +756,11 @@
 ["MODEL1507180024"],
 "articleInformation":
 {"PMID":"19772637",
-"doi":"10.1186/1471-2164-10-447"},
+"doi":"10.1186/1471-2164-10-447",
+"DOI":"10.1186/1471-2164-10-447",
+"taxName":"R. ferrireducens",
+"taxSciName":"Rhodoferax ferrireducens",
+"taxID":"192843"},
 "title":"Genome-scale comparison and constraint-based metabolic reconstruction of the facultative anaerobic Fe(III)-reducer Rhodoferax ferrireducens.",
 "misc":
 {"GS":0,
