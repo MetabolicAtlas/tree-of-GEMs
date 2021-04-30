@@ -27,8 +27,7 @@
 "DOI":"https://doi.org/10.1006/jtbi.2000.1088",
 "taxName":"Haemophilus influenzae Rd",
 "taxSciName":"Haemophilus influenzae Rd",
-"taxID":"71421",
-"modelname":"iCS400"},
+"taxID":"71421"},
 "title":"Assessment of the metabolic capabilities of Haemophilus influenzae Rd through a genome-scale pathway analysis.",
 "misc":
 {"GS":0,
@@ -49,8 +48,7 @@
 "DOI":"10.1128/jb.184.16.4582-4593.2002",
 "taxName":"",
 "taxSciName":"Helicobacter pylori 26695",
-"taxID":"85962",
-"modelname":"iCS291"},
+"taxID":"85962"},
 "title":"Genome-scale metabolic model of Helicobacter pylori 26695.",
 "misc":
 {"GS":0,
@@ -355,7 +353,7 @@
 "time":4,
 "status":"Unfinshed"},
 "connection":
-{"PMID":"15378067",
+{"PMID":"17405177",
 "connType":"Direct",
 "cit":"This newlyupdated model contains 313 more reactions and 167 moremetabolites than the small-scale model we reportedpreviously (Hong et al., 2004).",
 "citLink":"",
@@ -2267,8 +2265,7 @@
 "DOI":"10.1101/gr.2250904",
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
-"taxID":"4932",
-"year":"2004"},
+"taxID":"4932"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model",
 "misc":
 {"GS":0,
@@ -2292,8 +2289,7 @@
 "DOI":"10.1101/gr.3992505",
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
-"taxID":"4932",
-"year":"2005"},
+"taxID":"4932"},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
 "misc":
 {"GS":0,
@@ -2325,8 +2321,7 @@
 "DOI":"10.1073/pnas.97.10.5528",
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
-"taxID":"562",
-"year":"2000"},
+"taxID":"562"},
 "title":"The Escherichia coli MG1655 in silico metabolic genotype: Its definition, characteristics, and capabilities ",
 "misc":
 [],
@@ -2339,8 +2334,7 @@
 "DOI":"10.1073/pnas.0610772104",
 "taxName":"Man",
 "taxSciName":"Homo sapiens",
-"taxID":"9606",
-"year":"2007"},
+"taxID":"9606"},
 "title":"Global reconstruction of the human metabolic network based on genomic and bibliomic data",
 "misc":
 [],
@@ -2353,8 +2347,7 @@
 "DOI":"10.3389/fbioe.2020.612832",
 "taxName":"",
 "taxSciName":"Rhodotorula toruloides",
-"taxID":"5286",
-"year":"2021"},
+"taxID":"5286"},
 "title":"Multi-Omics Driven Metabolic Network Reconstruction and Analysis of Lignocellulosic Carbon Utilization in Rhodosporidium toruloides",
 "misc":
 [],
@@ -2399,8 +2392,7 @@
 "DOI":"10.1038/nbt.3956",
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli K-12",
-"taxID":"83333",
-"year":"2017"},
+"taxID":"83333"},
 "title":"iML1515, a knowledgebase that computes Escherichia coli traits",
 "misc":
 [],
@@ -2417,8 +2409,7 @@
 "DOI":"10.1371/journal.pcbi.1000489",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2009"},
+"taxID":"1773"},
 "title":"Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production",
 "misc":
 [],
@@ -2441,10 +2432,9 @@
 "articleInformation":
 {"PMID":"20959820",
 "DOI":"10.1038/msb.2010.68",
-"taxName":"",
-"taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2010"},
+"taxName":"Mycobacterium tuberculosis",
+"taxSciName":"",
+"taxID":"1773"},
 "title":"Insight into human alveolar macrophage and M. tuberculosis interactions via metabolic reconstructions",
 "misc":
 [],
@@ -2469,8 +2459,7 @@
 "DOI":"10.1371/journal.pone.0075913",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis variant bovis",
-"taxID":"1765",
-"year":"2013"},
+"taxID":"1765"},
 "title":"Systems-Based Approaches to Probing Metabolic Variation within the Mycobacterium tuberculosis Complex",
 "misc":
 [],
@@ -2487,8 +2476,7 @@
 "DOI":"10.1186/s12967-014-0263-5",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2014"},
+"taxID":"1773"},
 "title":"Systems level mapping of metabolic complexity in Mycobacterium tuberculosis to identify high-value drug targets",
 "misc":
 [],
@@ -2505,8 +2493,7 @@
 "DOI":"10.1016/j.smim.2014.09.013",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2014"},
+"taxID":"1773"},
 "title":"Systems-level modeling of mycobacterial metabolism for the identification of new (multi-)drug targets",
 "misc":
 [],
@@ -2536,8 +2523,7 @@
 "DOI":"10.3389/fcimb.2018.00264",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2018"},
+"taxID":"1773"},
 "title":"Modeling the Metabolic State of Mycobacterium tuberculosis Upon Infection",
 "misc":
 [],
@@ -2554,8 +2540,7 @@
 "DOI":"10.1186/s12918-018-0557-y",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis H37Rv",
-"taxID":"83332",
-"year":"2018"},
+"taxID":"83332"},
 "title":"Updated and standardized genome-scale reconstruction of Mycobacterium tuberculosis H37Rv, iEK1011, simulates flux states indicative of physiological conditions",
 "misc":
 [],
@@ -2580,8 +2565,7 @@
 "DOI":"10.1371/journal.pcbi.1004543",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2015"},
+"taxID":"1773"},
 "title":"Integrated Modeling of Gene Regulatory and Metabolic Networks in Mycobacterium tuberculosis",
 "misc":
 [],
@@ -2606,8 +2590,7 @@
 "DOI":"10.1186/s12918-015-0206-7",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2015"},
+"taxID":"1773"},
 "title":"Metabolic modeling predicts metabolite changes in Mycobacterium tuberculosis",
 "misc":
 [],
@@ -2624,8 +2607,7 @@
 "DOI":"10.1186/gb-2012-13-1-r6",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2012"},
+"taxID":"1773"},
 "title":"MetaMerge: scaling up genome-scale metabolic reconstructions with application to Mycobacterium tuberculosis",
 "misc":
 [],
@@ -2650,8 +2632,7 @@
 "DOI":"10.1186/s13068-017-0856-3",
 "taxName":"",
 "taxSciName":"Corynebacterium glutamicum ATCC 13032",
-"taxID":"196627",
-"year":"2017"},
+"taxID":"196627"},
 "title":"A new genome-scale metabolic model of Corynebacterium glutamicum and its application",
 "misc":
 [],
@@ -2668,8 +2649,7 @@
 "DOI":"10.1038/msb4100155",
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli str. K-12 substr. MG1655",
-"taxID":"511145",
-"year":"2007"},
+"taxID":"511145"},
 "title":"A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information",
 "misc":
 [],
@@ -2686,8 +2666,7 @@
 "DOI":"10.1038/msb.2011.65",
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli K-12 MG1655",
-"taxID":"511145",
-"year":"2011"},
+"taxID":"511145"},
 "title":"A comprehensive genome-scale reconstruction of Escherichia coli metabolism--2011",
 "misc":
 [],
@@ -2704,8 +2683,7 @@
 "DOI":"10.1016/j.ymben.2009.10.003",
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
-"taxID":"562",
-"year":"2010"},
+"taxID":"562"},
 "title":"Model-driven evaluation of the production potential for growth-coupled products of Escherichia coli",
 "misc":
 [],
