@@ -362,11 +362,7 @@
 ["MODEL1507180021"],
 "articleInformation":
 {"PMID":"17521419",
-"doi":"10.1186/gb-2007-8-5-r89",
-"DOI":"10.1186/gb-2007-8-5-r89",
-"taxName":"M. tuberculosis",
-"taxSciName":"Mycobacterium tuberculosis",
-"taxID":"83332"},
+"doi":"10.1186/gb-2007-8-5-r89"},
 "title":"GSMN-TB: a web-based genome-scale network model of Mycobacterium tuberculosis metabolism.",
 "misc":
 {"GS":0,
@@ -700,7 +696,7 @@
 "DOI":"10.1128/JB.01583-07",
 "taxName":"",
 "taxSciName":"Pseudomonas aeruginosa PAO1",
-"taxID":"txid208964"},
+"taxID":"208964"},
 "title":"Genome-scale metabolic network analysis of the opportunistic pathogen Pseudomonas aeruginosa PAO1.",
 "misc":
 {"GS":0,
@@ -741,11 +737,7 @@
 ["MODEL1507180024"],
 "articleInformation":
 {"PMID":"19772637",
-"doi":"10.1186/1471-2164-10-447",
-"DOI":"10.1186/1471-2164-10-447",
-"taxName":"R. ferrireducens",
-"taxSciName":"Rhodoferax ferrireducens",
-"taxID":"192843"},
+"doi":"10.1186/1471-2164-10-447"},
 "title":"Genome-scale comparison and constraint-based metabolic reconstruction of the facultative anaerobic Fe(III)-reducer Rhodoferax ferrireducens.",
 "misc":
 {"GS":0,
@@ -774,11 +766,7 @@
 ["MODEL1507180063"],
 "articleInformation":
 {"PMID":"19346354",
-"doi":"10.1128/AEM.00138-09",
-"DOI":"10.1128/AEM.00138-09",
-"taxName":"S. thermophilus LMG18311",
-"taxSciName":"Streptococcus thermophilus LMG18311",
-"taxID":"264199"},
+"doi":"10.1128/AEM.00138-09"},
 "title":"Genome-scale model of Streptococcus thermophilus LMG18311 for metabolic comparison of lactic acid bacteria.",
 "misc":
 {"GS":0,
@@ -1183,7 +1171,7 @@
 "DOI":"10.1002/biot.201000078",
 "taxName":"",
 "taxSciName":"Komagataella pastoris",
-"taxID":"txid4922"},
+"taxID":"4922"},
 "title":"Genome-scale metabolic model of methylotrophic yeast Pichia pastoris and its use for in silico analysis of heterologous protein production.",
 "misc":
 {"GS":0,
@@ -1697,7 +1685,7 @@
 "JY":1,
 "YL":0,
 "time":10,
-"status":"Unfinished"},
+"status":"Not checked"},
 "connection":
 {"PMID":"12952533",
 "connType":"Direct",
@@ -1978,7 +1966,7 @@
 "DOI":"10.1016/j.celrep.2017.11.065",
 "taxName":"Human",
 "taxSciName":"Homo sapiens",
-"taxID":"txid9606"},
+"taxID":"9606"},
 "title":"Integrating Extracellular Flux Measurements and Genome-Scale Modeling Reveals Differences between Brown and White Adipocytes.",
 "misc":
 {"GS":0,
@@ -1999,11 +1987,7 @@
 ["MODEL1710040000"],
 "articleInformation":
 {"PMID":"29377524",
-"doi":"10.1111/1751-7915.13033",
-"DOI":"10.1111/1751-7915.13033",
-"taxName":" A. muciniphila ATCC BAA-835",
-"taxSciName":"Akkermansia muciniphila ATCC BAA-835",
-"taxID":"349741"},
+"doi":"10.1111/1751-7915.13033"},
 "title":"Model-driven design of a minimal medium for Akkermansia muciniphila confirms mucus adaptation.",
 "misc":
 {"GS":0,
