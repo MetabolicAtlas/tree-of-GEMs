@@ -1418,7 +1418,7 @@
 "JY":0,
 "YL":0,
 "time":10,
-"status":"Not checked"},
+"status":"Unfinished"},
 "connection":
 [
 {
@@ -1476,7 +1476,7 @@
 "JY":0,
 "YL":0,
 "time":10,
-"status":"Finished"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"16738551",
 "connType":"Partial",
@@ -1501,10 +1501,10 @@
 "JY":0,
 "YL":0,
 "time":10,
-"status":"Finished"},
+"status":"Unfinished"},
 "connection":
 {"PMID":"17593909",
-"connType":"Partial",
+"connType":"Direct",
 "cit":"Because E. coli and K. pneumoniae are closely related members of the family Enterobacteriaceae, the genome-scale metabolic model for E. coli K-12 MG1655, iAF1260, was used as a template to expedite a draft reconstruction for K. pneumoniae MGH 78578.",
 "citLink":"https://europepmc.org/article/med/21296962#id696952:~:text=Because%20E.%20coli%20and%20K.%20pneumoniae,reconstruction%20for%20K.%20pneumoniae%20MGH%2078578.",
 "notes":""}},
