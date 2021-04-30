@@ -739,7 +739,8 @@
 "DOI":"10.1142/9781848163324_0008",
 "taxName":"M. musculus ",
 "taxSciName":"Mus musculus",
-"taxID":"10090"},
+"taxID":"10090",
+"model":""},
 "title":"On the reconstruction of the Mus musculus genome-scale metabolic network model.",
 "misc":
 {"GS":0,
@@ -1020,7 +1021,7 @@
 "taxName":"T. maritima",
 "taxSciName":"Thermotoga maritima",
 "taxID":"2336",
-"model":"2336"},
+"model":""},
 "title":"Three-dimensional structural view of the central metabolic network of Thermotoga maritima.",
 "misc":
 {"GS":0,
