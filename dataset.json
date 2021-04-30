@@ -2026,7 +2026,11 @@
 ["MODEL1710040000"],
 "articleInformation":
 {"PMID":"29377524",
-"doi":"10.1111/1751-7915.13033"},
+"doi":"10.1111/1751-7915.13033",
+"DOI":"10.1111/1751-7915.13033",
+"taxName":"A. muciniphila ATCC BAA-835",
+"taxSciName":"Akkermansia muciniphila ATCC BAA-835",
+"taxID":"349741"},
 "title":"Model-driven design of a minimal medium for Akkermansia muciniphila confirms mucus adaptation.",
 "misc":
 {"GS":0,
