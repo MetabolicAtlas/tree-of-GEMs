@@ -736,8 +736,8 @@
 ["MODEL1507180067"],
 "articleInformation":
 {"PMID":"19425150",
-"DOI":"",
-"taxName":"Mouse",
+"DOI":" 10.1142/9781848163324_0008",
+"taxName":" M. musculus ",
 "taxSciName":"Mus musculus",
 "taxID":"10090"},
 "title":"On the reconstruction of the Mus musculus genome-scale metabolic network model.",
