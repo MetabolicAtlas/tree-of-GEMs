@@ -240,7 +240,8 @@
 "DOI":"10.1186/1471-2180-5-8",
 "taxName":"",
 "taxSciName":"Staphylococcus aureus",
-"taxID":"1280"},
+"taxID":"1280",
+"model":"iSB619"},
 "title":"Genome-scale reconstruction of the metabolic network in Staphylococcus aureus N315: an initial draft to the two-dimensional annotation.",
 "misc":
 {"GS":0,
@@ -261,7 +262,8 @@
 "DOI":"10.1101/gr.3364705",
 "taxName":"",
 "taxSciName":"Streptomyces coelicolor",
-"taxID":"1902"},
+"taxID":"1902",
+"model":"iIB711"},
 "title":"Genome-scale analysis of Streptomyces coelicolor A3(2) metabolism.",
 "misc":
 {"GS":0,
@@ -282,7 +284,8 @@
 "DOI":"10.1186/1471-2180-5-39",
 "taxName":"",
 "taxSciName":"Lactococcus lactis",
-"taxID":"1358 "},
+"taxID":"1358 ",
+"model":"iAO358 "},
 "title":"Modeling Lactococcus lactis using a genome-scale flux model.",
 "misc":
 {"GS":0,
@@ -306,7 +309,8 @@
 "DOI":"10.1074/jbc.M606263200",
 "taxName":"",
 "taxSciName":"Lactiplantibacillus plantarum",
-"taxID":"1590 "},
+"taxID":"1590 ",
+"model":"iBT721 "},
 "title":"Analysis of growth of Lactobacillus plantarum WCFS1 on a complex medium using a genome-scale metabolic model.",
 "misc":
 {"GS":0,
@@ -331,7 +335,8 @@
 "DOI":"10.1128/AEM.72.2.1558-1568.2006",
 "taxName":"",
 "taxSciName":"Geobacter sulfurreducens",
-"taxID":"35554 "},
+"taxID":"35554 ",
+"model":"iRM588 "},
 "title":"Characterization of metabolism in the Fe(III)-reducing organism Geobacter sulfurreducens by constraint-based modeling.",
 "misc":
 {"GS":0,
