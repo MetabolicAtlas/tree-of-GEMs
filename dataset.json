@@ -2325,7 +2325,8 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"year":"2004"},
+"year":"2004",
+"model":"iND750"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model",
 "misc":
 {"GS":0,
@@ -2350,7 +2351,8 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"year":"2005"},
+"year":"2005",
+"model":"iLL672"},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
 "misc":
 {"GS":0,
@@ -2383,7 +2385,8 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
 "taxID":"562",
-"year":"2000"},
+"year":"2000",
+"model":"MG1655"},
 "title":"The Escherichia coli MG1655 in silico metabolic genotype: Its definition, characteristics, and capabilities ",
 "misc":
 [],
