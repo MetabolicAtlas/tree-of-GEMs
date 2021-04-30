@@ -1540,7 +1540,8 @@
 "DOI":"10.1371/journal.pone.0021784",
 "taxName":"maize",
 "taxSciName":"Zea mays",
-"taxID":"4577"},
+"taxID":"4577",
+"model":"iRS1563, iRS1597"},
 "title":"Zea mays iRS1563: a comprehensive genome-scale metabolic reconstruction of maize metabolism.",
 "misc":
 {"GS":1,
@@ -1565,7 +1566,8 @@
 "DOI":"https://doi.org/10.1186/1752-0509-5-8",
 "taxName":"Salmonella typhimurium",
 "taxSciName":"Salmonella enterica subsp. enterica serovar Typhimurium str. LT2",
-"taxID":"99287"},
+"taxID":"99287",
+"model":"STM_v1_0"},
 "title":"A community effort towards a knowledge-base and mathematical model of the human pathogen Salmonella Typhimurium LT2.",
 "misc":
 {"GS":1,
@@ -1590,7 +1592,8 @@
 "DOI":"https://doi.org/10.1186/1752-0509-5-83",
 "taxName":"Burkholderia cenocepacia",
 "taxSciName":"Burkholderia cenocepacia J2315",
-"taxID":"216591"},
+"taxID":"216591",
+"model":"iKF1028"},
 "title":"Exploring the metabolic network of the epidemic pathogen Burkholderia cenocepacia J2315 via genome-scale reconstruction.",
 "misc":
 {"GS":1,
@@ -1611,7 +1614,8 @@
 "DOI":"10.1186/1471-2164-12-9",
 "taxName":"E.coli W",
 "taxSciName":"Escherichia coli W",
-"taxID":"566546"},
+"taxID":"566546",
+"model":"iCA1273"},
 "title":"The genome sequence of E. coli W (ATCC 9637): comparative genome analysis and an improved genome-scale reconstruction of E. coli.",
 "misc":
 {"GS":0,
@@ -1632,7 +1636,8 @@
 "DOI":"10.1128/jb.06040-11 ",
 "taxName":"",
 "taxSciName":"Methanosarcina acetivorans C2A",
-"taxID":"188937"},
+"taxID":"188937",
+"model":"iMB745"},
 "title":"Genome-scale metabolic reconstruction and hypothesis testing in the methanogenic archaeon Methanosarcina acetivorans C2A.",
 "misc":
 {"GS":0,
@@ -1657,7 +1662,8 @@
 "DOI":"10.1186/1754-6834-5-72 ",
 "taxName":"budding yeasts",
 "taxSciName":"Scheffersomyces stipitis ",
-"taxID":"4924"},
+"taxID":"4924",
+"model":"iTL885"},
 "title":"A constraint-based model of Scheffersomyces stipitis for improved ethanol production.",
 "misc":
 {"GS":0,
@@ -1677,7 +1683,8 @@
 "DOI":"10.1016/j.jbiotec.2012.05.015",
 "taxName":"K. vulgare WSH001",
 "taxSciName":"Ketogulonicigenium vulgare WSH001",
-"taxID":"759362"},
+"taxID":"759362",
+"model":"iWZ663"},
 "title":"Reconstruction and analysis of a genome-scale metabolic model of the vitamin C producing industrial strain Ketogulonicigenium vulgare WSH-001.",
 "misc":
 {"GS":0,
@@ -1702,7 +1709,8 @@
 "DOI":"10.1186/1752-0509-6-49",
 "taxName":"fission yeast",
 "taxSciName":"Schizosaccharomyces pombe",
-"taxID":"4896"},
+"taxID":"4896",
+"model":"SpoMBEL1693"},
 "title":"Genome-scale metabolic model of the fission yeast Schizosaccharomyces pombe and the reconciliation of in silico/in vivo mutant growth.",
 "misc":
 [],
@@ -1717,7 +1725,8 @@
 "DOI":"10.1186/1752-0509-6-24",
 "taxName":"",
 "taxSciName":"Pichia",
-"taxID":"4919"},
+"taxID":"4919",
+"model":"iLC915, iSS884"},
 "title":"Genome-scale metabolic reconstructions of Pichia stipitis and Pichia pastoris and in silico evaluation of their potentials.",
 "misc":
 [],
@@ -1731,7 +1740,8 @@
 "DOI":"10.1073/pnas.1117907109",
 "taxName":"",
 "taxSciName":"Synechocystis sp. PCC 6803",
-"taxID":"1148"},
+"taxID":"1148",
+"model":"iJN678"},
 "title":"Detailing the optimality of photosynthesis in cyanobacteria through systems biology analysis.",
 "misc":
 {"GS":0,
@@ -1751,7 +1761,8 @@
 "DOI":"10.1371/journal.pone.0137976",
 "taxName":"",
 "taxSciName":"Leishmania infantum",
-"taxID":"5671"},
+"taxID":"5671",
+"model":"iAS142"},
 "title":"Dissecting Leishmania infantum Energy Metabolism - A Systems Perspective",
 "misc":
 [],
@@ -1908,7 +1919,8 @@
 "DOI":"10.1038/s41598-017-10743-x",
 "taxName":"",
 "taxSciName":"Leishmania infantum",
-"taxID":"435258"},
+"taxID":"435258",
+"model":"iAS556"},
 "title":"Revealing the mystery of metabolic adaptations using a genome scale model of Leishmania infantum",
 "misc":
 {"GS":0,
