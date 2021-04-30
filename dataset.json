@@ -27,7 +27,8 @@
 "DOI":"https://doi.org/10.1006/jtbi.2000.1088",
 "taxName":"Haemophilus influenzae Rd",
 "taxSciName":"Haemophilus influenzae Rd",
-"taxID":"71421"},
+"taxID":"71421",
+"modelname":"iCS400"},
 "title":"Assessment of the metabolic capabilities of Haemophilus influenzae Rd through a genome-scale pathway analysis.",
 "misc":
 {"GS":0,
@@ -48,7 +49,8 @@
 "DOI":"10.1128/jb.184.16.4582-4593.2002",
 "taxName":"",
 "taxSciName":"Helicobacter pylori 26695",
-"taxID":"85962"},
+"taxID":"85962",
+"modelname":"iCS291"},
 "title":"Genome-scale metabolic model of Helicobacter pylori 26695.",
 "misc":
 {"GS":0,
