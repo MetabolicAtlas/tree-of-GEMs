@@ -2481,6 +2481,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"MFF-RmwBo",
 "year":"2009"},
 "title":"Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production",
 "misc":
@@ -2507,6 +2508,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"iAB-AMØ-1410-Mt-661",
 "year":"2010"},
 "title":"Insight into human alveolar macrophage and M. tuberculosis interactions via metabolic reconstructions",
 "misc":
@@ -2533,6 +2535,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis variant bovis",
 "taxID":"1765",
+"model":"GSMN-TB 1.1",
 "year":"2013"},
 "title":"Systems-Based Approaches to Probing Metabolic Variation within the Mycobacterium tuberculosis Complex",
 "misc":
@@ -2551,6 +2554,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"iOSDD890",
 "year":"2014"},
 "title":"Systems level mapping of metabolic complexity in Mycobacterium tuberculosis to identify high-value drug targets",
 "misc":
@@ -2569,6 +2573,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"sMtb",
 "year":"2014"},
 "title":"Systems-level modeling of mycobacterial metabolism for the identification of new (multi-)drug targets",
 "misc":
@@ -2600,6 +2605,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"sMtb 2018",
 "year":"2018"},
 "title":"Modeling the Metabolic State of Mycobacterium tuberculosis Upon Infection",
 "misc":
@@ -2618,6 +2624,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis H37Rv",
 "taxID":"83332",
+"model":"iEK1011",
 "year":"2018"},
 "title":"Updated and standardized genome-scale reconstruction of Mycobacterium tuberculosis H37Rv, iEK1011, simulates flux states indicative of physiological conditions",
 "misc":
@@ -2644,6 +2651,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"MTBPROM2.0",
 "year":"2015"},
 "title":"Integrated Modeling of Gene Regulatory and Metabolic Networks in Mycobacterium tuberculosis",
 "misc":
@@ -2662,24 +2670,6 @@
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4664399/#:~:text=to%20expand%20the%20knowledge%20base%20of%20metabolism%20represented%20by%20mtbprom2.0%2C%20we%20updated%20the%20metabolic%20component%20by%20integrating%20gene-associated%20reactions%20with%20literature%20evidence%20from%20the%20multiple%20existing%20genome-scale%20metabolic%20models%20and%20supplementing%20with%20additional%20reaction%20information%20from%20literature",
 "notes":""}
 ]},
-{"submissionID":
-[],
-"articleInformation":
-{"PMID":"26377923",
-"DOI":"10.1186/s12918-015-0206-7",
-"taxName":"",
-"taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773",
-"year":"2015"},
-"title":"Metabolic modeling predicts metabolite changes in Mycobacterium tuberculosis",
-"misc":
-[],
-"connection":
-{"PMID":"17521419",
-"connType":"Direct",
-"cit":"For our analysis, we utilized a modified version of the GSMN-TB model, which was originally described by Beste et al. [43]. Our modifications were incorporated in order to achieve more agreement with the current state of biochemical knowledge of the pathways responsible for the production of sulfolipid-1, phthiocerol dimycocerosates, triacylglycerol, diacyltrehalose, and polyacyltrehalose.",
-"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4574064/#:~:text=our%20modifications%20were%20incorporated%20in%20order%20to%20achieve%20more%20agreement%20with%20the%20current%20state%20of%20biochemical%20knowledge%20of%20the%20pathways%20responsible%20for%20the%20production%20of%20sulfolipid-1%2C%20phthiocerol%20dimycocerosates%2C%20triacylglycerol%2C%20diacyltrehalose%2C%20and%20polyacyltrehalose.",
-"notes":"Used parent model and incorporated own modifications. Direct."}},
 {"submissionID":
 [],
 "articleInformation":
