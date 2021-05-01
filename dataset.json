@@ -2678,6 +2678,7 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
+"model":"MergedTBModel",
 "year":"2012"},
 "title":"MetaMerge: scaling up genome-scale metabolic reconstructions with application to Mycobacterium tuberculosis",
 "misc":
@@ -2704,6 +2705,7 @@
 "taxName":"",
 "taxSciName":"Corynebacterium glutamicum ATCC 13032",
 "taxID":"196627",
+"model":"iCW773",
 "year":"2017"},
 "title":"A new genome-scale metabolic model of Corynebacterium glutamicum and its application",
 "misc":
@@ -2722,6 +2724,7 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli str. K-12 substr. MG1655",
 "taxID":"511145",
+"model":"iAF1260",
 "year":"2007"},
 "title":"A genome-scale metabolic reconstruction for Escherichia coli K-12 MG1655 that accounts for 1260 ORFs and thermodynamic information",
 "misc":
@@ -2740,6 +2743,7 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli K-12 MG1655",
 "taxID":"511145",
+"model":"iJO1366",
 "year":"2011"},
 "title":"A comprehensive genome-scale reconstruction of Escherichia coli metabolism--2011",
 "misc":
@@ -2758,6 +2762,7 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
 "taxID":"562",
+"model":"",
 "year":"2010"},
 "title":"Model-driven evaluation of the production potential for growth-coupled products of Escherichia coli",
 "misc":
