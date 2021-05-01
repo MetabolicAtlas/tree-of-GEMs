@@ -2780,7 +2780,9 @@
 "DOI":"10.3389/fcimb.2019.00144",
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
-"taxID":"1773"},
+"taxID":"1773",
+"model":"sMtb-RECON",
+"year":"2019"},
 "title":"Modeling Host-Pathogen Interaction to Elucidate the Metabolic Drug Response of Intracellular Mycobacterium tuberculosis",
 "misc":
 [],
@@ -2805,7 +2807,9 @@
 "DOI":"10.1038/nbt.2488",
 "taxName":"Man",
 "taxSciName":"Homo sapiens",
-"taxID":"9606"},
+"taxID":"9606",
+"model":"Recon 2",
+"year":"2013"},
 "title":"A community-driven global reconstruction of human metabolism",
 "misc":
 [],
@@ -2822,7 +2826,9 @@
 "DOI":"10.1007/s11306-016-1051-4",
 "taxName":"Man",
 "taxSciName":"Homo sapiens",
-"taxID":"9606"},
+"taxID":"9606",
+"model":"Recon 2.2",
+"year":"2016"},
 "title":"Recon 2.2: from reconstruction to model of human metabolism",
 "misc":
 [],
