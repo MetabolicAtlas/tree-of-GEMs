@@ -377,7 +377,11 @@
 ["MODEL1507180021"],
 "articleInformation":
 {"PMID":"17521419",
-"doi":"10.1186/gb-2007-8-5-r89"},
+"doi":"10.1186/gb-2007-8-5-r89",
+"DOI":"10.1186/gb-2007-8-5-r89",
+"taxName":"M. tuberculosis",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"83332"},
 "title":"GSMN-TB: a web-based genome-scale network model of Mycobacterium tuberculosis metabolism.",
 "misc":
 {"GS":0,
@@ -732,10 +736,11 @@
 ["MODEL1507180067"],
 "articleInformation":
 {"PMID":"19425150",
-"DOI":"",
-"taxName":"Mouse",
+"DOI":"10.1142/9781848163324_0008",
+"taxName":"M. musculus ",
 "taxSciName":"Mus musculus",
-"taxID":"10090"},
+"taxID":"10090",
+"model":""},
 "title":"On the reconstruction of the Mus musculus genome-scale metabolic network model.",
 "misc":
 {"GS":0,
@@ -752,7 +757,12 @@
 ["MODEL1507180024"],
 "articleInformation":
 {"PMID":"19772637",
-"doi":"10.1186/1471-2164-10-447"},
+"doi":"10.1186/1471-2164-10-447",
+"DOI":"10.1186/1471-2164-10-447",
+"taxName":"R. ferrireducens",
+"taxSciName":"Rhodoferax ferrireducens",
+"taxID":"192843",
+"model":"iCR744"},
 "title":"Genome-scale comparison and constraint-based metabolic reconstruction of the facultative anaerobic Fe(III)-reducer Rhodoferax ferrireducens.",
 "misc":
 {"GS":0,
@@ -781,7 +791,12 @@
 ["MODEL1507180063"],
 "articleInformation":
 {"PMID":"19346354",
-"doi":"10.1128/AEM.00138-09"},
+"doi":"10.1128/AEM.00138-09",
+"DOI":"10.1128/AEM.00138-09",
+"taxName":"S. thermophilus LMG18311",
+"taxSciName":"Streptococcus thermophilus LMG18311",
+"taxID":"264199",
+"model":"iMP429"},
 "title":"Genome-scale model of Streptococcus thermophilus LMG18311 for metabolic comparison of lactic acid bacteria.",
 "misc":
 {"GS":0,
@@ -814,7 +829,8 @@
 "DOI":"10.1074/jbc.M109.005868",
 "taxName":"Salmonella typhimurium",
 "taxSciName":"Salmonella enterica subsp. enterica serovar Typhimurium",
-"taxID":"90371"},
+"taxID":"90371",
+"model":"iMA945"},
 "title":"Genome scale reconstruction of a Salmonella metabolic model: comparison of similarity and differences with a commensal Escherichia coli strain.",
 "misc":
 {"GS":0,
@@ -839,7 +855,8 @@
 "DOI":"10.1186/gb-2009-10-6-r69",
 "taxName":"B. subtilis 168 or hay bacillus/grass bacillus",
 "taxSciName":"Bacillus subtilis subsp. subtilis str. 168",
-"taxID":"224308"},
+"taxID":"224308",
+"model":"iBsu1103"},
 "title":"iBsu1103: a new genome-scale metabolic model of Bacillus subtilis based on SEED annotations.",
 "misc":
 {"GS":0,
@@ -864,7 +881,8 @@
 "DOI":"10.1371/journal.pcbi.1000285",
 "taxName":"",
 "taxSciName":"Mycoplasma genitalium",
-"taxID":"2097"},
+"taxID":"2097",
+"model":"iPS189"},
 "title":"A genome-scale metabolic reconstruction of Mycoplasma genitalium, iPS189.",
 "misc":
 {"GS":0,
@@ -885,7 +903,8 @@
 "DOI":"10.1128/JB.01123-08",
 "taxName":"",
 "taxSciName":"Porphyromonas gingivalis",
-"taxID":"837"},
+"taxID":"837",
+"model":"iVM679"},
 "title":"Metabolic network model of a human oral pathogen.",
 "misc":
 {"GS":0,
@@ -918,7 +937,8 @@
 "DOI":"10.1186/1752-0509-3-15",
 "taxName":"",
 "taxSciName":"Geobacter metallireducens",
-"taxID":"28232"},
+"taxID":"28232",
+"model":"iJS747"},
 "title":"Genome-scale constraint-based modeling of Geobacter metallireducens.",
 "misc":
 {"GS":0,
@@ -966,7 +986,8 @@
 "DOI":"10.1186/1752-0509-3-38",
 "taxName":"",
 "taxSciName":"Salmonella typhimurium",
-"taxID":"90371"},
+"taxID":"90371",
+"model":"iRR1083"},
 "title":"Constraint-based analysis of metabolic capacity of Salmonella typhimurium during host-pathogen interaction.",
 "misc":
 {"GS":0,
@@ -997,9 +1018,10 @@
 {"PMID":"19762644",
 "doi":"10.1126/science.1174671",
 "DOI":"10.1126/science.1174671",
-"taxName":"",
+"taxName":"T. maritima",
 "taxSciName":"Thermotoga maritima",
-"taxID":"2336"},
+"taxID":"2336",
+"model":""},
 "title":"Three-dimensional structural view of the central metabolic network of Thermotoga maritima.",
 "misc":
 {"GS":0,
@@ -1020,7 +1042,8 @@
 "DOI":"10.1186/1752-0509-3-37",
 "taxName":"Yeast",
 "taxSciName":"Saccharomyces cerevisiae",
-"taxID":"4932"},
+"taxID":"4932",
+"model":"iMM904"},
 "title":"Connecting extracellular metabolomic measurements to intracellular flux states in yeast.",
 "misc":
 {"GS":0,
@@ -1053,7 +1076,8 @@
 "DOI":"10.1186/1752-0509-4-156",
 "taxName":"",
 "taxSciName":"Synechocystis sp. PCC6803",
-"taxID":"1148"},
+"taxID":"1148",
+"model":"iSyn669"},
 "title":"Reconstruction and analysis of genome-scale metabolic model of a photosynthetic bacterium.",
 "misc":
 {"GS":0,
@@ -1074,7 +1098,8 @@
 "DOI":"10.1186/1752-0509-4-31",
 "taxName":"",
 "taxSciName":"Clostridium thermocellum ATCC 27405",
-"taxID":"1515"},
+"taxID":"1515",
+"model":"iSR432"},
 "title":"Genome-scale metabolic analysis of Clostridium thermocellum for bioethanol production.",
 "misc":
 {"GS":0,
@@ -1121,7 +1146,8 @@
 "DOI":"10.1039/b916446d",
 "taxName":"",
 "taxSciName":"Acinetobacter baumannii AYE",
-"taxID":"509173"},
+"taxID":"509173",
+"model":"AbyMBEL891"},
 "title":"Genome-scale metabolic network analysis and drug targeting of multi-drug resistant pathogen Acinetobacter baumannii AYE.",
 "misc":
 {"GS":0,
@@ -1142,7 +1168,8 @@
 "DOI":"10.1186/1752-0509-4-140",
 "taxName":"House mouse",
 "taxSciName":"Mus musculus",
-"taxID":"10090"},
+"taxID":"10090",
+"model":"iMM1415"},
 "title":"A detailed genome-wide reconstruction of mouse metabolism based on human Recon 1.",
 "misc":
 {"GS":0,
@@ -1166,7 +1193,8 @@
 "DOI":"10.1002/biot.201000124",
 "taxName":"",
 "taxSciName":"Pseudomonas putida KT2440",
-"taxID":"160488"},
+"taxID":"160488",
+"model":"PpuMBEL1071"},
 "title":"In silico genome-scale metabolic analysis of Pseudomonas putida KT2440 for polyhydroxyalkanoate synthesis, degradation of aromatics and anaerobic survival.",
 "misc":
 {"GS":0,
@@ -2014,7 +2042,11 @@
 ["MODEL1710040000"],
 "articleInformation":
 {"PMID":"29377524",
-"doi":"10.1111/1751-7915.13033"},
+"doi":"10.1111/1751-7915.13033",
+"DOI":"10.1111/1751-7915.13033",
+"taxName":"A. muciniphila ATCC BAA-835",
+"taxSciName":"Akkermansia muciniphila ATCC BAA-835",
+"taxID":"349741"},
 "title":"Model-driven design of a minimal medium for Akkermansia muciniphila confirms mucus adaptation.",
 "misc":
 {"GS":0,
@@ -2293,7 +2325,8 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"year":"2004"},
+"year":"2004",
+"model":"iND750"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model",
 "misc":
 {"GS":0,
@@ -2318,7 +2351,8 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"year":"2005"},
+"year":"2005",
+"model":"iLL672"},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
 "misc":
 {"GS":0,
@@ -2351,7 +2385,8 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
 "taxID":"562",
-"year":"2000"},
+"year":"2000",
+"model":"MG1655"},
 "title":"The Escherichia coli MG1655 in silico metabolic genotype: Its definition, characteristics, and capabilities ",
 "misc":
 [],
