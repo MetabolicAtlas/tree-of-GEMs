@@ -5,19 +5,19 @@ load('cura_biomodels_metadata.mat');
 if isfile('dataset.json')%Update current .mat
     json_packer
     load('dataset.mat');
-
-for i=length(dataset):-1:1 %build linkIndex
-    if 1==isnumeric(dataset(i).articleInformation.PMID) %PMIDs are wholly numeric
-        pmid=char(dataset(i).articleInformation.PMID);
-        linkIndex{i}=['http://identifiers.org/pubmed/' pmid];
-    elseif 0==isempty(dataset(i).articleInformation.PMID)
-        link=char(dataset(i).articleInformation.PMID);
-        linkIndex{i}=link;
+    
+    for i=length(dataset):-1:1 %build linkIndex
+        if 1==isnumeric(dataset(i).articleInformation.PMID) %PMIDs are wholly numeric
+            pmid=char(dataset(i).articleInformation.PMID);
+            linkIndex{i}=['http://identifiers.org/pubmed/' pmid];
+        elseif 0==isempty(dataset(i).articleInformation.PMID)
+            link=char(dataset(i).articleInformation.PMID);
+            linkIndex{i}=link;
+        end
     end
-end
-linkIndex=linkIndex'; %Matter of taste
-s=length(dataset); %Make sure the for loop assigns new children starting at empty spaces
-
+    linkIndex=linkIndex'; %Matter of taste
+    s=length(dataset); %Make sure the for loop assigns new children starting at empty spaces
+    
 else%Create new .mat
     linkIndex={};
     s=0;
@@ -78,17 +78,31 @@ end
 
 options=weboptions('Timeout',1e5);
 api_idconvPUBMED = 'https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?format=json&ids=';
-% TODO taxonomy
-%api_tax = 
 
 for i=1:length(dataset)
-    check = str2num(dataset(i).articleInformation.PMID);%empty if containing letters 
-    if 0==isempty(check) % Only pmid is wholly numeric, returns nonempty
-        url = [api_idconvPUBMED char(dataset(i).articleInformation.PMID)];
-        queryresult=webread(url,options);
-        pause(.34)
-        if 1==isfield(queryresult.records,'doi')
-            dataset(i).articleInformation.doi = char(queryresult.records.doi);
+    if 0==isfield(dataset(i).articleInformation,'DOI')
+        check = str2num(dataset(i).articleInformation.PMID);%empty if containing letters
+        if 0==isempty(check) % Only pmid is wholly numeric, returns nonempty
+            url = [api_idconvPUBMED char(dataset(i).articleInformation.PMID)];
+            queryresult=webread(url,options);
+            pause(.34)
+            if 1==isfield(queryresult.records,'DOI')
+                dataset(i).articleInformation.DOI = char(queryresult.records.doi);
+            end
+        end
+    end
+end
+
+%% Add year
+s=0;
+for i=2:length(models)
+    if 0==isempty(models(i).publication)
+        for j=1:length(dataset)
+            if strcmpi(models(i).publication.title,dataset(j).title) && ...
+                    0==isfield(dataset(j).articleInformation,'year')
+                dataset(j).articleInformation.year = models(i).publication.year;
+                s=s+1
+            end
         end
     end
 end
