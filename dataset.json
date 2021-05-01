@@ -2772,5 +2772,64 @@
 "connType":"Direct",
 "cit":"The metabolic reconstruction of E. coli iAF1260 (Feist et al., 2007) was utilized as a basis for the model used throughout the work described herein, with minor changes to network content",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3125152/#:~:text=the%20metabolic%20reconstruction%20of%20e.%20coli%20iaf1260%20(feist%20et%20al.%2C%202007)%20was%20utilized%20as%20a%20basis%20for%20the%20model%20used%20throughout%20the%20work%20described%20herein%2C%20with%20minor%20changes%20to%20network%20content",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"31139575",
+"DOI":"10.3389/fcimb.2019.00144",
+"taxName":"",
+"taxSciName":"Mycobacterium tuberculosis",
+"taxID":"1773"},
+"title":"Modeling Host-Pathogen Interaction to Elucidate the Metabolic Drug Response of Intracellular Mycobacterium tuberculosis",
+"misc":
+[],
+"connection":
+[
+{
+"PMID":"27358602",
+"connType":"Direct",
+"cit":"Here, we integrate sMtb and RECON 2.2 to create an Mtb-Macrophage model, sMtb-RECON",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6519342/#:~:text=here%2C%20we%20integrate%20smtb%20and%20recon%202.2%20to%20create%20an%20mtb-macrophage%20model%2C%20smtb-recon",
+"notes":""},
+{"PMID":"25453232",
+"connType":"Direct",
+"cit":"Here, we integrate sMtb and RECON 2.2 to create an Mtb-Macrophage model, sMtb-RECON.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6519342/#:~:text=here%2C%20we%20integrate%20smtb%20and%20recon%202.2%20to%20create%20an%20mtb-macrophage%20model%2C%20smtb-recon.",
+"notes":""}
+]},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"23455439",
+"DOI":"10.1038/nbt.2488",
+"taxName":"Man",
+"taxSciName":"Homo sapiens",
+"taxID":"9606"},
+"title":"A community-driven global reconstruction of human metabolism",
+"misc":
+[],
+"connection":
+{"PMID":"17267599",
+"connType":"Direct",
+"cit":"To assemble Recon 2, we added metabolic information present in four different resources (EHMN17, HepatoNet1 (ref. 18), Ac-FAO module8 and the human small intestinal enterocyte reconstruction19) to the content of Recon 1 following a step-wise process (Fig. 1).",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3856361/#:~:text=to%20assemble%20recon%202%2C%20we%20added%20metabolic%20information%20present%20in%20four%20different%20resources%20(ehmn17%2C%20hepatonet1%20(ref.%2018)%2C%20ac-fao%20module8%20and%20the%20human%20small%20intestinal%20enterocyte%20reconstruction19)%20to%20the%20content%20of%20recon%201%20following%20a%20step-wise%20process",
+"notes":""}},
+{"submissionID":
+[],
+"articleInformation":
+{"PMID":"27358602",
+"DOI":"10.1007/s11306-016-1051-4",
+"taxName":"Man",
+"taxSciName":"Homo sapiens",
+"taxID":"9606"},
+"title":"Recon 2.2: from reconstruction to model of human metabolism",
+"misc":
+[],
+"connection":
+{"PMID":"23455439",
+"connType":"Direct",
+"cit":"The original goal of Recon 2 was to create a consensus from existing reconstructions. Recently published updates resulted in different versions of Recon 2, and these have all been incorporated into Recon 2.2 to create a new consensus.",
+"citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4896983/#:~:text=the%20original%20goal%20of%20recon%202%20was%20to%20create%20a%20consensus%20from%20existing%20reconstructions.%20recently%20published%20updates%20resulted%20in%20different%20versions%20of%20recon%202%2C%20and%20these%20have%20all%20been%20incorporated%20into%20recon%202.2%20to%20create%20a%20new%20consensus.",
 "notes":""}}
 ]
