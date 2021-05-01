@@ -2400,6 +2400,7 @@
 "taxName":"Man",
 "taxSciName":"Homo sapiens",
 "taxID":"9606",
+"model":"Recon 1",
 "year":"2007"},
 "title":"Global reconstruction of the human metabolic network based on genomic and bibliomic data",
 "misc":
@@ -2414,6 +2415,7 @@
 "taxName":"",
 "taxSciName":"Rhodotorula toruloides",
 "taxID":"5286",
+"model":"",
 "year":"2021"},
 "title":"Multi-Omics Driven Metabolic Network Reconstruction and Analysis of Lignocellulosic Carbon Utilization in Rhodosporidium toruloides",
 "misc":
@@ -2460,6 +2462,7 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli K-12",
 "taxID":"83333",
+"model":"iML1515",
 "year":"2017"},
 "title":"iML1515, a knowledgebase that computes Escherichia coli traits",
 "misc":
