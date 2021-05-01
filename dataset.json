@@ -2293,7 +2293,6 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"model":"iND750",
 "year":"2004"},
 "title":"Reconstruction and validation of Saccharomyces cerevisiae iND750, a fully compartmentalized genome-scale metabolic model",
 "misc":
@@ -2319,7 +2318,6 @@
 "taxName":"S. cerevisiae",
 "taxSciName":"Saccharomyces cerevisiae",
 "taxID":"4932",
-"model":"iLL672",
 "year":"2005"},
 "title":"Metabolic functions of duplicate genes in Saccharomyces cerevisiae",
 "misc":
@@ -2353,7 +2351,6 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
 "taxID":"562",
-"model":"iJE660",
 "year":"2000"},
 "title":"The Escherichia coli MG1655 in silico metabolic genotype: Its definition, characteristics, and capabilities ",
 "misc":
@@ -2368,7 +2365,6 @@
 "taxName":"Man",
 "taxSciName":"Homo sapiens",
 "taxID":"9606",
-"model":"Recon 1",
 "year":"2007"},
 "title":"Global reconstruction of the human metabolic network based on genomic and bibliomic data",
 "misc":
@@ -2381,9 +2377,8 @@
 {"PMID":"33585414",
 "DOI":"10.3389/fbioe.2020.612832",
 "taxName":"",
-"taxSciName":"Rhodotorula toruloides Rhodosporidium toruloides",
+"taxSciName":"Rhodotorula toruloides",
 "taxID":"5286",
-"model":"",
 "year":"2021"},
 "title":"Multi-Omics Driven Metabolic Network Reconstruction and Analysis of Lignocellulosic Carbon Utilization in Rhodosporidium toruloides",
 "misc":
@@ -2430,7 +2425,6 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli K-12",
 "taxID":"83333",
-"model":"iML1515",
 "year":"2017"},
 "title":"iML1515, a knowledgebase that computes Escherichia coli traits",
 "misc":
@@ -2449,7 +2443,6 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
-"model":"MFF-RmwBo",
 "year":"2009"},
 "title":"Interpreting expression data with metabolic flux models: predicting Mycobacterium tuberculosis mycolic acid production",
 "misc":
@@ -2476,7 +2469,6 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
-"model":"iAB-AMØ-1410",
 "year":"2010"},
 "title":"Insight into human alveolar macrophage and M. tuberculosis interactions via metabolic reconstructions",
 "misc":
@@ -2503,7 +2495,6 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis variant bovis",
 "taxID":"1765",
-"model":"GSMN-TB 1.1",
 "year":"2013"},
 "title":"Systems-Based Approaches to Probing Metabolic Variation within the Mycobacterium tuberculosis Complex",
 "misc":
@@ -2522,7 +2513,6 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
-"model":"iOSDD890",
 "year":"2014"},
 "title":"Systems level mapping of metabolic complexity in Mycobacterium tuberculosis to identify high-value drug targets",
 "misc":
@@ -2541,7 +2531,6 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
-"model":"sMtb",
 "year":"2014"},
 "title":"Systems-level modeling of mycobacterial metabolism for the identification of new (multi-)drug targets",
 "misc":
