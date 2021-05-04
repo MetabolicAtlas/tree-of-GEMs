@@ -1261,7 +1261,8 @@
 "taxName":"",
 "taxSciName":"Komagataella pastoris",
 "taxID":"4922",
-"year":2010},
+"year":2010,
+"model":"P.paMBEL1254"},
 "title":"Genome-scale metabolic model of methylotrophic yeast Pichia pastoris and its use for in silico analysis of heterologous protein production.",
 "misc":
 {"GS":0,
@@ -1287,7 +1288,8 @@
 "taxName":"",
 "taxSciName":"Shewanella oneidensis MR-1",
 "taxID":"211586",
-"year":2010},
+"year":2010,
+"model":0},
 "title":"Constraint-based model of Shewanella oneidensis MR-1 metabolism: a tool for data analysis and hypothesis generation.",
 "misc":
 {"GS":0,
@@ -1320,7 +1322,8 @@
 "taxName":"",
 "taxSciName":"Cryptosporidium hominis",
 "taxID":"237895",
-"year":2010},
+"year":2010,
+"model":"iNV213"},
 "title":"A genome-scale metabolic model of Cryptosporidium hominis.",
 "misc":
 {"GS":0,
@@ -1342,7 +1345,8 @@
 "taxName":"",
 "taxSciName":"Pichia pastoris",
 "taxID":"4922",
-"year":2010},
+"year":2010,
+"model":"iPP668"},
 "title":"Genome-scale metabolic reconstruction and in silico analysis of methylotrophic yeast Pichia pastoris for strain improvement.",
 "misc":
 {"GS":0,
@@ -1386,7 +1390,8 @@
 "taxName":"",
 "taxSciName":"Streptomyces coelicolor",
 "taxID":"1902",
-"year":2010},
+"year":2010,
+"model":0},
 "title":"Metabolic modeling and analysis of the metabolic switch in Streptomyces coelicolor.",
 "misc":
 {"GS":0,
@@ -1412,7 +1417,8 @@
 "taxName":"",
 "taxSciName":"Francisella tularensis",
 "taxID":"263",
-"year":2010},
+"year":2010,
+"model":"iRS605"},
 "title":"Systems approach to investigating host-pathogen interactions in infections with the biothreat agent Francisella. Constraints-based model of Francisella tularensis.",
 "misc":
 {"GS":0,
@@ -1438,7 +1444,8 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"1773",
-"year":2010},
+"year":2010,
+"model":"iNJ661v"},
 "title":"Development and analysis of an in vivo-compatible metabolic network of Mycobacterium tuberculosis.",
 "misc":
 {"GS":0,
@@ -1464,7 +1471,8 @@
 "taxName":"",
 "taxSciName":"Zymomonas mobilis ZM4",
 "taxID":"542",
-"year":2010},
+"year":2010,
+"model":"ZmoMBEL601"},
 "title":"The genome-scale metabolic network analysis of Zymomonas mobilis ZM4 explains physiological features and suggests ethanol and succinic acid production strategies.",
 "misc":
 {"GS":0,
@@ -1486,7 +1494,8 @@
 "taxName":"mouse-ear cress/thale-cress",
 "taxSciName":"Arabidopsis thaliana",
 "taxID":"3702",
-"year":2010},
+"year":2010,
+"model":"AraGEM"},
 "title":"AraGEM, a genome-scale reconstruction of the primary metabolic network in Arabidopsis.",
 "misc":
 {"GS":0,
@@ -1507,7 +1516,8 @@
 "taxName":"House mouse",
 "taxSciName":"Mus musculus",
 "taxID":"10090",
-"year":2010},
+"year":2010,
+"model":0},
 "title":"Genome-scale modeling and in silico analysis of mouse cell metabolic network.",
 "misc":
 {"GS":0,
@@ -1545,7 +1555,8 @@
 "taxName":"Zymomonas mobilis",
 "taxSciName":"Zymomonas mobilis",
 "taxID":"542",
-"year":2011},
+"year":2011,
+"model":"iZM363"},
 "title":"Genome-scale modeling and in silico analysis of ethanologenic bacteria Zymomonas mobilis.",
 "misc":
 {"GS":1,
@@ -1567,7 +1578,8 @@
 "taxName":"Methanosarcina acetivorans",
 "taxSciName":"Methanosarcina acetivorans",
 "taxID":"2214",
-"year":2011},
+"year":2011,
+"model":"iVS941"},
 "title":"Metabolic reconstruction of the archaeon methanogen Methanosarcina Acetivorans.",
 "misc":
 {"GS":1,
@@ -1593,7 +1605,8 @@
 "taxName":"Klebsiella pneumoniae",
 "taxSciName":"Klebsiella pneumoniae MGH 78578",
 "taxID":"1328388",
-"year":2011},
+"year":2011,
+"model":"iYL1228"},
 "title":"An experimentally validated genome-scale metabolic reconstruction of Klebsiella pneumoniae MGH 78578, iYL1228.",
 "misc":
 {"GS":1,
@@ -1619,7 +1632,8 @@
 "taxName":"Clostridium beijerinckii",
 "taxSciName":"Clostridium beijerinckii NCIMB 8052",
 "taxID":"290402",
-"year":2011},
+"year":2011,
+"model":"iCM925"},
 "title":"Metabolic network reconstruction and genome-scale model of butanol-producing strain Clostridium beijerinckii NCIMB 8052.",
 "misc":
 {"GS":1,
