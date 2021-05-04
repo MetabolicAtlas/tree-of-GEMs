@@ -8,8 +8,9 @@
 "taxName":"",
 "taxSciName":"Zymomonas mobilis",
 "taxID":"542",
-"model":""},
-"title":"Zymomonas ED Pathway",
+"model":"",
+"year":2013},
+"title":"Kinetic modelling of the Zymomonas mobilis Entner-Doudoroff pathway: insights into control and functionality",
 "misc":
 {"GS":0,
 "EB":0,
@@ -2355,7 +2356,8 @@
 "DOI":"10.1111/mpp.12914",
 "taxName":"rice leaf blight",
 "taxSciName":"Xanthomonas oryzae pv. oryzae",
-"taxID":"64187"},
+"taxID":"64187",
+"year":2020},
 "title":"Konduru2020 - Genome-scale metabolic reconstruction and in silico analysis of rice leaf blight pathogen, Xanthomonas oryzae",
 "misc":
 {"GS":0,

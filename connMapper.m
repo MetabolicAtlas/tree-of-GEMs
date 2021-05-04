@@ -21,12 +21,12 @@ for i = 1:numModels % For each model
 end
 
 json_packer
-%% GraphPlot
+%% Graph Plot
 map = digraph; % Initiate variable
 map = addnode(map,numModels); % Add 87 empty nodes
 
 for i=numModels:-1:1
-    if isfield(dataset(i).articleInformation,'model')
+    if isfield(dataset(i).articleInformation,'model') && ~isempty(dataset(i).articleInformation.model)
         modelName = dataset(i).articleInformation.model;
     else
         modelName = 'NaN';
@@ -46,6 +46,7 @@ for m = 1:numModels % For each child
         end
     end
 end
+subplot(1,3,1)
 fig = plot(map,'Layout','layered');
 %Same but label edge
 for m = 1:numModels
@@ -56,11 +57,51 @@ for m = 1:numModels
     end
 end
 for i = length(fig.EdgeLabel):-1:1
-            if strcmp(fig.EdgeLabel(i),'Direct')
-                edgeColor(i,:) = [0 .5 0]
-            else
-                edgeColor(i,:) = [.2 .4 .8]
-            end
+    if strcmp(fig.EdgeLabel(i),'Direct')
+        edgeColor(i,:) = [.0 .3 .0];
+    else
+        edgeColor(i,:) = [.8 .4 .2];
+    end
 end
-labelnode(fig,1:numModels,names)
-fig.EdgeColor = edgeColor
+% labelnode(fig,1:numModels,names)
+fig.EdgeLabel = {};
+fig.EdgeColor = edgeColor;
+% fig.YData =
+for i = 1:numModels
+    if ischar(dataset(i).articleInformation.year)
+        temp = -str2num(dataset(i).articleInformation.year);
+    else
+        temp = -dataset(i).articleInformation.year;
+    end
+    years(i) = temp;
+    fig.YData(i) = temp;
+end
+%% Models per year
+subplot(1,3,2)
+figHis = histogram(years,'Orientation','horizontal');
+temp = yticklabels;
+for i = 1:length(yticklabels);
+    temp{i} = num2str(-str2double(temp{i}));
+end
+yticklabels(temp);
+ylim([-2024.5 -1996.5]) % not resilient
+xlim([0 25])
+title('numModels')
+%% Connections per year
+subplot(1,3,3)
+yearsConn = [];
+for i = 1:numModels
+    if ischar(dataset(i).articleInformation.year)
+        temp = -str2num(dataset(i).articleInformation.year);
+    else
+        temp = -dataset(i).articleInformation.year;
+    end
+    for j = 1:length(dataset(i).connection)
+        yearsConn(end+1) = temp;
+    end
+end
+figHis2 = histogram(yearsConn,'Orientation','horizontal');
+yticks([]);
+yticklabels([]);
+ylim([-2024.5 -1996.5]) % not resilient
+title('numConnections')
