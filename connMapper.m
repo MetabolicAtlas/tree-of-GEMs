@@ -112,29 +112,29 @@ yticklabels([]);
 ylim([-2024.5 -1996.5]) % not resilient
 title('numConnections')
 %% Export to SIF
-for m = 1:numModels
-    hasParent = 0;
+for n = 1:numParents
+    hasChild = 0;
     for connType = ["Direct" "Partial"]
-        stringChild = string(m);
-        stringParents = [];
-        for n = 1:numParents
+        stringChildren = [];
+        stringParent = string(n);
+        for m = 1:numModels
             if isa(connMatrix{m,n},'double')
             elseif connType == connMatrix{m,n}
-                stringParents = [stringParents string(n)];
+                stringChildren = [stringChildren string(m)];
             end
         end
-        if ~isempty(stringParents)
-            if hasParent == 1
-                connStr(2,1) = strjoin([stringChild connType stringParents]);
+        if ~isempty(stringChildren)
+            if hasChild == 1
+                connStr(2,1) = strjoin([stringParent connType stringChildren]);
             else
-                connStr = strjoin([stringChild connType stringParents]);
+                connStr = strjoin([stringParent connType stringChildren]);
             end
-            hasParent = 1;
-        elseif hasParent == 0 && connType == "Partial"
-            connStr = stringChild;
+            hasChild = 1;
+        elseif hasChild == 0 && connType == "Partial"
+            connStr = stringParent;
         end
     end
-    if m ==1
+    if n == 1
         stringArray = connStr;
     else
         stringArray = [stringArray;connStr];

@@ -1,112 +1,148 @@
 1
 2
-3
-4 Direct 90
-5
-6 Direct 5
-7
-8 Direct 3
-9 Partial 5
+3 Direct 8
+4 Direct 38 47 67 104
+4 Partial 30 39
+5 Direct 6 24 88 89
+5 Partial 9 25 41 50
+6 Direct 41
+6 Partial 43
+7 Direct 16
+8
+9
 10
 11
-12
-13 Partial 110
-14 Direct 111
-15
-16 Direct 7
-17 Direct 12
+12 Direct 17 51
+13
+14 Direct 33
+14 Partial 48
+15 Direct 38
+16
+17 Direct 94 96 102
+17 Partial 101
 18
-19 Direct 112
-20
-21 Direct 113
-22 Direct 114
-23
-24 Direct 5
-25 Partial 5 24 27
-26 Direct 115
-27
-28 Direct 116
-29 Partial 117
-30 Partial 4
+19
+20 Direct 53 95 97 98 102
+21 Direct 38
+21 Partial 35 43
+22 Partial 43
+23 Partial 43
+24 Partial 25 73
+25 Partial 73
+26
+27 Partial 25 73
+28 Partial 92
+29
+30
 31
-32 Partial 118
-33 Direct 14
-34 Direct 104
-35 Partial 21
+32
+33
+34
+35
 36
-37 Partial 119
-38 Direct 4 15 21 104
-38 Partial 90
-39 Partial 4
+37
+38
+39 Direct 62
+39 Partial 52
 40
-41 Direct 6 88
-41 Partial 5
+41 Direct 50
+41 Partial 92
 42
-43 Partial 6 21 22 23 88
+43
 44
-45 Partial 91
+45 Partial 92
 46
-47 Direct 4
-48 Partial 14 120
+47
+48
 49
-50 Direct 41
-50 Partial 5
-51 Direct 12
-52 Partial 39
-53 Direct 20
+50
+51
+52
+53 Partial 101
 54
-55
-56 Partial 121
+55 Partial 61
+56
 57
-58 Partial 122
-59 Direct 104
+58
+59
 60
-61 Partial 55
-62 Direct 39
+61
+62
 63
 64
-65 Partial 123
+65
 66
-67 Direct 4
+67
 68
-69
+69 Partial 73
 70
 71
 72
-73 Partial 24 25 27 69 124
+73
 74
-75 Direct 125
-76 Partial 126
-77 Direct 108
-78 Partial 127
-79 Partial 128
-80 Partial 129
-81 Direct 130
-82 Direct 131
-83 Direct 132
-84 Partial 133
-85 Direct 134
-86 Direct 135
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
 87
-88 Direct 5
-89 Direct 5
-90
-91
-92 Partial 28 41 45 91 93
-93 Direct 105
-94 Direct 17
-95 Direct 20 91
-96 Direct 17
-97 Direct 20
-98 Direct 20 96 136
-99 Direct 98
-100 Direct 97 98
-101 Partial 17 53
-102 Direct 17 20
-103 Direct 137
-104 Direct 4
-105 Direct 106
-106 Direct 104
-107 Direct 98 109
-108 Direct 91
-109 Direct 108
+88 Direct 41
+88 Partial 43
+89
+90 Direct 4
+90 Partial 38
+91 Direct 95 108
+91 Partial 45 92
+92
+93 Partial 92
+94
+95
+96 Direct 98
+97 Direct 100
+98 Direct 99 100 107
+99
+100
+101
+102
+103
+104 Direct 34 38 59 106
+105 Direct 93
+106 Direct 105
+107
+108 Direct 77 109
+109 Direct 107
+110 Partial 13
+111 Direct 14
+112 Direct 19
+113 Direct 21
+114 Direct 22
+115 Direct 26
+116 Direct 28
+117 Partial 29
+118 Partial 32
+119 Partial 37
+120 Partial 48
+121 Partial 56
+122 Partial 58
+123 Partial 65
+124 Partial 73
+125 Direct 75
+126 Partial 76
+127 Partial 78
+128 Partial 79
+129 Partial 80
+130 Direct 81
+131 Direct 82
+132 Direct 83
+133 Partial 84
+134 Direct 85
+135 Direct 86
+136 Direct 98
+137 Direct 103
