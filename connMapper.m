@@ -42,7 +42,6 @@ for i=numModels:-1:1
         taxName = 'NaN';
     end
     names{i} = [modelName ' ' taxName];
-    
 end
 for m = 1:numModels % For each child
     for n = 1:numParents % and parent
@@ -139,6 +138,21 @@ for n = 1:numParents
     else
         stringArray = [stringArray;connStr];
     end
+end
+YearsForCytoscape = -years';
+for i=numModels:-1:1
+    if isfield(dataset(i).articleInformation,'model') && ~isempty(dataset(i).articleInformation.model)
+        modelName = dataset(i).articleInformation.model;
+    else
+        modelName = 'NaN';
+    end
+    if isfield(dataset(i).articleInformation,'taxSciName')
+        taxName = dataset(i).articleInformation.taxSciName;
+    else
+        taxName = 'NaN';
+    end
+    modelNamesForCytoscape{i,1} = modelName;
+    taxNamesForCytoscape{i,1} = taxName;
 end
 fid = fopen('connMap.sif','wt');
 fprintf(fid,'%s\n',stringArray);
