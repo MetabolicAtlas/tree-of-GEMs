@@ -50,7 +50,7 @@ for m = 1:numModels % For each child
         end
     end
 end
-sh1= subplot(1,3,1);
+% sh1= subplot(1,3,1);
 fig = plot(map,'Layout','layered');
 %Same but label edge
 for m = 1:numModels
@@ -82,18 +82,18 @@ for i = 1:numModels
     %     fig.YData(i) = temp; %År stratifierning
 end
 %% Models per year
-sh2 = subplot(1,3,2);
-figHis = histogram(years,'Orientation','horizontal');
+sh2 = subplot(1,2,1);
+figHis = histogram(-years);
 temp = yticklabels;
 for i = 1:length(yticklabels)
     temp{i} = num2str(-str2double(temp{i}));
 end
-yticklabels(temp);
-ylim([-2024.5 -1996.5]) % not resilient
-xlim([0 25])
+% yticklabels(temp);
+% ylim([-2024.5 -1996.5]) % not resilient
+ylim([0 25])
 title('numModels')
 %% Connections per year
-sh3 = subplot(1,3,3);
+sh3 = subplot(1,2,2);
 yearsConn = [];
 for i = 1:numModels
     if ischar(dataset(i).articleInformation.year)
@@ -105,10 +105,11 @@ for i = 1:numModels
         yearsConn(end+1) = temp;
     end
 end
-figHis2 = histogram(yearsConn,'Orientation','horizontal');
-yticks([]);
-yticklabels([]);
-ylim([-2024.5 -1996.5]) % not resilient
+figHis2 = histogram(-yearsConn);
+% yticks([]);
+% yticklabels([]);
+% ylim([-2024.5 -1996.5]) % not resilient
+ylim([0 25])
 title('numConnections')
 %% Export to SIF
 for n = 1:numParents
