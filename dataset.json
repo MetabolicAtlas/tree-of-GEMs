@@ -1304,7 +1304,7 @@
 "taxSciName":"Shewanella oneidensis MR-1",
 "taxID":"211586",
 "year":2010,
-"model":0},
+"model":"iSO783"},
 "title":"Constraint-based model of Shewanella oneidensis MR-1 metabolism: a tool for data analysis and hypothesis generation.",
 "misc":
 {"GS":0,
@@ -1406,7 +1406,7 @@
 "taxSciName":"Streptomyces coelicolor",
 "taxID":"1902",
 "year":2010,
-"model":0},
+"model":""},
 "title":"Metabolic modeling and analysis of the metabolic switch in Streptomyces coelicolor.",
 "misc":
 {"GS":0,
@@ -1532,7 +1532,7 @@
 "taxSciName":"Mus musculus",
 "taxID":"10090",
 "year":2010,
-"model":0},
+"model":"iSS724"},
 "title":"Genome-scale modeling and in silico analysis of mouse cell metabolic network.",
 "misc":
 {"GS":0,
@@ -1918,7 +1918,8 @@
 "taxName":"",
 "taxSciName":"Enterococcus faecalis V583",
 "taxID":"226185",
-"year":2015},
+"year":2015,
+"model":""},
 "title":"Using a genome-scale metabolic model of Enterococcus faecalis V583 to assess amino acid uptake and its impact on central metabolism.",
 "misc":
 {"GS":0,
@@ -2215,7 +2216,8 @@
 "taxName":"Chinese hamster",
 "taxSciName":"Cricetulus barabensis griseus",
 "taxID":"10029",
-"year":2020},
+"year":2020,
+"model":"iCHO_S-par-8mMCD"},
 "title":"What CHO is made of: Variations in the biomass composition of Chinese hamster ovary cell lines",
 "misc":
 {"GS":0,
@@ -2295,7 +2297,8 @@
 "taxName":"S. meliloti  1021",
 "taxSciName":"Sinorhizobium meliloti 1021",
 "taxID":"266834",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Genome-scale metabolic reconstruction of the symbiosis between a leguminous plant and a nitrogen-fixing bacterium.",
 "misc":
 {"GS":0,
@@ -2328,7 +2331,8 @@
 "taxName":"",
 "taxSciName":"Xylella fastidiosa",
 "taxID":"2371",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Genome-Scale Investigation of the Metabolic Determinants Generating Bacterial Fastidious Growth",
 "misc":
 {"GS":0,
@@ -2353,7 +2357,8 @@
 "taxName":"Hamiltonella",
 "taxSciName":"Candidatus Hamiltonella defensa",
 "taxID":"138072",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Impact of Facultative Bacteria on the Metabolic Function of an Obligate Insect-Bacterial Symbiosis",
 "misc":
 {"GS":0,
@@ -2386,7 +2391,8 @@
 "taxName":"rice leaf blight",
 "taxSciName":"Xanthomonas oryzae pv. oryzae",
 "taxID":"64187",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Konduru2020 - Genome-scale metabolic reconstruction and in silico analysis of rice leaf blight pathogen, Xanthomonas oryzae",
 "misc":
 {"GS":0,
@@ -2427,7 +2433,8 @@
 "taxName":"human",
 "taxSciName":"Homo Sapiens",
 "taxID":"9606",
-"year":2021},
+"year":2021,
+"model":""},
 "title":"Integrative computational approach identifies drug targets in CD4+ T-cell-mediated immune disorders",
 "misc":
 [],
