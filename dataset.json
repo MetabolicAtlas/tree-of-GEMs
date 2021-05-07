@@ -372,7 +372,8 @@
 "taxName":"",
 "taxSciName":"Mannheimia succiniciproducens",
 "taxID":"157673 ",
-"year":2007},
+"year":2007,
+"model":"iTY425"},
 "title":"Genome-scale analysis of Mannheimia succiniciproducens metabolism.",
 "misc":
 {"GS":0,
@@ -398,7 +399,8 @@
 "taxName":"M. tuberculosis",
 "taxSciName":"Mycobacterium tuberculosis",
 "taxID":"83332",
-"year":2007},
+"year":2007,
+"model":"GSMN_TB"},
 "title":"GSMN-TB: a web-based genome-scale network model of Mycobacterium tuberculosis metabolism.",
 "misc":
 {"GS":0,
