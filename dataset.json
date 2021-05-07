@@ -2094,7 +2094,8 @@
 "taxName":"P. tricornutum",
 "taxSciName":"Phaeodactylum tricornutum",
 "taxID":"556484",
-"year":2017},
+"year":2017,
+"model":""},
 "title":"Investigating mixotrophic metabolism in the model diatom\t\t            Phaeodactylum tricornutum",
 "misc":
 {"GS":0,
@@ -2128,7 +2129,8 @@
 "taxName":"Human",
 "taxSciName":"Homo sapiens",
 "taxID":"9606",
-"year":2017},
+"year":2017,
+"model":""},
 "title":"Integrating Extracellular Flux Measurements and Genome-Scale Modeling Reveals Differences between Brown and White Adipocytes.",
 "misc":
 {"GS":0,
@@ -2154,7 +2156,8 @@
 "taxName":"A. muciniphila ATCC BAA-835",
 "taxSciName":"Akkermansia muciniphila ATCC BAA-835",
 "taxID":"349741",
-"year":2018},
+"year":2018,
+"model":""},
 "title":"Model-driven design of a minimal medium for Akkermansia muciniphila confirms mucus adaptation.",
 "misc":
 {"GS":0,
@@ -2179,7 +2182,8 @@
 "taxName":"E. coli",
 "taxSciName":"Escherichia coli",
 "taxID":"562",
-"year":2018},
+"year":2018,
+"model":""},
 "title":"Model-assisted metabolic engineering of Escherichia coli for long chain alkane and alcohol production.",
 "misc":
 {"GS":0,
@@ -2244,7 +2248,8 @@
 "taxName":"Dogwood Spittlebug",
 "taxSciName":"Clastoptera proteus",
 "taxID":"295197",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Syntrophic splitting of central carbon metabolism in host cells bearing functionally different symbiotic bacteria",
 "misc":
 {"GS":0,
@@ -2271,7 +2276,8 @@
 "taxName":"T. pseudonana",
 "taxSciName":"Thalassiosira pseudonana CCMP 1335",
 "taxID":"296543",
-"year":2020},
+"year":2020,
+"model":""},
 "title":"Genome-scale metabolic model of the diatom Thalassiosira pseudonana highlights the importance of nitrogen and sulfur metabolism in redox balance",
 "misc":
 {"GS":0,
