@@ -426,7 +426,8 @@
 "taxName":"",
 "taxSciName":"Rhizobium etli",
 "taxID":"29449 ",
-"year":2007},
+"year":2007,
+"model":"iOR363"},
 "title":"Metabolic reconstruction and modeling of nitrogen fixation in Rhizobium etli.",
 "misc":
 {"GS":0,
@@ -448,7 +449,8 @@
 "taxName":"Meningococcus",
 "taxSciName":"Neisseria meningitidis",
 "taxID":"487",
-"year":2007},
+"year":2007,
+"model":"iGB555"},
 "title":"Modeling Neisseria meningitidis metabolism: from genome to metabolic fluxes.",
 "misc":
 {"GS":0,
@@ -474,7 +476,8 @@
 "taxName":"",
 "taxSciName":"Mycobacterium tuberculosis H37Rv",
 "taxID":"83332",
-"year":2007},
+"year":2007,
+"model":"iNJ661"},
 "title":"Investigating the metabolic capabilities of Mycobacterium tuberculosis H37Rv using the in silico strain iNJ661 and proposing alternative drug targets.",
 "misc":
 {"GS":0,
@@ -495,7 +498,8 @@
 "taxName":"",
 "taxSciName":"Bacillus subtilis",
 "taxID":"1423",
-"year":2007},
+"year":2007,
+"model":"iYO844"},
 "title":"Genome-scale reconstruction of metabolic network in Bacillus subtilis based on high-throughput phenotyping and gene essentiality data.",
 "misc":
 {"GS":0,
@@ -528,7 +532,8 @@
 "taxName":"",
 "taxSciName":"Clostridium acetobutylicum",
 "taxID":"1488 ",
-"year":2008},
+"year":2008,
+"taxIDCopy":"iJL432"},
 "title":"Genome-scale reconstruction and in silico analysis of the Clostridium acetobutylicum ATCC 824 metabolic network.",
 "misc":
 {"GS":0,
@@ -562,7 +567,8 @@
 "taxName":"",
 "taxSciName":"Leishmania major",
 "taxID":"5664",
-"year":2008},
+"year":2008,
+"taxIDCopy":"iAC560"},
 "title":"Systems analysis of metabolism in the pathogenic trypanosomatid Leishmania major.",
 "misc":
 {"GS":0,
