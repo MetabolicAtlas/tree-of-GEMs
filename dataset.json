@@ -590,7 +590,8 @@
 "taxName":"",
 "taxSciName":"Aspergillus nidulans",
 "taxID":"162425",
-"year":2008},
+"year":2008,
+"model":"iHD666"},
 "title":"Analysis of Aspergillus nidulans metabolism at the genome-scale.",
 "misc":
 {"GS":0,
@@ -613,10 +614,11 @@
 {"PMID":"18500999",
 "doi":"10.1186/1471-2164-9-245",
 "DOI":"10.1186/1471-2164-9-245",
-"taxName":"kÿji mold",
+"taxName":"koji mold",
 "taxSciName":"Aspergillus oryzae",
 "taxID":"5062",
-"year":2008},
+"year":2008,
+"model":"iWV1314"},
 "title":"Improved annotation through genome-scale metabolic modeling of Aspergillus oryzae.",
 "misc":
 {"GS":0,
@@ -660,7 +662,8 @@
 "taxName":"",
 "taxSciName":"Pseudomonas putida",
 "taxID":"303",
-"year":2008},
+"year":2008,
+"model":"iJP815"},
 "title":"Genome-scale reconstruction and analysis of the Pseudomonas putida KT2440 metabolic network facilitates applications in biotechnology.",
 "misc":
 {"GS":0,
@@ -686,7 +689,8 @@
 "taxName":"",
 "taxSciName":"Aspergillus niger",
 "taxID":"5061",
-"year":2008},
+"year":2008,
+"model":"iMA871"},
 "title":"Metabolic model integration of the bibliome, genome, metabolome and reactome of Aspergillus niger.",
 "misc":
 {"GS":0,
@@ -708,7 +712,8 @@
 "taxName":"",
 "taxSciName":"Pseudomonas putida KT2440",
 "taxID":"160488",
-"year":2008},
+"year":2008,
+"model":"iJN746"},
 "title":"A genome-scale metabolic reconstruction of Pseudomonas putida KT2440: iJN746 as a cell factory.",
 "misc":
 [],
@@ -727,7 +732,8 @@
 "taxName":"Weizmann Organism",
 "taxSciName":"Clostridium acetobutylicum ATCC 824",
 "taxID":"272562",
-"year":2008},
+"year":2008,
+"model":"iCac802"},
 "title":"Genome-scale model for Clostridium acetobutylicum: Part I. Metabolic network resolution and analysis.",
 "misc":
 {"GS":0,
@@ -753,7 +759,8 @@
 "taxName":"",
 "taxSciName":"Pseudomonas aeruginosa PAO1",
 "taxID":"208964",
-"year":2008},
+"year":2008,
+"model":"iMO1056"},
 "title":"Genome-scale metabolic network analysis of the opportunistic pathogen Pseudomonas aeruginosa PAO1.",
 "misc":
 {"GS":0,
