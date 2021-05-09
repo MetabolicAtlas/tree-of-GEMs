@@ -1059,12 +1059,17 @@
 "connType":"Partial",
 "cit":"These GPR associations connect genetic data to reactions in the metabolic network [26] and allow for subsequent evaluation of how genetic perturbations affect metabolic phenotypes.",
 "citLink":"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2678070/?fbclid=IwAR3G3tjFBbJ-rwOhQuyNOFpMPrSxsQSreUZRwqBXTSU8NbMCSIxPleXPigQ#:~:text= these gpr associations connect genetic data to reactions in the metabolic network [26] and allow for subsequent evaluation of how genetic perturbations affect metabolic phenotypes.",
-"notes":""},
-{"PMID":"",
-"connType":"Partial",
-"cit":"",
-"citLink":"",
-"notes":"Additional file 9"}
+"notes":"Additional file 9"},
+{"PMID":
+[],
+"connType":
+[],
+"cit":
+[],
+"citLink":
+[],
+"notes":
+[]}
 ]},
 {"submissionID":
 ["MODEL1507180048"],
