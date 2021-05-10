@@ -91,7 +91,9 @@ end
 % yticklabels(temp);
 % ylim([-2024.5 -1996.5]) % not resilient
 ylim([0 25])
-title('numModels')
+title('Modeller per år','FontSize',20)
+ylabel('Modellantal','FontSize',20)
+xlabel('År','FontSize',20)
 %% Connections per year
 sh3 = subplot(1,2,2);
 yearsConn = [];
@@ -110,7 +112,9 @@ figHis2 = histogram(-yearsConn);
 % yticklabels([]);
 % ylim([-2024.5 -1996.5]) % not resilient
 ylim([0 25])
-title('numConnections')
+title('Återanvändningar per år','FontSize',20)
+ylabel('Antal återanvändningar','FontSize',20)
+xlabel('År','FontSize',20)
 %% Export to SIF
 for n = 1:numParents
     hasChild = 0;

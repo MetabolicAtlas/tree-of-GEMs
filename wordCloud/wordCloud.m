@@ -9,10 +9,10 @@ labels = data.connType;
 figure(1); % Initialize figure
 
 Category = ["Original" "Direct" "Partially Direct" "Indirect"];
-for conns = 1:4
+for conns = 2:3
     clear documents
     clear wordBag
-    subplot(2,2,conns)
+    subplot(1,2,conns-1)
     
     idx = labels == Category(conns); % Get all belonging to a certain conntype
     
