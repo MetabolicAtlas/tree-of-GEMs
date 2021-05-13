@@ -2,7 +2,7 @@ These codes have three purposes. Firstly, to download xml of publications relate
 
 To each purpose, there is a different code. The currently uploaded code are shown below.
 
-Folder 'Bulk searching for connections' constains code that....
+Folder 'Bulk searching for connections' constains code for searching text files for connections to text strings using the Regex function in MATLAB.
 
 Folder 'apifetcher + refList linking' contains code that...
 
