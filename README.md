@@ -1,4 +1,4 @@
-Folder 'Bulk searching for connections' constains code that....
+Folder 'Bulk searching for connections' constains code for searching for connections between text strings using the MATLAB function Regex.
 
 Folder 'apifetcher + refList linking' contains code that will fetch a subset of metadata from BioModels. It also contains a version of the connection mapping that will look through references and diplay matches.
 
