@@ -1,15 +1,9 @@
-These codes have three purposes. Firstly, to download xml of publications related to models (GEMs) along with their meta data. Secondly, to search for correlations between models and their respective publications. Lastly, to enable a smooth and organized method of displaying the information gathered/acertained from the previous code.
+Folder 'Bulk searching for connections' constains code that....
 
-To each purpose, there is a different code. The currently uploaded code are shown below.
-
-Folder 'Bulk searching for connections' constains code for searching text files for connections to text strings using the Regex function in MATLAB.
-
-Folder 'apifetcher + refList linking' contains code that...
+Folder 'apifetcher + refList linking' contains code that will fetch a subset of metadata from BioModels. It also contains a version of the connection mapping that will look through references and diplay matches.
 
 Folder 'connectionMapper + Vis' contains code that...
 
-Folder 'cytoscape' contains code that...
+Folder 'cytoscape' contains cytoscape networks generated with the dataset.
 
-Folder 'editDataset' contains code that...
-
-Folder 'wordCloud' contains code that...
+Folder 'editDataset' contains an interface for clustering the models by publication and annotating the dataset. 
