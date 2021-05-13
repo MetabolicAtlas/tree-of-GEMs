@@ -2,7 +2,7 @@ Folder 'Bulk searching for connections' contains code for searching for connecti
 
 Folder 'apifetcher + refList linking' contains code that will fetch a subset of metadata from BioModels. It also contains a version of the connection mapping that will look through references and diplay matches.
 
-Folder 'connectionMapper + Vis' contains code that...
+Folder 'connectionMapper + Vis' contains a program for visualising connections and exports a SIF-file of the network 
 
 Folder 'cytoscape' contains cytoscape networks generated with the dataset.
 
